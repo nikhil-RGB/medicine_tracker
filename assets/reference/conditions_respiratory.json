@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_asthma",
+      "drugIds": [
+        "drug_albuterol",
+        "drug_budesonide",
+        "drug_fluticasone",
+        "drug_formoterol",
+        "drug_budesonide_formoterol",
+        "drug_fluticasone_salmeterol",
+        "drug_montelukast",
+        "drug_mometasone",
+        "drug_tiotropium",
+        "drug_prednisone"
+      ]
+    },
+    {
+      "id": "cond_severe_eosinophilic_asthma",
+      "drugIds": [
+        "drug_omalizumab",
+        "drug_mepolizumab",
+        "drug_benralizumab",
+        "drug_dupilumab",
+        "drug_reslizumab",
+        "drug_tezepelumab"
+      ]
+    },
+    {
+      "id": "cond_chronic_obstructive_pulmonary_disease",
+      "drugIds": [
+        "drug_tiotropium",
+        "drug_umeclidinium",
+        "drug_ipratropium",
+        "drug_ipratropium_albuterol",
+        "drug_umeclidinium_vilanterol",
+        "drug_tiotropium_olodaterol",
+        "drug_glycopyrrolate_formoterol",
+        "drug_fluticasone_umeclidinium_vilanterol",
+        "drug_roflumilast",
+        "drug_azithromycin"
+      ]
+    },
+    {
+      "id": "cond_allergic_rhinitis",
+      "drugIds": [
+        "drug_fluticasone",
+        "drug_mometasone",
+        "drug_triamcinolone",
+        "drug_azelastine",
+        "drug_cetirizine",
+        "drug_loratadine",
+        "drug_fexofenadine",
+        "drug_azelastine_fluticasone",
+        "drug_montelukast",
+        "drug_cromolyn_sodium"
+      ]
+    },
+    {
+      "id": "cond_chronic_cough",
+      "drugIds": [
+        "drug_dextromethorphan",
+        "drug_benzonatate",
+        "drug_guaifenesin",
+        "drug_codeine",
+        "drug_gabapentin",
+        "drug_omeprazole"
+      ]
+    },
+    {
+      "id": "cond_acute_bronchitis",
+      "drugIds": [
+        "drug_dextromethorphan",
+        "drug_guaifenesin",
+        "drug_albuterol",
+        "drug_benzonatate",
+        "drug_ibuprofen",
+        "drug_acetaminophen"
+      ]
+    },
+    {
+      "id": "cond_pulmonary_embolism_2",
+      "drugIds": [
+        "drug_apixaban",
+        "drug_rivaroxaban",
+        "drug_edoxaban",
+        "drug_dabigatran",
+        "drug_enoxaparin",
+        "drug_warfarin",
+        "drug_heparin",
+        "drug_fondaparinux"
+      ]
+    },
+    {
+      "id": "cond_community_acquired_pneumonia",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_amoxicillin_clavulanate",
+        "drug_azithromycin",
+        "drug_doxycycline",
+        "drug_levofloxacin",
+        "drug_ceftriaxone",
+        "drug_cefuroxime"
+      ]
+    },
+    {
+      "id": "cond_idiopathic_pulmonary_fibrosis",
+      "drugIds": [
+        "drug_pirfenidone",
+        "drug_nintedanib",
+        "drug_prednisone",
+        "drug_mycophenolate_mofetil",
+        "drug_azathioprine"
+      ]
+    },
+    {
+      "id": "cond_pulmonary_arterial_hypertension_2",
+      "drugIds": [
+        "drug_sildenafil",
+        "drug_tadalafil",
+        "drug_bosentan",
+        "drug_ambrisentan",
+        "drug_macitentan",
+        "drug_riociguat",
+        "drug_treprostinil",
+        "drug_selexipag"
+      ]
+    },
+    {
+      "id": "cond_cystic_fibrosis",
+      "drugIds": [
+        "drug_dornase_alfa",
+        "drug_elexacaftor_tezacaftor_ivacaftor",
+        "drug_ivacaftor",
+        "drug_lumacaftor_ivacaftor",
+        "drug_tobramycin",
+        "drug_aztreonam",
+        "drug_hypertonic_saline"
+      ]
+    },
+    {
+      "id": "cond_nasal_polyps",
+      "drugIds": [
+        "drug_fluticasone",
+        "drug_mometasone",
+        "drug_budesonide",
+        "drug_prednisone",
+        "drug_dupilumab",
+        "drug_omalizumab",
+        "drug_mepolizumab"
+      ]
+    },
+    {
+      "id": "cond_obstructive_sleep_apnea",
+      "drugIds": [
+        "drug_modafinil",
+        "drug_armodafinil",
+        "drug_solriamfetol",
+        "drug_fluticasone"
+      ]
+    },
+    {
+      "id": "cond_acute_upper_respiratory_infection",
+      "drugIds": [
+        "drug_pseudoephedrine",
+        "drug_phenylephrine",
+        "drug_oxymetazoline",
+        "drug_diphenhydramine",
+        "drug_dextromethorphan",
+        "drug_guaifenesin",
+        "drug_acetaminophen"
+      ]
+    },
+    {
+      "id": "cond_croup",
+      "drugIds": [
+        "drug_dexamethasone",
+        "drug_prednisolone",
+        "drug_racemic_epinephrine",
+        "drug_budesonide"
+      ]
+    },
+    {
+      "id": "cond_bronchiectasis",
+      "drugIds": [
+        "drug_azithromycin",
+        "drug_tobramycin",
+        "drug_dornase_alfa",
+        "drug_albuterol",
+        "drug_hypertonic_saline",
+        "drug_ciprofloxacin"
+      ]
+    }
+  ]
+}

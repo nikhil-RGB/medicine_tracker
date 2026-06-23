@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_metformin",
+      "name": "Metformin",
+      "aliases": [
+        "Glucophage",
+        "Fortamet",
+        "Glumetza",
+        "Riomet"
+      ],
+      "nameLower": "metformin"
+    },
+    {
+      "id": "drug_empagliflozin",
+      "name": "Empagliflozin",
+      "aliases": [
+        "Jardiance"
+      ],
+      "nameLower": "empagliflozin"
+    },
+    {
+      "id": "drug_dapagliflozin",
+      "name": "Dapagliflozin",
+      "aliases": [
+        "Farxiga",
+        "Forxiga"
+      ],
+      "nameLower": "dapagliflozin"
+    },
+    {
+      "id": "drug_semaglutide",
+      "name": "Semaglutide",
+      "aliases": [
+        "Ozempic",
+        "Rybelsus",
+        "Wegovy"
+      ],
+      "nameLower": "semaglutide"
+    },
+    {
+      "id": "drug_tirzepatide",
+      "name": "Tirzepatide",
+      "aliases": [
+        "Mounjaro",
+        "Zepbound"
+      ],
+      "nameLower": "tirzepatide"
+    },
+    {
+      "id": "drug_dulaglutide",
+      "name": "Dulaglutide",
+      "aliases": [
+        "Trulicity"
+      ],
+      "nameLower": "dulaglutide"
+    },
+    {
+      "id": "drug_sitagliptin",
+      "name": "Sitagliptin",
+      "aliases": [
+        "Januvia"
+      ],
+      "nameLower": "sitagliptin"
+    },
+    {
+      "id": "drug_glipizide",
+      "name": "Glipizide",
+      "aliases": [
+        "Glucotrol"
+      ],
+      "nameLower": "glipizide"
+    },
+    {
+      "id": "drug_pioglitazone",
+      "name": "Pioglitazone",
+      "aliases": [
+        "Actos"
+      ],
+      "nameLower": "pioglitazone"
+    },
+    {
+      "id": "drug_insulin_glargine",
+      "name": "Insulin glargine",
+      "aliases": [
+        "Lantus",
+        "Basaglar",
+        "Toujeo"
+      ],
+      "nameLower": "insulin glargine"
+    },
+    {
+      "id": "drug_insulin_detemir",
+      "name": "Insulin detemir",
+      "aliases": [
+        "Levemir"
+      ],
+      "nameLower": "insulin detemir"
+    },
+    {
+      "id": "drug_insulin_degludec",
+      "name": "Insulin degludec",
+      "aliases": [
+        "Tresiba"
+      ],
+      "nameLower": "insulin degludec"
+    },
+    {
+      "id": "drug_insulin_aspart",
+      "name": "Insulin aspart",
+      "aliases": [
+        "Novolog",
+        "Fiasp"
+      ],
+      "nameLower": "insulin aspart"
+    },
+    {
+      "id": "drug_insulin_lispro",
+      "name": "Insulin lispro",
+      "aliases": [
+        "Humalog",
+        "Admelog",
+        "Lyumjev"
+      ],
+      "nameLower": "insulin lispro"
+    },
+    {
+      "id": "drug_insulin_glulisine",
+      "name": "Insulin glulisine",
+      "aliases": [
+        "Apidra"
+      ],
+      "nameLower": "insulin glulisine"
+    },
+    {
+      "id": "drug_regular_insulin",
+      "name": "Regular insulin",
+      "aliases": [
+        "Humulin R",
+        "Novolin R"
+      ],
+      "nameLower": "regular insulin"
+    },
+    {
+      "id": "drug_pramlintide",
+      "name": "Pramlintide",
+      "aliases": [
+        "Symlin"
+      ],
+      "nameLower": "pramlintide"
+    },
+    {
+      "id": "drug_levothyroxine",
+      "name": "Levothyroxine",
+      "aliases": [
+        "Synthroid",
+        "Levoxyl",
+        "Euthyrox",
+        "Tirosint",
+        "Eltroxin"
+      ],
+      "nameLower": "levothyroxine"
+    },
+    {
+      "id": "drug_liothyronine",
+      "name": "Liothyronine",
+      "aliases": [
+        "Cytomel",
+        "Triiodothyronine",
+        "T3"
+      ],
+      "nameLower": "liothyronine"
+    },
+    {
+      "id": "drug_thyroid_extract",
+      "name": "Thyroid extract",
+      "aliases": [
+        "Armour Thyroid",
+        "NP Thyroid",
+        "Nature-Throid",
+        "desiccated thyroid"
+      ],
+      "nameLower": "thyroid extract"
+    },
+    {
+      "id": "drug_methimazole",
+      "name": "Methimazole",
+      "aliases": [
+        "Tapazole"
+      ],
+      "nameLower": "methimazole"
+    },
+    {
+      "id": "drug_carbimazole",
+      "name": "Carbimazole",
+      "aliases": [
+        "Neo-Mercazole"
+      ],
+      "nameLower": "carbimazole"
+    },
+    {
+      "id": "drug_propylthiouracil",
+      "name": "Propylthiouracil",
+      "aliases": [
+        "PTU"
+      ],
+      "nameLower": "propylthiouracil"
+    },
+    {
+      "id": "drug_propranolol",
+      "name": "Propranolol",
+      "aliases": [
+        "Inderal",
+        "Inderal LA"
+      ],
+      "nameLower": "propranolol"
+    },
+    {
+      "id": "drug_atenolol",
+      "name": "Atenolol",
+      "aliases": [
+        "Tenormin"
+      ],
+      "nameLower": "atenolol"
+    },
+    {
+      "id": "drug_potassium_iodide",
+      "name": "Potassium iodide",
+      "aliases": [
+        "SSKI",
+        "Lugol solution"
+      ],
+      "nameLower": "potassium iodide"
+    },
+    {
+      "id": "drug_allopurinol",
+      "name": "Allopurinol",
+      "aliases": [
+        "Zyloprim",
+        "Aloprim"
+      ],
+      "nameLower": "allopurinol"
+    },
+    {
+      "id": "drug_febuxostat",
+      "name": "Febuxostat",
+      "aliases": [
+        "Uloric"
+      ],
+      "nameLower": "febuxostat"
+    },
+    {
+      "id": "drug_colchicine",
+      "name": "Colchicine",
+      "aliases": [
+        "Colcrys",
+        "Mitigare",
+        "Gloperba"
+      ],
+      "nameLower": "colchicine"
+    },
+    {
+      "id": "drug_probenecid",
+      "name": "Probenecid",
+      "aliases": [
+        "Probalan"
+      ],
+      "nameLower": "probenecid"
+    },
+    {
+      "id": "drug_indomethacin",
+      "name": "Indomethacin",
+      "aliases": [
+        "Indocin",
+        "Tivorbex"
+      ],
+      "nameLower": "indomethacin"
+    },
+    {
+      "id": "drug_naproxen",
+      "name": "Naproxen",
+      "aliases": [
+        "Naprosyn",
+        "Aleve"
+      ],
+      "nameLower": "naproxen"
+    },
+    {
+      "id": "drug_pegloticase",
+      "name": "Pegloticase",
+      "aliases": [
+        "Krystexxa"
+      ],
+      "nameLower": "pegloticase"
+    },
+    {
+      "id": "drug_alendronate",
+      "name": "Alendronate",
+      "aliases": [
+        "Fosamax",
+        "Binosto"
+      ],
+      "nameLower": "alendronate"
+    },
+    {
+      "id": "drug_risedronate",
+      "name": "Risedronate",
+      "aliases": [
+        "Actonel",
+        "Atelvia"
+      ],
+      "nameLower": "risedronate"
+    },
+    {
+      "id": "drug_zoledronic_acid",
+      "name": "Zoledronic acid",
+      "aliases": [
+        "Reclast",
+        "Aclasta",
+        "Zometa"
+      ],
+      "nameLower": "zoledronic acid"
+    },
+    {
+      "id": "drug_ibandronate",
+      "name": "Ibandronate",
+      "aliases": [
+        "Boniva"
+      ],
+      "nameLower": "ibandronate"
+    },
+    {
+      "id": "drug_denosumab",
+      "name": "Denosumab",
+      "aliases": [
+        "Prolia",
+        "Xgeva"
+      ],
+      "nameLower": "denosumab"
+    },
+    {
+      "id": "drug_teriparatide",
+      "name": "Teriparatide",
+      "aliases": [
+        "Forteo"
+      ],
+      "nameLower": "teriparatide"
+    },
+    {
+      "id": "drug_romosozumab",
+      "name": "Romosozumab",
+      "aliases": [
+        "Evenity"
+      ],
+      "nameLower": "romosozumab"
+    },
+    {
+      "id": "drug_raloxifene",
+      "name": "Raloxifene",
+      "aliases": [
+        "Evista"
+      ],
+      "nameLower": "raloxifene"
+    },
+    {
+      "id": "drug_hydrocortisone",
+      "name": "Hydrocortisone",
+      "aliases": [
+        "Cortef",
+        "Solu-Cortef"
+      ],
+      "nameLower": "hydrocortisone"
+    },
+    {
+      "id": "drug_fludrocortisone",
+      "name": "Fludrocortisone",
+      "aliases": [
+        "Florinef"
+      ],
+      "nameLower": "fludrocortisone"
+    },
+    {
+      "id": "drug_prednisolone",
+      "name": "Prednisolone",
+      "aliases": [
+        "Prelone",
+        "Millipred"
+      ],
+      "nameLower": "prednisolone"
+    },
+    {
+      "id": "drug_dexamethasone",
+      "name": "Dexamethasone",
+      "aliases": [
+        "Decadron"
+      ],
+      "nameLower": "dexamethasone"
+    },
+    {
+      "id": "drug_ketoconazole",
+      "name": "Ketoconazole",
+      "aliases": [
+        "Nizoral"
+      ],
+      "nameLower": "ketoconazole"
+    },
+    {
+      "id": "drug_metyrapone",
+      "name": "Metyrapone",
+      "aliases": [
+        "Metopirone"
+      ],
+      "nameLower": "metyrapone"
+    },
+    {
+      "id": "drug_osilodrostat",
+      "name": "Osilodrostat",
+      "aliases": [
+        "Isturisa"
+      ],
+      "nameLower": "osilodrostat"
+    },
+    {
+      "id": "drug_mifepristone",
+      "name": "Mifepristone",
+      "aliases": [
+        "Korlym"
+      ],
+      "nameLower": "mifepristone"
+    },
+    {
+      "id": "drug_pasireotide",
+      "name": "Pasireotide",
+      "aliases": [
+        "Signifor",
+        "Signifor LAR"
+      ],
+      "nameLower": "pasireotide"
+    },
+    {
+      "id": "drug_mitotane",
+      "name": "Mitotane",
+      "aliases": [
+        "Lysodren"
+      ],
+      "nameLower": "mitotane"
+    },
+    {
+      "id": "drug_atorvastatin",
+      "name": "Atorvastatin",
+      "aliases": [
+        "Lipitor"
+      ],
+      "nameLower": "atorvastatin"
+    },
+    {
+      "id": "drug_rosuvastatin",
+      "name": "Rosuvastatin",
+      "aliases": [
+        "Crestor",
+        "Ezallor"
+      ],
+      "nameLower": "rosuvastatin"
+    },
+    {
+      "id": "drug_simvastatin",
+      "name": "Simvastatin",
+      "aliases": [
+        "Zocor"
+      ],
+      "nameLower": "simvastatin"
+    },
+    {
+      "id": "drug_pravastatin",
+      "name": "Pravastatin",
+      "aliases": [
+        "Pravachol"
+      ],
+      "nameLower": "pravastatin"
+    },
+    {
+      "id": "drug_ezetimibe",
+      "name": "Ezetimibe",
+      "aliases": [
+        "Zetia"
+      ],
+      "nameLower": "ezetimibe"
+    },
+    {
+      "id": "drug_evolocumab",
+      "name": "Evolocumab",
+      "aliases": [
+        "Repatha"
+      ],
+      "nameLower": "evolocumab"
+    },
+    {
+      "id": "drug_alirocumab",
+      "name": "Alirocumab",
+      "aliases": [
+        "Praluent"
+      ],
+      "nameLower": "alirocumab"
+    },
+    {
+      "id": "drug_fenofibrate",
+      "name": "Fenofibrate",
+      "aliases": [
+        "Tricor",
+        "Trilipix",
+        "Fenoglide"
+      ],
+      "nameLower": "fenofibrate"
+    },
+    {
+      "id": "drug_liraglutide",
+      "name": "Liraglutide",
+      "aliases": [
+        "Saxenda",
+        "Victoza"
+      ],
+      "nameLower": "liraglutide"
+    },
+    {
+      "id": "drug_phentermine",
+      "name": "Phentermine",
+      "aliases": [
+        "Adipex-P",
+        "Lomaira"
+      ],
+      "nameLower": "phentermine"
+    },
+    {
+      "id": "drug_naltrexone_bupropion",
+      "name": "Naltrexone-bupropion",
+      "aliases": [
+        "Contrave"
+      ],
+      "nameLower": "naltrexone-bupropion"
+    },
+    {
+      "id": "drug_orlistat",
+      "name": "Orlistat",
+      "aliases": [
+        "Xenical",
+        "Alli"
+      ],
+      "nameLower": "orlistat"
+    },
+    {
+      "id": "drug_phentermine_topiramate",
+      "name": "Phentermine-topiramate",
+      "aliases": [
+        "Qsymia"
+      ],
+      "nameLower": "phentermine-topiramate"
+    },
+    {
+      "id": "drug_cabergoline",
+      "name": "Cabergoline",
+      "aliases": [
+        "Dostinex"
+      ],
+      "nameLower": "cabergoline"
+    },
+    {
+      "id": "drug_bromocriptine",
+      "name": "Bromocriptine",
+      "aliases": [
+        "Parlodel",
+        "Cycloset"
+      ],
+      "nameLower": "bromocriptine"
+    },
+    {
+      "id": "drug_octreotide",
+      "name": "Octreotide",
+      "aliases": [
+        "Sandostatin",
+        "Bynfezia",
+        "Mycapssa"
+      ],
+      "nameLower": "octreotide"
+    },
+    {
+      "id": "drug_lanreotide",
+      "name": "Lanreotide",
+      "aliases": [
+        "Somatuline Depot"
+      ],
+      "nameLower": "lanreotide"
+    },
+    {
+      "id": "drug_pegvisomant",
+      "name": "Pegvisomant",
+      "aliases": [
+        "Somavert"
+      ],
+      "nameLower": "pegvisomant"
+    },
+    {
+      "id": "drug_desmopressin",
+      "name": "Desmopressin",
+      "aliases": [
+        "DDAVP",
+        "Nocdurna",
+        "Stimate",
+        "Noctiva"
+      ],
+      "nameLower": "desmopressin"
+    },
+    {
+      "id": "drug_chlorpropamide",
+      "name": "Chlorpropamide",
+      "aliases": [
+        "Diabinese"
+      ],
+      "nameLower": "chlorpropamide"
+    },
+    {
+      "id": "drug_hydrochlorothiazide",
+      "name": "Hydrochlorothiazide",
+      "aliases": [
+        "Microzide",
+        "HCTZ"
+      ],
+      "nameLower": "hydrochlorothiazide"
+    },
+    {
+      "id": "drug_calcitriol",
+      "name": "Calcitriol",
+      "aliases": [
+        "Rocaltrol",
+        "Calcijex"
+      ],
+      "nameLower": "calcitriol"
+    },
+    {
+      "id": "drug_calcium_carbonate",
+      "name": "Calcium carbonate",
+      "aliases": [
+        "Tums",
+        "Caltrate",
+        "Os-Cal"
+      ],
+      "nameLower": "calcium carbonate"
+    },
+    {
+      "id": "drug_calcium_citrate",
+      "name": "Calcium citrate",
+      "aliases": [
+        "Citracal"
+      ],
+      "nameLower": "calcium citrate"
+    },
+    {
+      "id": "drug_cholecalciferol",
+      "name": "Cholecalciferol",
+      "aliases": [
+        "vitamin D3",
+        "Decara"
+      ],
+      "nameLower": "cholecalciferol"
+    },
+    {
+      "id": "drug_recombinant_human_parathyroid_hormone",
+      "name": "Recombinant human parathyroid hormone",
+      "aliases": [
+        "Natpara",
+        "Yorvipath",
+        "palopegteriparatide"
+      ],
+      "nameLower": "recombinant human parathyroid hormone"
+    },
+    {
+      "id": "drug_spironolactone",
+      "name": "Spironolactone",
+      "aliases": [
+        "Aldactone",
+        "CaroSpir"
+      ],
+      "nameLower": "spironolactone"
+    },
+    {
+      "id": "drug_clomiphene",
+      "name": "Clomiphene",
+      "aliases": [
+        "Clomid",
+        "Serophene"
+      ],
+      "nameLower": "clomiphene"
+    },
+    {
+      "id": "drug_letrozole",
+      "name": "Letrozole",
+      "aliases": [
+        "Femara"
+      ],
+      "nameLower": "letrozole"
+    },
+    {
+      "id": "drug_ethinylestradiol_drospirenone",
+      "name": "Ethinylestradiol-drospirenone",
+      "aliases": [
+        "Yasmin",
+        "Yaz"
+      ],
+      "nameLower": "ethinylestradiol-drospirenone"
+    },
+    {
+      "id": "drug_eflornithine",
+      "name": "Eflornithine",
+      "aliases": [
+        "Vaniqa"
+      ],
+      "nameLower": "eflornithine"
+    },
+    {
+      "id": "drug_acarbose",
+      "name": "acarbose",
+      "aliases": [
+        "Precose",
+        "Glucobay"
+      ],
+      "nameLower": "acarbose"
+    },
+    {
+      "id": "drug_glucagon",
+      "name": "glucagon",
+      "aliases": [
+        "Baqsimi",
+        "Gvoke",
+        "GlucaGen"
+      ],
+      "nameLower": "glucagon"
+    },
+    {
+      "id": "drug_glucose",
+      "name": "glucose",
+      "aliases": [
+        "Dextrose",
+        "Glutose",
+        "Insta-Glucose"
+      ],
+      "nameLower": "glucose"
+    },
+    {
+      "id": "drug_diazoxide",
+      "name": "diazoxide",
+      "aliases": [
+        "Proglycem"
+      ],
+      "nameLower": "diazoxide"
+    }
+  ]
+}

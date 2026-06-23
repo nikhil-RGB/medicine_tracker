@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_depression",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_escitalopram",
+        "drug_fluoxetine",
+        "drug_citalopram",
+        "drug_venlafaxine",
+        "drug_duloxetine",
+        "drug_bupropion",
+        "drug_mirtazapine",
+        "drug_vortioxetine"
+      ]
+    },
+    {
+      "id": "cond_generalized_anxiety_disorder",
+      "drugIds": [
+        "drug_escitalopram",
+        "drug_sertraline",
+        "drug_paroxetine",
+        "drug_venlafaxine",
+        "drug_duloxetine",
+        "drug_buspirone",
+        "drug_pregabalin",
+        "drug_hydroxyzine"
+      ]
+    },
+    {
+      "id": "cond_panic_disorder",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_paroxetine",
+        "drug_fluoxetine",
+        "drug_escitalopram",
+        "drug_venlafaxine",
+        "drug_alprazolam",
+        "drug_clonazepam",
+        "drug_lorazepam"
+      ]
+    },
+    {
+      "id": "cond_social_anxiety_disorder",
+      "drugIds": [
+        "drug_paroxetine",
+        "drug_sertraline",
+        "drug_escitalopram",
+        "drug_fluvoxamine",
+        "drug_venlafaxine",
+        "drug_propranolol"
+      ]
+    },
+    {
+      "id": "cond_bipolar_disorder",
+      "drugIds": [
+        "drug_lithium",
+        "drug_valproate",
+        "drug_lamotrigine",
+        "drug_quetiapine",
+        "drug_lurasidone",
+        "drug_aripiprazole",
+        "drug_olanzapine",
+        "drug_cariprazine"
+      ]
+    },
+    {
+      "id": "cond_schizophrenia",
+      "drugIds": [
+        "drug_risperidone",
+        "drug_olanzapine",
+        "drug_aripiprazole",
+        "drug_paliperidone",
+        "drug_quetiapine",
+        "drug_clozapine",
+        "drug_lurasidone",
+        "drug_cariprazine",
+        "drug_xanomeline_trospium"
+      ]
+    },
+    {
+      "id": "cond_attention_deficit_hyperactivity_disorder",
+      "drugIds": [
+        "drug_methylphenidate",
+        "drug_lisdexamfetamine",
+        "drug_amphetamine_dextroamphetamine",
+        "drug_dexmethylphenidate",
+        "drug_atomoxetine",
+        "drug_guanfacine",
+        "drug_clonidine",
+        "drug_viloxazine"
+      ]
+    },
+    {
+      "id": "cond_obsessive_compulsive_disorder",
+      "drugIds": [
+        "drug_fluoxetine",
+        "drug_fluvoxamine",
+        "drug_sertraline",
+        "drug_paroxetine",
+        "drug_escitalopram",
+        "drug_clomipramine"
+      ]
+    },
+    {
+      "id": "cond_post_traumatic_stress_disorder",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_paroxetine",
+        "drug_venlafaxine",
+        "drug_fluoxetine",
+        "drug_prazosin"
+      ]
+    },
+    {
+      "id": "cond_insomnia",
+      "drugIds": [
+        "drug_zolpidem",
+        "drug_eszopiclone",
+        "drug_zaleplon",
+        "drug_trazodone",
+        "drug_ramelteon",
+        "drug_suvorexant",
+        "drug_lemborexant",
+        "drug_doxepin"
+      ]
+    },
+    {
+      "id": "cond_bipolar_depression",
+      "drugIds": [
+        "drug_quetiapine",
+        "drug_lurasidone",
+        "drug_lamotrigine",
+        "drug_cariprazine",
+        "drug_olanzapine_fluoxetine",
+        "drug_lumateperone"
+      ]
+    },
+    {
+      "id": "cond_postpartum_depression",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_escitalopram",
+        "drug_paroxetine",
+        "drug_fluoxetine",
+        "drug_zuranolone"
+      ]
+    },
+    {
+      "id": "cond_obsessive_compulsive_and_related_body_dysmorphic_disorder",
+      "drugIds": [
+        "drug_fluoxetine",
+        "drug_escitalopram",
+        "drug_sertraline",
+        "drug_fluvoxamine",
+        "drug_clomipramine"
+      ]
+    },
+    {
+      "id": "cond_premenstrual_dysphoric_disorder",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_fluoxetine",
+        "drug_escitalopram",
+        "drug_paroxetine",
+        "drug_drospirenone_ethinyl_estradiol"
+      ]
+    },
+    {
+      "id": "cond_seasonal_affective_disorder",
+      "drugIds": [
+        "drug_bupropion",
+        "drug_sertraline",
+        "drug_fluoxetine",
+        "drug_escitalopram"
+      ]
+    },
+    {
+      "id": "cond_alcohol_use_disorder",
+      "drugIds": [
+        "drug_naltrexone",
+        "drug_acamprosate",
+        "drug_disulfiram",
+        "drug_thiamine"
+      ]
+    },
+    {
+      "id": "cond_opioid_use_disorder",
+      "drugIds": [
+        "drug_buprenorphine_naloxone",
+        "drug_methadone",
+        "drug_naltrexone",
+        "drug_naloxone"
+      ]
+    },
+    {
+      "id": "cond_nicotine_dependence_smoking_cessation",
+      "drugIds": [
+        "drug_varenicline",
+        "drug_bupropion",
+        "drug_nicotine_replacement"
+      ]
+    }
+  ]
+}

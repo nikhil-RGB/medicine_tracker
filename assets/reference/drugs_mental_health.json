@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_sertraline",
+      "name": "Sertraline",
+      "aliases": [
+        "Zoloft"
+      ],
+      "nameLower": "sertraline"
+    },
+    {
+      "id": "drug_escitalopram",
+      "name": "Escitalopram",
+      "aliases": [
+        "Lexapro",
+        "Cipralex"
+      ],
+      "nameLower": "escitalopram"
+    },
+    {
+      "id": "drug_fluoxetine",
+      "name": "Fluoxetine",
+      "aliases": [
+        "Prozac",
+        "Sarafem"
+      ],
+      "nameLower": "fluoxetine"
+    },
+    {
+      "id": "drug_citalopram",
+      "name": "Citalopram",
+      "aliases": [
+        "Celexa"
+      ],
+      "nameLower": "citalopram"
+    },
+    {
+      "id": "drug_venlafaxine",
+      "name": "Venlafaxine",
+      "aliases": [
+        "Effexor",
+        "Effexor XR"
+      ],
+      "nameLower": "venlafaxine"
+    },
+    {
+      "id": "drug_duloxetine",
+      "name": "Duloxetine",
+      "aliases": [
+        "Cymbalta"
+      ],
+      "nameLower": "duloxetine"
+    },
+    {
+      "id": "drug_bupropion",
+      "name": "Bupropion",
+      "aliases": [
+        "Wellbutrin",
+        "Wellbutrin XL",
+        "Aplenzin",
+        "Zyban"
+      ],
+      "nameLower": "bupropion"
+    },
+    {
+      "id": "drug_mirtazapine",
+      "name": "Mirtazapine",
+      "aliases": [
+        "Remeron"
+      ],
+      "nameLower": "mirtazapine"
+    },
+    {
+      "id": "drug_vortioxetine",
+      "name": "Vortioxetine",
+      "aliases": [
+        "Trintellix",
+        "Brintellix"
+      ],
+      "nameLower": "vortioxetine"
+    },
+    {
+      "id": "drug_paroxetine",
+      "name": "Paroxetine",
+      "aliases": [
+        "Paxil",
+        "Pexeva"
+      ],
+      "nameLower": "paroxetine"
+    },
+    {
+      "id": "drug_buspirone",
+      "name": "Buspirone",
+      "aliases": [
+        "Buspar"
+      ],
+      "nameLower": "buspirone"
+    },
+    {
+      "id": "drug_pregabalin",
+      "name": "Pregabalin",
+      "aliases": [
+        "Lyrica"
+      ],
+      "nameLower": "pregabalin"
+    },
+    {
+      "id": "drug_hydroxyzine",
+      "name": "Hydroxyzine",
+      "aliases": [
+        "Vistaril",
+        "Atarax"
+      ],
+      "nameLower": "hydroxyzine"
+    },
+    {
+      "id": "drug_alprazolam",
+      "name": "Alprazolam",
+      "aliases": [
+        "Xanax"
+      ],
+      "nameLower": "alprazolam"
+    },
+    {
+      "id": "drug_clonazepam",
+      "name": "Clonazepam",
+      "aliases": [
+        "Klonopin"
+      ],
+      "nameLower": "clonazepam"
+    },
+    {
+      "id": "drug_lorazepam",
+      "name": "Lorazepam",
+      "aliases": [
+        "Ativan"
+      ],
+      "nameLower": "lorazepam"
+    },
+    {
+      "id": "drug_fluvoxamine",
+      "name": "Fluvoxamine",
+      "aliases": [
+        "Luvox",
+        "Luvox CR"
+      ],
+      "nameLower": "fluvoxamine"
+    },
+    {
+      "id": "drug_propranolol",
+      "name": "Propranolol",
+      "aliases": [
+        "Inderal"
+      ],
+      "nameLower": "propranolol"
+    },
+    {
+      "id": "drug_lithium",
+      "name": "Lithium",
+      "aliases": [
+        "Lithobid",
+        "Eskalith"
+      ],
+      "nameLower": "lithium"
+    },
+    {
+      "id": "drug_valproate",
+      "name": "Valproate",
+      "aliases": [
+        "Depakote",
+        "Divalproex",
+        "Valproic acid"
+      ],
+      "nameLower": "valproate"
+    },
+    {
+      "id": "drug_lamotrigine",
+      "name": "Lamotrigine",
+      "aliases": [
+        "Lamictal"
+      ],
+      "nameLower": "lamotrigine"
+    },
+    {
+      "id": "drug_quetiapine",
+      "name": "Quetiapine",
+      "aliases": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "nameLower": "quetiapine"
+    },
+    {
+      "id": "drug_lurasidone",
+      "name": "Lurasidone",
+      "aliases": [
+        "Latuda"
+      ],
+      "nameLower": "lurasidone"
+    },
+    {
+      "id": "drug_aripiprazole",
+      "name": "Aripiprazole",
+      "aliases": [
+        "Abilify"
+      ],
+      "nameLower": "aripiprazole"
+    },
+    {
+      "id": "drug_olanzapine",
+      "name": "Olanzapine",
+      "aliases": [
+        "Zyprexa"
+      ],
+      "nameLower": "olanzapine"
+    },
+    {
+      "id": "drug_cariprazine",
+      "name": "Cariprazine",
+      "aliases": [
+        "Vraylar"
+      ],
+      "nameLower": "cariprazine"
+    },
+    {
+      "id": "drug_risperidone",
+      "name": "Risperidone",
+      "aliases": [
+        "Risperdal"
+      ],
+      "nameLower": "risperidone"
+    },
+    {
+      "id": "drug_paliperidone",
+      "name": "Paliperidone",
+      "aliases": [
+        "Invega",
+        "Invega Sustenna"
+      ],
+      "nameLower": "paliperidone"
+    },
+    {
+      "id": "drug_clozapine",
+      "name": "Clozapine",
+      "aliases": [
+        "Clozaril",
+        "Versacloz"
+      ],
+      "nameLower": "clozapine"
+    },
+    {
+      "id": "drug_xanomeline_trospium",
+      "name": "Xanomeline/Trospium",
+      "aliases": [
+        "Cobenfy",
+        "KarXT"
+      ],
+      "nameLower": "xanomeline/trospium"
+    },
+    {
+      "id": "drug_methylphenidate",
+      "name": "Methylphenidate",
+      "aliases": [
+        "Ritalin",
+        "Concerta",
+        "Daytrana",
+        "Metadate"
+      ],
+      "nameLower": "methylphenidate"
+    },
+    {
+      "id": "drug_lisdexamfetamine",
+      "name": "Lisdexamfetamine",
+      "aliases": [
+        "Vyvanse"
+      ],
+      "nameLower": "lisdexamfetamine"
+    },
+    {
+      "id": "drug_amphetamine_dextroamphetamine",
+      "name": "Amphetamine/Dextroamphetamine",
+      "aliases": [
+        "Adderall",
+        "Adderall XR",
+        "Mydayis"
+      ],
+      "nameLower": "amphetamine/dextroamphetamine"
+    },
+    {
+      "id": "drug_dexmethylphenidate",
+      "name": "Dexmethylphenidate",
+      "aliases": [
+        "Focalin",
+        "Focalin XR"
+      ],
+      "nameLower": "dexmethylphenidate"
+    },
+    {
+      "id": "drug_atomoxetine",
+      "name": "Atomoxetine",
+      "aliases": [
+        "Strattera"
+      ],
+      "nameLower": "atomoxetine"
+    },
+    {
+      "id": "drug_guanfacine",
+      "name": "Guanfacine",
+      "aliases": [
+        "Intuniv"
+      ],
+      "nameLower": "guanfacine"
+    },
+    {
+      "id": "drug_clonidine",
+      "name": "Clonidine",
+      "aliases": [
+        "Kapvay"
+      ],
+      "nameLower": "clonidine"
+    },
+    {
+      "id": "drug_viloxazine",
+      "name": "Viloxazine",
+      "aliases": [
+        "Qelbree"
+      ],
+      "nameLower": "viloxazine"
+    },
+    {
+      "id": "drug_clomipramine",
+      "name": "Clomipramine",
+      "aliases": [
+        "Anafranil"
+      ],
+      "nameLower": "clomipramine"
+    },
+    {
+      "id": "drug_prazosin",
+      "name": "Prazosin",
+      "aliases": [
+        "Minipress"
+      ],
+      "nameLower": "prazosin"
+    },
+    {
+      "id": "drug_zolpidem",
+      "name": "Zolpidem",
+      "aliases": [
+        "Ambien",
+        "Ambien CR",
+        "Edluar"
+      ],
+      "nameLower": "zolpidem"
+    },
+    {
+      "id": "drug_eszopiclone",
+      "name": "Eszopiclone",
+      "aliases": [
+        "Lunesta"
+      ],
+      "nameLower": "eszopiclone"
+    },
+    {
+      "id": "drug_zaleplon",
+      "name": "Zaleplon",
+      "aliases": [
+        "Sonata"
+      ],
+      "nameLower": "zaleplon"
+    },
+    {
+      "id": "drug_trazodone",
+      "name": "Trazodone",
+      "aliases": [
+        "Desyrel"
+      ],
+      "nameLower": "trazodone"
+    },
+    {
+      "id": "drug_ramelteon",
+      "name": "Ramelteon",
+      "aliases": [
+        "Rozerem"
+      ],
+      "nameLower": "ramelteon"
+    },
+    {
+      "id": "drug_suvorexant",
+      "name": "Suvorexant",
+      "aliases": [
+        "Belsomra"
+      ],
+      "nameLower": "suvorexant"
+    },
+    {
+      "id": "drug_lemborexant",
+      "name": "Lemborexant",
+      "aliases": [
+        "Dayvigo"
+      ],
+      "nameLower": "lemborexant"
+    },
+    {
+      "id": "drug_doxepin",
+      "name": "Doxepin",
+      "aliases": [
+        "Silenor"
+      ],
+      "nameLower": "doxepin"
+    },
+    {
+      "id": "drug_olanzapine_fluoxetine",
+      "name": "Olanzapine/Fluoxetine",
+      "aliases": [
+        "Symbyax"
+      ],
+      "nameLower": "olanzapine/fluoxetine"
+    },
+    {
+      "id": "drug_lumateperone",
+      "name": "Lumateperone",
+      "aliases": [
+        "Caplyta"
+      ],
+      "nameLower": "lumateperone"
+    },
+    {
+      "id": "drug_zuranolone",
+      "name": "Zuranolone",
+      "aliases": [
+        "Zurzuvae"
+      ],
+      "nameLower": "zuranolone"
+    },
+    {
+      "id": "drug_drospirenone_ethinyl_estradiol",
+      "name": "Drospirenone/Ethinyl estradiol",
+      "aliases": [
+        "Yaz"
+      ],
+      "nameLower": "drospirenone/ethinyl estradiol"
+    },
+    {
+      "id": "drug_naltrexone",
+      "name": "naltrexone",
+      "aliases": [
+        "Vivitrol",
+        "ReVia"
+      ],
+      "nameLower": "naltrexone"
+    },
+    {
+      "id": "drug_acamprosate",
+      "name": "acamprosate",
+      "aliases": [
+        "Campral"
+      ],
+      "nameLower": "acamprosate"
+    },
+    {
+      "id": "drug_disulfiram",
+      "name": "disulfiram",
+      "aliases": [
+        "Antabuse"
+      ],
+      "nameLower": "disulfiram"
+    },
+    {
+      "id": "drug_thiamine",
+      "name": "thiamine",
+      "aliases": [
+        "Vitamin B1"
+      ],
+      "nameLower": "thiamine"
+    },
+    {
+      "id": "drug_buprenorphine_naloxone",
+      "name": "buprenorphine/naloxone",
+      "aliases": [
+        "Suboxone",
+        "Zubsolv"
+      ],
+      "nameLower": "buprenorphine/naloxone"
+    },
+    {
+      "id": "drug_methadone",
+      "name": "methadone",
+      "aliases": [
+        "Dolophine",
+        "Methadose"
+      ],
+      "nameLower": "methadone"
+    },
+    {
+      "id": "drug_naloxone",
+      "name": "naloxone",
+      "aliases": [
+        "Narcan",
+        "Kloxxado"
+      ],
+      "nameLower": "naloxone"
+    },
+    {
+      "id": "drug_varenicline",
+      "name": "varenicline",
+      "aliases": [
+        "Chantix",
+        "Champix"
+      ],
+      "nameLower": "varenicline"
+    },
+    {
+      "id": "drug_nicotine_replacement",
+      "name": "nicotine replacement",
+      "aliases": [
+        "Nicoderm CQ",
+        "Nicorette",
+        "Nicotine patch",
+        "Nicotine gum"
+      ],
+      "nameLower": "nicotine replacement"
+    }
+  ]
+}

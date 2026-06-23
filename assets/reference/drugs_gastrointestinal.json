@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_omeprazole",
+      "name": "Omeprazole",
+      "aliases": [
+        "Prilosec",
+        "Losec"
+      ],
+      "nameLower": "omeprazole"
+    },
+    {
+      "id": "drug_esomeprazole",
+      "name": "Esomeprazole",
+      "aliases": [
+        "Nexium"
+      ],
+      "nameLower": "esomeprazole"
+    },
+    {
+      "id": "drug_pantoprazole",
+      "name": "Pantoprazole",
+      "aliases": [
+        "Protonix"
+      ],
+      "nameLower": "pantoprazole"
+    },
+    {
+      "id": "drug_lansoprazole",
+      "name": "Lansoprazole",
+      "aliases": [
+        "Prevacid"
+      ],
+      "nameLower": "lansoprazole"
+    },
+    {
+      "id": "drug_rabeprazole",
+      "name": "Rabeprazole",
+      "aliases": [
+        "Aciphex",
+        "Pariet"
+      ],
+      "nameLower": "rabeprazole"
+    },
+    {
+      "id": "drug_famotidine",
+      "name": "Famotidine",
+      "aliases": [
+        "Pepcid"
+      ],
+      "nameLower": "famotidine"
+    },
+    {
+      "id": "drug_vonoprazan",
+      "name": "Vonoprazan",
+      "aliases": [
+        "Voquezna"
+      ],
+      "nameLower": "vonoprazan"
+    },
+    {
+      "id": "drug_sucralfate",
+      "name": "Sucralfate",
+      "aliases": [
+        "Carafate"
+      ],
+      "nameLower": "sucralfate"
+    },
+    {
+      "id": "drug_misoprostol",
+      "name": "Misoprostol",
+      "aliases": [
+        "Cytotec"
+      ],
+      "nameLower": "misoprostol"
+    },
+    {
+      "id": "drug_amoxicillin",
+      "name": "Amoxicillin",
+      "aliases": [
+        "Amoxil"
+      ],
+      "nameLower": "amoxicillin"
+    },
+    {
+      "id": "drug_clarithromycin",
+      "name": "Clarithromycin",
+      "aliases": [
+        "Biaxin"
+      ],
+      "nameLower": "clarithromycin"
+    },
+    {
+      "id": "drug_metronidazole",
+      "name": "Metronidazole",
+      "aliases": [
+        "Flagyl"
+      ],
+      "nameLower": "metronidazole"
+    },
+    {
+      "id": "drug_tetracycline",
+      "name": "Tetracycline",
+      "aliases": [],
+      "nameLower": "tetracycline"
+    },
+    {
+      "id": "drug_bismuth_subsalicylate",
+      "name": "Bismuth subsalicylate",
+      "aliases": [
+        "Pepto-Bismol",
+        "Kaopectate"
+      ],
+      "nameLower": "bismuth subsalicylate"
+    },
+    {
+      "id": "drug_levofloxacin",
+      "name": "Levofloxacin",
+      "aliases": [
+        "Levaquin"
+      ],
+      "nameLower": "levofloxacin"
+    },
+    {
+      "id": "drug_rifabutin",
+      "name": "Rifabutin",
+      "aliases": [
+        "Mycobutin"
+      ],
+      "nameLower": "rifabutin"
+    },
+    {
+      "id": "drug_linaclotide",
+      "name": "Linaclotide",
+      "aliases": [
+        "Linzess",
+        "Constella"
+      ],
+      "nameLower": "linaclotide"
+    },
+    {
+      "id": "drug_plecanatide",
+      "name": "Plecanatide",
+      "aliases": [
+        "Trulance"
+      ],
+      "nameLower": "plecanatide"
+    },
+    {
+      "id": "drug_lubiprostone",
+      "name": "Lubiprostone",
+      "aliases": [
+        "Amitiza"
+      ],
+      "nameLower": "lubiprostone"
+    },
+    {
+      "id": "drug_tenapanor",
+      "name": "Tenapanor",
+      "aliases": [
+        "Ibsrela"
+      ],
+      "nameLower": "tenapanor"
+    },
+    {
+      "id": "drug_tegaserod",
+      "name": "Tegaserod",
+      "aliases": [
+        "Zelnorm"
+      ],
+      "nameLower": "tegaserod"
+    },
+    {
+      "id": "drug_polyethylene_glycol_3350",
+      "name": "Polyethylene glycol 3350",
+      "aliases": [
+        "MiraLAX"
+      ],
+      "nameLower": "polyethylene glycol 3350"
+    },
+    {
+      "id": "drug_rifaximin",
+      "name": "Rifaximin",
+      "aliases": [
+        "Xifaxan"
+      ],
+      "nameLower": "rifaximin"
+    },
+    {
+      "id": "drug_eluxadoline",
+      "name": "Eluxadoline",
+      "aliases": [
+        "Viberzi"
+      ],
+      "nameLower": "eluxadoline"
+    },
+    {
+      "id": "drug_alosetron",
+      "name": "Alosetron",
+      "aliases": [
+        "Lotronex"
+      ],
+      "nameLower": "alosetron"
+    },
+    {
+      "id": "drug_loperamide",
+      "name": "Loperamide",
+      "aliases": [
+        "Imodium"
+      ],
+      "nameLower": "loperamide"
+    },
+    {
+      "id": "drug_dicyclomine",
+      "name": "Dicyclomine",
+      "aliases": [
+        "Bentyl"
+      ],
+      "nameLower": "dicyclomine"
+    },
+    {
+      "id": "drug_hyoscyamine",
+      "name": "Hyoscyamine",
+      "aliases": [
+        "Levsin",
+        "Anaspaz"
+      ],
+      "nameLower": "hyoscyamine"
+    },
+    {
+      "id": "drug_amitriptyline",
+      "name": "Amitriptyline",
+      "aliases": [
+        "Elavil"
+      ],
+      "nameLower": "amitriptyline"
+    },
+    {
+      "id": "drug_bisacodyl",
+      "name": "Bisacodyl",
+      "aliases": [
+        "Dulcolax"
+      ],
+      "nameLower": "bisacodyl"
+    },
+    {
+      "id": "drug_senna",
+      "name": "Senna",
+      "aliases": [
+        "Senokot"
+      ],
+      "nameLower": "senna"
+    },
+    {
+      "id": "drug_docusate",
+      "name": "Docusate",
+      "aliases": [
+        "Colace"
+      ],
+      "nameLower": "docusate"
+    },
+    {
+      "id": "drug_lactulose",
+      "name": "Lactulose",
+      "aliases": [
+        "Kristalose",
+        "Enulose"
+      ],
+      "nameLower": "lactulose"
+    },
+    {
+      "id": "drug_psyllium",
+      "name": "Psyllium",
+      "aliases": [
+        "Metamucil"
+      ],
+      "nameLower": "psyllium"
+    },
+    {
+      "id": "drug_diphenoxylate_atropine",
+      "name": "Diphenoxylate/atropine",
+      "aliases": [
+        "Lomotil"
+      ],
+      "nameLower": "diphenoxylate/atropine"
+    },
+    {
+      "id": "drug_octreotide",
+      "name": "Octreotide",
+      "aliases": [
+        "Sandostatin"
+      ],
+      "nameLower": "octreotide"
+    },
+    {
+      "id": "drug_ondansetron",
+      "name": "Ondansetron",
+      "aliases": [
+        "Zofran"
+      ],
+      "nameLower": "ondansetron"
+    },
+    {
+      "id": "drug_promethazine",
+      "name": "Promethazine",
+      "aliases": [
+        "Phenergan"
+      ],
+      "nameLower": "promethazine"
+    },
+    {
+      "id": "drug_prochlorperazine",
+      "name": "Prochlorperazine",
+      "aliases": [
+        "Compazine"
+      ],
+      "nameLower": "prochlorperazine"
+    },
+    {
+      "id": "drug_metoclopramide",
+      "name": "Metoclopramide",
+      "aliases": [
+        "Reglan"
+      ],
+      "nameLower": "metoclopramide"
+    },
+    {
+      "id": "drug_granisetron",
+      "name": "Granisetron",
+      "aliases": [
+        "Sancuso",
+        "Kytril"
+      ],
+      "nameLower": "granisetron"
+    },
+    {
+      "id": "drug_meclizine",
+      "name": "Meclizine",
+      "aliases": [
+        "Antivert",
+        "Bonine",
+        "Dramamine Less Drowsy"
+      ],
+      "nameLower": "meclizine"
+    },
+    {
+      "id": "drug_dimenhydrinate",
+      "name": "Dimenhydrinate",
+      "aliases": [
+        "Dramamine",
+        "Gravol"
+      ],
+      "nameLower": "dimenhydrinate"
+    },
+    {
+      "id": "drug_aprepitant",
+      "name": "Aprepitant",
+      "aliases": [
+        "Emend"
+      ],
+      "nameLower": "aprepitant"
+    },
+    {
+      "id": "drug_adalimumab",
+      "name": "Adalimumab",
+      "aliases": [
+        "Humira"
+      ],
+      "nameLower": "adalimumab"
+    },
+    {
+      "id": "drug_infliximab",
+      "name": "Infliximab",
+      "aliases": [
+        "Remicade"
+      ],
+      "nameLower": "infliximab"
+    },
+    {
+      "id": "drug_ustekinumab",
+      "name": "Ustekinumab",
+      "aliases": [
+        "Stelara"
+      ],
+      "nameLower": "ustekinumab"
+    },
+    {
+      "id": "drug_vedolizumab",
+      "name": "Vedolizumab",
+      "aliases": [
+        "Entyvio"
+      ],
+      "nameLower": "vedolizumab"
+    },
+    {
+      "id": "drug_azathioprine",
+      "name": "Azathioprine",
+      "aliases": [
+        "Imuran"
+      ],
+      "nameLower": "azathioprine"
+    },
+    {
+      "id": "drug_methotrexate",
+      "name": "Methotrexate",
+      "aliases": [
+        "Trexall",
+        "Rheumatrex"
+      ],
+      "nameLower": "methotrexate"
+    },
+    {
+      "id": "drug_budesonide",
+      "name": "Budesonide",
+      "aliases": [
+        "Entocort",
+        "Uceris"
+      ],
+      "nameLower": "budesonide"
+    },
+    {
+      "id": "drug_risankizumab",
+      "name": "Risankizumab",
+      "aliases": [
+        "Skyrizi"
+      ],
+      "nameLower": "risankizumab"
+    },
+    {
+      "id": "drug_upadacitinib",
+      "name": "Upadacitinib",
+      "aliases": [
+        "Rinvoq"
+      ],
+      "nameLower": "upadacitinib"
+    },
+    {
+      "id": "drug_mesalamine",
+      "name": "Mesalamine",
+      "aliases": [
+        "Asacol",
+        "Lialda",
+        "Pentasa",
+        "Apriso"
+      ],
+      "nameLower": "mesalamine"
+    },
+    {
+      "id": "drug_sulfasalazine",
+      "name": "Sulfasalazine",
+      "aliases": [
+        "Azulfidine"
+      ],
+      "nameLower": "sulfasalazine"
+    },
+    {
+      "id": "drug_balsalazide",
+      "name": "Balsalazide",
+      "aliases": [
+        "Colazal",
+        "Giazo"
+      ],
+      "nameLower": "balsalazide"
+    },
+    {
+      "id": "drug_prednisone",
+      "name": "Prednisone",
+      "aliases": [
+        "Deltasone"
+      ],
+      "nameLower": "prednisone"
+    },
+    {
+      "id": "drug_tofacitinib",
+      "name": "Tofacitinib",
+      "aliases": [
+        "Xeljanz"
+      ],
+      "nameLower": "tofacitinib"
+    },
+    {
+      "id": "drug_ozanimod",
+      "name": "Ozanimod",
+      "aliases": [
+        "Zeposia"
+      ],
+      "nameLower": "ozanimod"
+    },
+    {
+      "id": "drug_erythromycin",
+      "name": "Erythromycin",
+      "aliases": [
+        "Eryc",
+        "E-Mycin"
+      ],
+      "nameLower": "erythromycin"
+    },
+    {
+      "id": "drug_domperidone",
+      "name": "Domperidone",
+      "aliases": [
+        "Motilium"
+      ],
+      "nameLower": "domperidone"
+    },
+    {
+      "id": "drug_hydrocortisone",
+      "name": "Hydrocortisone",
+      "aliases": [
+        "Anusol-HC",
+        "Proctocort"
+      ],
+      "nameLower": "hydrocortisone"
+    },
+    {
+      "id": "drug_phenylephrine",
+      "name": "Phenylephrine",
+      "aliases": [
+        "Preparation H"
+      ],
+      "nameLower": "phenylephrine"
+    },
+    {
+      "id": "drug_pramoxine",
+      "name": "Pramoxine",
+      "aliases": [
+        "Proctofoam"
+      ],
+      "nameLower": "pramoxine"
+    },
+    {
+      "id": "drug_witch_hazel",
+      "name": "Witch hazel",
+      "aliases": [
+        "Tucks"
+      ],
+      "nameLower": "witch hazel"
+    },
+    {
+      "id": "drug_lidocaine",
+      "name": "Lidocaine",
+      "aliases": [
+        "Xylocaine"
+      ],
+      "nameLower": "lidocaine"
+    },
+    {
+      "id": "drug_calcium_carbonate",
+      "name": "Calcium carbonate",
+      "aliases": [
+        "Tums",
+        "Caltrate"
+      ],
+      "nameLower": "calcium carbonate"
+    },
+    {
+      "id": "drug_simethicone",
+      "name": "Simethicone",
+      "aliases": [
+        "Gas-X",
+        "Mylicon"
+      ],
+      "nameLower": "simethicone"
+    },
+    {
+      "id": "drug_alpha_galactosidase",
+      "name": "Alpha-galactosidase",
+      "aliases": [
+        "Beano"
+      ],
+      "nameLower": "alpha-galactosidase"
+    },
+    {
+      "id": "drug_activated_charcoal",
+      "name": "Activated charcoal",
+      "aliases": [
+        "CharcoCaps"
+      ],
+      "nameLower": "activated charcoal"
+    },
+    {
+      "id": "drug_vancomycin",
+      "name": "Vancomycin",
+      "aliases": [
+        "Vancocin",
+        "Firvanq"
+      ],
+      "nameLower": "vancomycin"
+    },
+    {
+      "id": "drug_fidaxomicin",
+      "name": "Fidaxomicin",
+      "aliases": [
+        "Dificid"
+      ],
+      "nameLower": "fidaxomicin"
+    },
+    {
+      "id": "drug_bezlotoxumab",
+      "name": "Bezlotoxumab",
+      "aliases": [
+        "Zinplava"
+      ],
+      "nameLower": "bezlotoxumab"
+    },
+    {
+      "id": "drug_pancrelipase",
+      "name": "Pancrelipase",
+      "aliases": [
+        "Creon",
+        "Zenpep",
+        "Pancreaze",
+        "Pertzye"
+      ],
+      "nameLower": "pancrelipase"
+    },
+    {
+      "id": "drug_cholecalciferol",
+      "name": "cholecalciferol",
+      "aliases": [
+        "Vitamin D3"
+      ],
+      "nameLower": "cholecalciferol"
+    },
+    {
+      "id": "drug_ferrous_sulfate",
+      "name": "ferrous sulfate",
+      "aliases": [
+        "Feosol",
+        "Slow Fe"
+      ],
+      "nameLower": "ferrous sulfate"
+    },
+    {
+      "id": "drug_folic_acid",
+      "name": "folic acid",
+      "aliases": [
+        "Folate",
+        "Folvite"
+      ],
+      "nameLower": "folic acid"
+    },
+    {
+      "id": "drug_lactase_enzyme",
+      "name": "lactase enzyme",
+      "aliases": [
+        "Lactaid",
+        "Dairy Ease",
+        "Lac-Dose"
+      ],
+      "nameLower": "lactase enzyme"
+    },
+    {
+      "id": "drug_ursodiol",
+      "name": "ursodiol",
+      "aliases": [
+        "Actigall",
+        "Urso",
+        "Ursodeoxycholic acid"
+      ],
+      "nameLower": "ursodiol"
+    },
+    {
+      "id": "drug_acetaminophen",
+      "name": "acetaminophen",
+      "aliases": [
+        "Tylenol",
+        "Paracetamol"
+      ],
+      "nameLower": "acetaminophen"
+    },
+    {
+      "id": "drug_resmetirom",
+      "name": "resmetirom",
+      "aliases": [
+        "Rezdiffra"
+      ],
+      "nameLower": "resmetirom"
+    },
+    {
+      "id": "drug_pioglitazone",
+      "name": "pioglitazone",
+      "aliases": [
+        "Actos"
+      ],
+      "nameLower": "pioglitazone"
+    },
+    {
+      "id": "drug_vitamin_e",
+      "name": "vitamin E",
+      "aliases": [
+        "Alpha-tocopherol"
+      ],
+      "nameLower": "vitamin e"
+    },
+    {
+      "id": "drug_semaglutide",
+      "name": "semaglutide",
+      "aliases": [
+        "Ozempic",
+        "Wegovy"
+      ],
+      "nameLower": "semaglutide"
+    },
+    {
+      "id": "drug_sofosbuvir_velpatasvir",
+      "name": "sofosbuvir/velpatasvir",
+      "aliases": [
+        "Epclusa"
+      ],
+      "nameLower": "sofosbuvir/velpatasvir"
+    },
+    {
+      "id": "drug_glecaprevir_pibrentasvir",
+      "name": "glecaprevir/pibrentasvir",
+      "aliases": [
+        "Mavyret"
+      ],
+      "nameLower": "glecaprevir/pibrentasvir"
+    },
+    {
+      "id": "drug_ledipasvir_sofosbuvir",
+      "name": "ledipasvir/sofosbuvir",
+      "aliases": [
+        "Harvoni"
+      ],
+      "nameLower": "ledipasvir/sofosbuvir"
+    },
+    {
+      "id": "drug_ribavirin",
+      "name": "ribavirin",
+      "aliases": [
+        "Rebetol",
+        "Copegus"
+      ],
+      "nameLower": "ribavirin"
+    },
+    {
+      "id": "drug_tenofovir_disoproxil",
+      "name": "tenofovir disoproxil",
+      "aliases": [
+        "Viread"
+      ],
+      "nameLower": "tenofovir disoproxil"
+    },
+    {
+      "id": "drug_entecavir",
+      "name": "entecavir",
+      "aliases": [
+        "Baraclude"
+      ],
+      "nameLower": "entecavir"
+    },
+    {
+      "id": "drug_tenofovir_alafenamide",
+      "name": "tenofovir alafenamide",
+      "aliases": [
+        "Vemlidy"
+      ],
+      "nameLower": "tenofovir alafenamide"
+    },
+    {
+      "id": "drug_peginterferon_alfa_2a",
+      "name": "peginterferon alfa-2a",
+      "aliases": [
+        "Pegasys"
+      ],
+      "nameLower": "peginterferon alfa-2a"
+    },
+    {
+      "id": "drug_scopolamine",
+      "name": "scopolamine",
+      "aliases": [
+        "Transderm Scop",
+        "Hyoscine"
+      ],
+      "nameLower": "scopolamine"
+    }
+  ]
+}

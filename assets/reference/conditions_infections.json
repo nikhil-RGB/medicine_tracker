@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_urinary_tract_infection",
+      "drugIds": [
+        "drug_nitrofurantoin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_fosfomycin",
+        "drug_cephalexin",
+        "drug_ciprofloxacin",
+        "drug_trimethoprim",
+        "drug_amoxicillin_clavulanate"
+      ]
+    },
+    {
+      "id": "cond_kidney_infection",
+      "drugIds": [
+        "drug_ciprofloxacin",
+        "drug_levofloxacin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_ceftriaxone",
+        "drug_cefpodoxime",
+        "drug_ertapenem"
+      ]
+    },
+    {
+      "id": "cond_strep_throat",
+      "drugIds": [
+        "drug_penicillin_v",
+        "drug_amoxicillin",
+        "drug_benzathine_penicillin_g",
+        "drug_cephalexin",
+        "drug_azithromycin",
+        "drug_clindamycin",
+        "drug_clarithromycin"
+      ]
+    },
+    {
+      "id": "cond_community_acquired_pneumonia_2",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_doxycycline",
+        "drug_azithromycin",
+        "drug_amoxicillin_clavulanate",
+        "drug_levofloxacin",
+        "drug_cefuroxime",
+        "drug_ceftriaxone",
+        "drug_clarithromycin"
+      ]
+    },
+    {
+      "id": "cond_skin_and_soft_tissue_infection",
+      "drugIds": [
+        "drug_cephalexin",
+        "drug_dicloxacillin",
+        "drug_clindamycin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_doxycycline",
+        "drug_amoxicillin_clavulanate",
+        "drug_vancomycin",
+        "drug_linezolid"
+      ]
+    },
+    {
+      "id": "cond_sinus_infection",
+      "drugIds": [
+        "drug_amoxicillin_clavulanate",
+        "drug_amoxicillin",
+        "drug_doxycycline",
+        "drug_levofloxacin",
+        "drug_cefpodoxime",
+        "drug_clindamycin"
+      ]
+    },
+    {
+      "id": "cond_influenza",
+      "drugIds": [
+        "drug_oseltamivir",
+        "drug_baloxavir_marboxil",
+        "drug_zanamivir",
+        "drug_peramivir"
+      ]
+    },
+    {
+      "id": "cond_herpes_simplex",
+      "drugIds": [
+        "drug_acyclovir",
+        "drug_valacyclovir",
+        "drug_famciclovir"
+      ]
+    },
+    {
+      "id": "cond_shingles",
+      "drugIds": [
+        "drug_valacyclovir",
+        "drug_acyclovir",
+        "drug_famciclovir"
+      ]
+    },
+    {
+      "id": "cond_tuberculosis",
+      "drugIds": [
+        "drug_isoniazid",
+        "drug_rifampin",
+        "drug_pyrazinamide",
+        "drug_ethambutol",
+        "drug_rifapentine",
+        "drug_bedaquiline"
+      ]
+    },
+    {
+      "id": "cond_malaria",
+      "drugIds": [
+        "drug_artemether_lumefantrine",
+        "drug_atovaquone_proguanil",
+        "drug_chloroquine",
+        "drug_hydroxychloroquine",
+        "drug_mefloquine",
+        "drug_doxycycline",
+        "drug_primaquine",
+        "drug_quinine"
+      ]
+    },
+    {
+      "id": "cond_vaginal_yeast_infection",
+      "drugIds": [
+        "drug_fluconazole",
+        "drug_miconazole",
+        "drug_clotrimazole",
+        "drug_terconazole",
+        "drug_nystatin",
+        "drug_tioconazole"
+      ]
+    },
+    {
+      "id": "cond_middle_ear_infection",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_amoxicillin_clavulanate",
+        "drug_cefdinir",
+        "drug_cefuroxime",
+        "drug_cefpodoxime",
+        "drug_ceftriaxone",
+        "drug_azithromycin"
+      ]
+    },
+    {
+      "id": "cond_gonorrhea",
+      "drugIds": [
+        "drug_ceftriaxone",
+        "drug_cefixime",
+        "drug_azithromycin",
+        "drug_doxycycline",
+        "drug_gentamicin"
+      ]
+    },
+    {
+      "id": "cond_chlamydia",
+      "drugIds": [
+        "drug_doxycycline",
+        "drug_azithromycin",
+        "drug_levofloxacin",
+        "drug_erythromycin",
+        "drug_amoxicillin"
+      ]
+    },
+    {
+      "id": "cond_helicobacter_pylori_infection",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_clarithromycin",
+        "drug_metronidazole",
+        "drug_tetracycline",
+        "drug_bismuth_subsalicylate",
+        "drug_omeprazole",
+        "drug_levofloxacin"
+      ]
+    },
+    {
+      "id": "cond_athlete_s_foot_and_ringworm",
+      "drugIds": [
+        "drug_terbinafine",
+        "drug_clotrimazole",
+        "drug_miconazole",
+        "drug_ketoconazole",
+        "drug_griseofulvin",
+        "drug_itraconazole"
+      ]
+    },
+    {
+      "id": "cond_c_difficile_infection",
+      "drugIds": [
+        "drug_vancomycin",
+        "drug_fidaxomicin",
+        "drug_metronidazole"
+      ]
+    },
+    {
+      "id": "cond_hiv_infection",
+      "drugIds": [
+        "drug_bictegravir_emtricitabine_tenofovir_alafenamide",
+        "drug_dolutegravir_abacavir_lamivudine",
+        "drug_emtricitabine_tenofovir_disoproxil",
+        "drug_dolutegravir_lamivudine",
+        "drug_cabotegravir_rilpivirine"
+      ]
+    },
+    {
+      "id": "cond_covid_19",
+      "drugIds": [
+        "drug_nirmatrelvir_ritonavir",
+        "drug_molnupiravir",
+        "drug_remdesivir",
+        "drug_dexamethasone"
+      ]
+    },
+    {
+      "id": "cond_intestinal_worms",
+      "drugIds": [
+        "drug_albendazole",
+        "drug_mebendazole",
+        "drug_pyrantel_pamoate",
+        "drug_ivermectin"
+      ]
+    },
+    {
+      "id": "cond_syphilis",
+      "drugIds": [
+        "drug_benzathine_penicillin_g",
+        "drug_doxycycline",
+        "drug_ceftriaxone",
+        "drug_azithromycin"
+      ]
+    },
+    {
+      "id": "cond_food_poisoning_traveler_s_diarrhea",
+      "drugIds": [
+        "drug_loperamide",
+        "drug_bismuth_subsalicylate",
+        "drug_azithromycin",
+        "drug_rifaximin",
+        "drug_ciprofloxacin"
+      ]
+    }
+  ]
+}

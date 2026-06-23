@@ -1,0 +1,2837 @@
+{
+  "schemaVersion": 1,
+  "disclaimer": "This list of conditions and medicines is reference information only - names to help you record what you have been prescribed. It is NOT medical advice and does NOT include dosages or instructions. It may be incomplete or contain errors. Always follow the guidance of your doctor or pharmacist. Never start, stop, or change a medication based on this app.",
+  "categories": [
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular",
+      "shard": "cardiovascular",
+      "conditionCount": 16
+    },
+    {
+      "id": "endocrine_metabolic",
+      "name": "Endocrine & Metabolic",
+      "shard": "endocrine_metabolic",
+      "conditionCount": 17
+    },
+    {
+      "id": "respiratory",
+      "name": "Respiratory",
+      "shard": "respiratory",
+      "conditionCount": 16
+    },
+    {
+      "id": "infections",
+      "name": "Infections",
+      "shard": "infections",
+      "conditionCount": 23
+    },
+    {
+      "id": "gastrointestinal",
+      "name": "Gastrointestinal",
+      "shard": "gastrointestinal",
+      "conditionCount": 23
+    },
+    {
+      "id": "mental_health",
+      "name": "Mental Health",
+      "shard": "mental_health",
+      "conditionCount": 18
+    },
+    {
+      "id": "neurological",
+      "name": "Neurological",
+      "shard": "neurological",
+      "conditionCount": 17
+    },
+    {
+      "id": "pain_musculoskeletal",
+      "name": "Pain & Musculoskeletal",
+      "shard": "pain_musculoskeletal",
+      "conditionCount": 18
+    },
+    {
+      "id": "dermatology",
+      "name": "Dermatology",
+      "shard": "dermatology",
+      "conditionCount": 19
+    },
+    {
+      "id": "allergy_immunology",
+      "name": "Allergy & Immunology",
+      "shard": "allergy_immunology",
+      "conditionCount": 15
+    },
+    {
+      "id": "genitourinary_renal",
+      "name": "Genitourinary & Renal",
+      "shard": "genitourinary_renal",
+      "conditionCount": 18
+    },
+    {
+      "id": "eye_ear_nose_throat",
+      "name": "Eye Ear Nose & Throat",
+      "shard": "eye_ear_nose_throat",
+      "conditionCount": 18
+    },
+    {
+      "id": "womens_reproductive_health",
+      "name": "Womens & Reproductive Health",
+      "shard": "womens_reproductive_health",
+      "conditionCount": 17
+    },
+    {
+      "id": "nutrition_blood",
+      "name": "Nutrition & Blood",
+      "shard": "nutrition_blood",
+      "conditionCount": 16
+    }
+  ],
+  "conditions": [
+    {
+      "id": "cond_acid_reflux_heartburn",
+      "name": "Acid reflux / Heartburn (Gastroesophageal Reflux Disease, GERD)",
+      "aliases": [
+        "GERD",
+        "acid reflux",
+        "heartburn",
+        "reflux"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "acid reflux / heartburn (gastroesophageal reflux disease, gerd)"
+    },
+    {
+      "id": "cond_acne",
+      "name": "Acne (Acne vulgaris)",
+      "aliases": [
+        "acne",
+        "pimples",
+        "zits",
+        "breakouts"
+      ],
+      "category": "dermatology",
+      "nameLower": "acne (acne vulgaris)"
+    },
+    {
+      "id": "cond_acromegaly",
+      "name": "Acromegaly (Growth hormone excess)",
+      "aliases": [
+        "growth hormone excess",
+        "GH excess"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "acromegaly (growth hormone excess)"
+    },
+    {
+      "id": "cond_actinic_keratosis",
+      "name": "Actinic keratosis (Precancerous sun damage)",
+      "aliases": [
+        "actinic keratosis",
+        "solar keratosis",
+        "sun spots",
+        "precancerous lesions"
+      ],
+      "category": "dermatology",
+      "nameLower": "actinic keratosis (precancerous sun damage)"
+    },
+    {
+      "id": "cond_acute_bronchitis",
+      "name": "Acute bronchitis (Chest cold)",
+      "aliases": [
+        "chest cold",
+        "viral bronchitis"
+      ],
+      "category": "respiratory",
+      "nameLower": "acute bronchitis (chest cold)"
+    },
+    {
+      "id": "cond_acute_moderate_to_severe_pain",
+      "name": "Acute Moderate to Severe Pain (Opioid-Responsive Pain)",
+      "aliases": [
+        "severe pain",
+        "post-surgical pain",
+        "acute pain"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "acute moderate to severe pain (opioid-responsive pain)"
+    },
+    {
+      "id": "cond_acute_pyelonephritis",
+      "name": "Acute pyelonephritis (kidney infection)",
+      "aliases": [
+        "kidney infection",
+        "pyelonephritis",
+        "upper UTI"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "acute pyelonephritis (kidney infection)"
+    },
+    {
+      "id": "cond_acute_upper_respiratory_infection",
+      "name": "Acute upper respiratory infection (Common cold)",
+      "aliases": [
+        "common cold",
+        "URI",
+        "head cold"
+      ],
+      "category": "respiratory",
+      "nameLower": "acute upper respiratory infection (common cold)"
+    },
+    {
+      "id": "cond_adrenal_insufficiency",
+      "name": "Adrenal insufficiency (Addison disease)",
+      "aliases": [
+        "Addison disease",
+        "primary adrenal insufficiency",
+        "adrenal failure"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "adrenal insufficiency (addison disease)"
+    },
+    {
+      "id": "cond_alcohol_use_disorder",
+      "name": "Alcohol use disorder (Alcohol dependence)",
+      "aliases": [
+        "Alcoholism",
+        "Alcohol addiction"
+      ],
+      "category": "mental_health",
+      "nameLower": "alcohol use disorder (alcohol dependence)"
+    },
+    {
+      "id": "cond_allergic_conjunctivitis",
+      "name": "Allergic conjunctivitis (Eye allergy)",
+      "aliases": [
+        "eye allergy",
+        "ocular allergy"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "allergic conjunctivitis (eye allergy)"
+    },
+    {
+      "id": "cond_allergic_contact_dermatitis",
+      "name": "Allergic contact dermatitis (Contact allergy)",
+      "aliases": [
+        "contact dermatitis",
+        "contact allergy"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "allergic contact dermatitis (contact allergy)"
+    },
+    {
+      "id": "cond_allergic_rhinitis",
+      "name": "Allergic rhinitis (Hay fever)",
+      "aliases": [
+        "hay fever",
+        "seasonal allergies",
+        "nasal allergies",
+        "rhinitis"
+      ],
+      "category": "respiratory",
+      "nameLower": "allergic rhinitis (hay fever)"
+    },
+    {
+      "id": "cond_alzheimer_dementia",
+      "name": "Alzheimer dementia (Alzheimer's disease)",
+      "aliases": [
+        "Alzheimers",
+        "AD",
+        "Alzheimer dementia"
+      ],
+      "category": "neurological",
+      "nameLower": "alzheimer dementia (alzheimer's disease)"
+    },
+    {
+      "id": "cond_anaphylaxis",
+      "name": "Anaphylaxis (Severe systemic allergic reaction)",
+      "aliases": [
+        "anaphylactic shock",
+        "severe allergic reaction"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "anaphylaxis (severe systemic allergic reaction)"
+    },
+    {
+      "id": "cond_angina",
+      "name": "Angina (Chest pain from reduced blood flow)",
+      "aliases": [
+        "angina pectoris",
+        "stable angina",
+        "chest pain"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "angina (chest pain from reduced blood flow)"
+    },
+    {
+      "id": "cond_ankylosing_spondylitis",
+      "name": "Ankylosing Spondylitis (Axial Spondyloarthritis)",
+      "aliases": [
+        "AS",
+        "axial spondyloarthritis",
+        "Bechterew disease"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "ankylosing spondylitis (axial spondyloarthritis)"
+    },
+    {
+      "id": "cond_asthma",
+      "name": "Asthma (Bronchial asthma)",
+      "aliases": [
+        "reactive airway disease",
+        "bronchial asthma"
+      ],
+      "category": "respiratory",
+      "nameLower": "asthma (bronchial asthma)"
+    },
+    {
+      "id": "cond_athlete_s_foot_and_ringworm",
+      "name": "Athlete's foot and ringworm (Dermatophytosis)",
+      "aliases": [
+        "athlete's foot",
+        "ringworm",
+        "tinea",
+        "jock itch",
+        "dermatophytosis"
+      ],
+      "category": "infections",
+      "nameLower": "athlete's foot and ringworm (dermatophytosis)"
+    },
+    {
+      "id": "cond_athlete_s_foot_and_ringworm_2",
+      "name": "Athlete's foot and ringworm (Tinea / dermatophyte infection)",
+      "aliases": [
+        "athlete's foot",
+        "ringworm",
+        "tinea",
+        "jock itch",
+        "tinea pedis",
+        "tinea corporis",
+        "fungal skin infection"
+      ],
+      "category": "dermatology",
+      "nameLower": "athlete's foot and ringworm (tinea / dermatophyte infection)"
+    },
+    {
+      "id": "cond_atrial_fibrillation",
+      "name": "Atrial fibrillation (AFib)",
+      "aliases": [
+        "AFib",
+        "AF",
+        "irregular heartbeat"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "atrial fibrillation (afib)"
+    },
+    {
+      "id": "cond_attention_deficit_hyperactivity_disorder",
+      "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+      "aliases": [
+        "ADHD",
+        "ADD",
+        "attention deficit disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "attention-deficit/hyperactivity disorder (adhd)"
+    },
+    {
+      "id": "cond_bacterial_skin_infection",
+      "name": "Bacterial skin infection (Cellulitis / impetigo)",
+      "aliases": [
+        "cellulitis",
+        "impetigo",
+        "skin infection",
+        "bacterial skin infection"
+      ],
+      "category": "dermatology",
+      "nameLower": "bacterial skin infection (cellulitis / impetigo)"
+    },
+    {
+      "id": "cond_bacterial_vaginosis",
+      "name": "Bacterial Vaginosis (BV)",
+      "aliases": [
+        "BV",
+        "bacterial vaginosis",
+        "vaginal bacterial infection"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "bacterial vaginosis (bv)"
+    },
+    {
+      "id": "cond_bell_s_palsy",
+      "name": "Bell's palsy (Facial nerve palsy)",
+      "aliases": [
+        "Idiopathic facial paralysis",
+        "Facial palsy"
+      ],
+      "category": "neurological",
+      "nameLower": "bell's palsy (facial nerve palsy)"
+    },
+    {
+      "id": "cond_benign_prostatic_hyperplasia",
+      "name": "Benign prostatic hyperplasia (BPH)",
+      "aliases": [
+        "BPH",
+        "enlarged prostate",
+        "prostate enlargement",
+        "lower urinary tract symptoms"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "benign prostatic hyperplasia (bph)"
+    },
+    {
+      "id": "cond_benign_prostatic_hyperplasia_related_urinary_retention_chronic_prostatitis",
+      "name": "Benign prostatic hyperplasia-related urinary retention / chronic prostatitis (Prostatitis)",
+      "aliases": [
+        "prostatitis",
+        "chronic pelvic pain syndrome",
+        "CP/CPPS",
+        "prostate infection"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "benign prostatic hyperplasia-related urinary retention / chronic prostatitis (prostatitis)"
+    },
+    {
+      "id": "cond_bipolar_depression",
+      "name": "Bipolar Depression (Bipolar Depressive Episode)",
+      "aliases": [
+        "bipolar depression",
+        "depressive phase of bipolar"
+      ],
+      "category": "mental_health",
+      "nameLower": "bipolar depression (bipolar depressive episode)"
+    },
+    {
+      "id": "cond_bipolar_disorder",
+      "name": "Bipolar Disorder",
+      "aliases": [
+        "manic depression",
+        "bipolar",
+        "bipolar affective disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "bipolar disorder"
+    },
+    {
+      "id": "cond_bronchiectasis",
+      "name": "Bronchiectasis (Widened damaged airways)",
+      "aliases": [
+        "non-CF bronchiectasis"
+      ],
+      "category": "respiratory",
+      "nameLower": "bronchiectasis (widened damaged airways)"
+    },
+    {
+      "id": "cond_bursitis_and_tendinitis",
+      "name": "Bursitis and Tendinitis",
+      "aliases": [
+        "bursitis",
+        "tendinitis",
+        "tendonitis",
+        "tendinopathy"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "bursitis and tendinitis"
+    },
+    {
+      "id": "cond_c_difficile_infection",
+      "name": "C. difficile infection (Pseudomembranous colitis)",
+      "aliases": [
+        "C. diff",
+        "C diff",
+        "Clostridioides difficile infection",
+        "CDI"
+      ],
+      "category": "infections",
+      "nameLower": "c. difficile infection (pseudomembranous colitis)"
+    },
+    {
+      "id": "cond_celiac_disease",
+      "name": "Celiac disease (Gluten-sensitive enteropathy)",
+      "aliases": [
+        "Celiac sprue",
+        "Gluten intolerance (autoimmune)"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "celiac disease (gluten-sensitive enteropathy)"
+    },
+    {
+      "id": "cond_chlamydia",
+      "name": "Chlamydia",
+      "aliases": [
+        "chlamydia",
+        "Chlamydia trachomatis infection"
+      ],
+      "category": "infections",
+      "nameLower": "chlamydia"
+    },
+    {
+      "id": "cond_chronic_cough",
+      "name": "Chronic cough (Persistent cough)",
+      "aliases": [
+        "persistent cough",
+        "chronic refractory cough"
+      ],
+      "category": "respiratory",
+      "nameLower": "chronic cough (persistent cough)"
+    },
+    {
+      "id": "cond_chronic_hives",
+      "name": "Chronic hives (Chronic spontaneous urticaria)",
+      "aliases": [
+        "CSU",
+        "chronic urticaria",
+        "hives",
+        "CIU"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "chronic hives (chronic spontaneous urticaria)"
+    },
+    {
+      "id": "cond_chronic_kidney_disease",
+      "name": "Chronic kidney disease (CKD)",
+      "aliases": [
+        "CKD",
+        "chronic renal failure",
+        "renal insufficiency"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "chronic kidney disease (ckd)"
+    },
+    {
+      "id": "cond_chronic_obstructive_pulmonary_disease",
+      "name": "Chronic obstructive pulmonary disease (COPD)",
+      "aliases": [
+        "COPD",
+        "chronic bronchitis and emphysema"
+      ],
+      "category": "respiratory",
+      "nameLower": "chronic obstructive pulmonary disease (copd)"
+    },
+    {
+      "id": "cond_ckd_mineral_and_bone_disorder_hyperphosphatemia",
+      "name": "CKD-mineral and bone disorder / Hyperphosphatemia",
+      "aliases": [
+        "hyperphosphatemia",
+        "renal bone disease",
+        "CKD-MBD",
+        "secondary hyperparathyroidism"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "ckd-mineral and bone disorder / hyperphosphatemia"
+    },
+    {
+      "id": "cond_clostridioides_difficile_infection",
+      "name": "Clostridioides difficile infection (C. diff Colitis)",
+      "aliases": [
+        "C. diff",
+        "C. difficile",
+        "pseudomembranous colitis"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "clostridioides difficile infection (c. diff colitis)"
+    },
+    {
+      "id": "cond_cluster_headache",
+      "name": "Cluster headache (Cluster headache)",
+      "aliases": [
+        "cluster headaches",
+        "suicide headache"
+      ],
+      "category": "neurological",
+      "nameLower": "cluster headache (cluster headache)"
+    },
+    {
+      "id": "cond_cold_sores",
+      "name": "Cold sores (Herpes labialis)",
+      "aliases": [
+        "cold sores",
+        "fever blisters",
+        "herpes labialis",
+        "oral herpes"
+      ],
+      "category": "dermatology",
+      "nameLower": "cold sores (herpes labialis)"
+    },
+    {
+      "id": "cond_community_acquired_pneumonia_2",
+      "name": "Community-acquired pneumonia (CAP)",
+      "aliases": [
+        "pneumonia",
+        "CAP",
+        "lung infection",
+        "chest infection"
+      ],
+      "category": "infections",
+      "nameLower": "community-acquired pneumonia (cap)"
+    },
+    {
+      "id": "cond_community_acquired_pneumonia",
+      "name": "Community-acquired pneumonia (Lung infection)",
+      "aliases": [
+        "CAP",
+        "pneumonia",
+        "chest infection"
+      ],
+      "category": "respiratory",
+      "nameLower": "community-acquired pneumonia (lung infection)"
+    },
+    {
+      "id": "cond_constipation",
+      "name": "Constipation (Chronic Idiopathic Constipation)",
+      "aliases": [
+        "constipation",
+        "CIC",
+        "chronic constipation"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "constipation (chronic idiopathic constipation)"
+    },
+    {
+      "id": "cond_contact_dermatitis",
+      "name": "Contact dermatitis (Allergic / irritant rash)",
+      "aliases": [
+        "contact dermatitis",
+        "allergic rash",
+        "irritant dermatitis",
+        "poison ivy rash"
+      ],
+      "category": "dermatology",
+      "nameLower": "contact dermatitis (allergic / irritant rash)"
+    },
+    {
+      "id": "cond_contraception",
+      "name": "Contraception (Birth Control)",
+      "aliases": [
+        "birth control",
+        "the pill",
+        "family planning",
+        "preventing pregnancy"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "contraception (birth control)"
+    },
+    {
+      "id": "cond_coronary_artery_disease",
+      "name": "Coronary artery disease (CAD)",
+      "aliases": [
+        "CAD",
+        "coronary heart disease",
+        "ischemic heart disease"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "coronary artery disease (cad)"
+    },
+    {
+      "id": "cond_covid_19",
+      "name": "COVID-19 (SARS-CoV-2 infection)",
+      "aliases": [
+        "Coronavirus disease 2019",
+        "SARS-CoV-2"
+      ],
+      "category": "infections",
+      "nameLower": "covid-19 (sars-cov-2 infection)"
+    },
+    {
+      "id": "cond_crohn_disease",
+      "name": "Crohn disease (Crohn's Disease)",
+      "aliases": [
+        "Crohn's",
+        "Crohn disease",
+        "regional enteritis",
+        "IBD"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "crohn disease (crohn's disease)"
+    },
+    {
+      "id": "cond_croup",
+      "name": "Croup (Laryngotracheobronchitis)",
+      "aliases": [
+        "laryngotracheobronchitis",
+        "viral croup"
+      ],
+      "category": "respiratory",
+      "nameLower": "croup (laryngotracheobronchitis)"
+    },
+    {
+      "id": "cond_cushing_syndrome",
+      "name": "Cushing syndrome (Hypercortisolism)",
+      "aliases": [
+        "Cushing disease",
+        "hypercortisolism",
+        "excess cortisol"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "cushing syndrome (hypercortisolism)"
+    },
+    {
+      "id": "cond_cystic_fibrosis",
+      "name": "Cystic fibrosis (Inherited lung and mucus disorder)",
+      "aliases": [
+        "CF"
+      ],
+      "category": "respiratory",
+      "nameLower": "cystic fibrosis (inherited lung and mucus disorder)"
+    },
+    {
+      "id": "cond_deep_vein_thrombosis_blood_clots",
+      "name": "Deep vein thrombosis / Blood clots (DVT / VTE)",
+      "aliases": [
+        "DVT",
+        "VTE",
+        "venous thromboembolism",
+        "blood clot"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "deep vein thrombosis / blood clots (dvt / vte)"
+    },
+    {
+      "id": "cond_depression",
+      "name": "Depression (Major Depressive Disorder)",
+      "aliases": [
+        "MDD",
+        "clinical depression",
+        "unipolar depression",
+        "depression"
+      ],
+      "category": "mental_health",
+      "nameLower": "depression (major depressive disorder)"
+    },
+    {
+      "id": "cond_diabetes_insipidus",
+      "name": "Diabetes insipidus (Arginine vasopressin deficiency)",
+      "aliases": [
+        "AVP deficiency",
+        "water diabetes",
+        "central diabetes insipidus"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "diabetes insipidus (arginine vasopressin deficiency)"
+    },
+    {
+      "id": "cond_diabetic_kidney_disease",
+      "name": "Diabetic kidney disease (Diabetic nephropathy)",
+      "aliases": [
+        "diabetic nephropathy",
+        "diabetic kidney disease",
+        "DKD"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "diabetic kidney disease (diabetic nephropathy)"
+    },
+    {
+      "id": "cond_diabetic_peripheral_neuropathy",
+      "name": "Diabetic peripheral neuropathy (Diabetic neuropathy)",
+      "aliases": [
+        "DPN",
+        "diabetic nerve pain",
+        "painful diabetic neuropathy"
+      ],
+      "category": "neurological",
+      "nameLower": "diabetic peripheral neuropathy (diabetic neuropathy)"
+    },
+    {
+      "id": "cond_diarrhea",
+      "name": "Diarrhea (Acute and Chronic Diarrhea)",
+      "aliases": [
+        "diarrhea",
+        "loose stools"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "diarrhea (acute and chronic diarrhea)"
+    },
+    {
+      "id": "cond_dizziness_vertigo",
+      "name": "Dizziness / Vertigo (Benign paroxysmal positional vertigo)",
+      "aliases": [
+        "BPPV",
+        "Vertigo",
+        "Vestibular dizziness",
+        "Meniere disease"
+      ],
+      "category": "neurological",
+      "nameLower": "dizziness / vertigo (benign paroxysmal positional vertigo)"
+    },
+    {
+      "id": "cond_drug_allergy",
+      "name": "Drug allergy (Drug hypersensitivity)",
+      "aliases": [
+        "medication allergy",
+        "drug hypersensitivity"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "drug allergy (drug hypersensitivity)"
+    },
+    {
+      "id": "cond_dry_eye_disease",
+      "name": "Dry eye disease (Keratoconjunctivitis sicca)",
+      "aliases": [
+        "dry eyes",
+        "DED"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "dry eye disease (keratoconjunctivitis sicca)"
+    },
+    {
+      "id": "cond_ear_infection",
+      "name": "Ear infection (Acute otitis media)",
+      "aliases": [
+        "middle ear infection",
+        "AOM"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "ear infection (acute otitis media)"
+    },
+    {
+      "id": "cond_earwax_buildup",
+      "name": "Earwax buildup (Cerumen impaction)",
+      "aliases": [
+        "earwax",
+        "cerumen impaction",
+        "blocked ear"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "earwax buildup (cerumen impaction)"
+    },
+    {
+      "id": "cond_eczema",
+      "name": "Eczema (Atopic dermatitis)",
+      "aliases": [
+        "eczema",
+        "atopic eczema",
+        "dermatitis"
+      ],
+      "category": "dermatology",
+      "nameLower": "eczema (atopic dermatitis)"
+    },
+    {
+      "id": "cond_eczema_2",
+      "name": "Eczema (Atopic dermatitis)",
+      "aliases": [
+        "atopic dermatitis",
+        "AD",
+        "eczema"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "eczema (atopic dermatitis)"
+    },
+    {
+      "id": "cond_emergency_contraception",
+      "name": "Emergency Contraception (Morning-After)",
+      "aliases": [
+        "morning after pill",
+        "Plan B",
+        "emergency birth control"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "emergency contraception (morning-after)"
+    },
+    {
+      "id": "cond_endometriosis",
+      "name": "Endometriosis",
+      "aliases": [
+        "endo",
+        "endometriosis"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "endometriosis"
+    },
+    {
+      "id": "cond_eosinophilic_esophagitis",
+      "name": "Eosinophilic esophagitis (EoE)",
+      "aliases": [
+        "EoE",
+        "eosinophilic esophagitis"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "eosinophilic esophagitis (eoe)"
+    },
+    {
+      "id": "cond_epilepsy_seizure_disorder",
+      "name": "Epilepsy / Seizure disorder (Epilepsy)",
+      "aliases": [
+        "seizures",
+        "seizure disorder",
+        "convulsions"
+      ],
+      "category": "neurological",
+      "nameLower": "epilepsy / seizure disorder (epilepsy)"
+    },
+    {
+      "id": "cond_erectile_dysfunction",
+      "name": "Erectile dysfunction (ED)",
+      "aliases": [
+        "ED",
+        "impotence",
+        "erectile disorder"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "erectile dysfunction (ed)"
+    },
+    {
+      "id": "cond_essential_tremor",
+      "name": "Essential tremor (Essential tremor)",
+      "aliases": [
+        "ET",
+        "benign essential tremor",
+        "familial tremor"
+      ],
+      "category": "neurological",
+      "nameLower": "essential tremor (essential tremor)"
+    },
+    {
+      "id": "cond_excess_stomach_gas_and_bloating",
+      "name": "Excess stomach gas and bloating (Flatulence)",
+      "aliases": [
+        "gas",
+        "bloating",
+        "flatulence"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "excess stomach gas and bloating (flatulence)"
+    },
+    {
+      "id": "cond_eye_allergies",
+      "name": "Eye allergies (Allergic conjunctivitis)",
+      "aliases": [
+        "allergic pink eye",
+        "eye allergy"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "eye allergies (allergic conjunctivitis)"
+    },
+    {
+      "id": "cond_eye_herpes_infection",
+      "name": "Eye herpes infection (Herpetic keratitis)",
+      "aliases": [
+        "herpes keratitis",
+        "herpes simplex eye infection"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "eye herpes infection (herpetic keratitis)"
+    },
+    {
+      "id": "cond_eye_inflammation",
+      "name": "Eye inflammation (Uveitis / Iritis)",
+      "aliases": [
+        "iritis",
+        "uveitis",
+        "inflamed eye"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "eye inflammation (uveitis / iritis)"
+    },
+    {
+      "id": "cond_fatty_liver_disease",
+      "name": "Fatty liver disease (MASLD / NAFLD / NASH)",
+      "aliases": [
+        "Non-alcoholic fatty liver disease",
+        "NAFLD",
+        "NASH",
+        "MASLD",
+        "Hepatic steatosis"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "fatty liver disease (masld / nafld / nash)"
+    },
+    {
+      "id": "cond_female_infertility_ovulation_induction",
+      "name": "Female Infertility & Ovulation Induction (Anovulation)",
+      "aliases": [
+        "infertility",
+        "ovulation induction",
+        "fertility treatment",
+        "anovulation"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "female infertility & ovulation induction (anovulation)"
+    },
+    {
+      "id": "cond_fibromyalgia",
+      "name": "Fibromyalgia",
+      "aliases": [
+        "FM",
+        "fibromyalgia syndrome",
+        "FMS"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "fibromyalgia"
+    },
+    {
+      "id": "cond_folate_deficiency",
+      "name": "Folate deficiency (Folic acid deficiency)",
+      "aliases": [
+        "folate deficiency anemia",
+        "low folate",
+        "vitamin B9 deficiency"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "folate deficiency (folic acid deficiency)"
+    },
+    {
+      "id": "cond_food_allergy",
+      "name": "Food allergy (IgE-mediated food allergy)",
+      "aliases": [
+        "peanut allergy",
+        "food hypersensitivity"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "food allergy (ige-mediated food allergy)"
+    },
+    {
+      "id": "cond_food_poisoning_traveler_s_diarrhea",
+      "name": "Food poisoning / Traveler's diarrhea (Bacterial gastroenteritis)",
+      "aliases": [
+        "Traveler's diarrhea",
+        "Gastroenteritis",
+        "Stomach bug"
+      ],
+      "category": "infections",
+      "nameLower": "food poisoning / traveler's diarrhea (bacterial gastroenteritis)"
+    },
+    {
+      "id": "cond_fungal_nail_infection",
+      "name": "Fungal nail infection (Onychomycosis)",
+      "aliases": [
+        "nail fungus",
+        "onychomycosis",
+        "tinea unguium",
+        "toenail fungus"
+      ],
+      "category": "dermatology",
+      "nameLower": "fungal nail infection (onychomycosis)"
+    },
+    {
+      "id": "cond_gallstones",
+      "name": "Gallstones (Cholelithiasis)",
+      "aliases": [
+        "Cholelithiasis",
+        "Biliary colic"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "gallstones (cholelithiasis)"
+    },
+    {
+      "id": "cond_gastroparesis",
+      "name": "Gastroparesis (Delayed Gastric Emptying)",
+      "aliases": [
+        "gastroparesis",
+        "delayed gastric emptying"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "gastroparesis (delayed gastric emptying)"
+    },
+    {
+      "id": "cond_general_multivitamin_support",
+      "name": "General multivitamin support (Nutritional supplementation)",
+      "aliases": [
+        "multivitamin",
+        "vitamin supplementation",
+        "micronutrient support"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "general multivitamin support (nutritional supplementation)"
+    },
+    {
+      "id": "cond_general_pain_and_fever",
+      "name": "General Pain and Fever",
+      "aliases": [
+        "fever",
+        "pyrexia",
+        "mild to moderate pain",
+        "analgesia"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "general pain and fever"
+    },
+    {
+      "id": "cond_generalized_anxiety_disorder",
+      "name": "Generalized Anxiety Disorder (GAD)",
+      "aliases": [
+        "GAD",
+        "chronic anxiety",
+        "generalized anxiety"
+      ],
+      "category": "mental_health",
+      "nameLower": "generalized anxiety disorder (gad)"
+    },
+    {
+      "id": "cond_glaucoma",
+      "name": "Glaucoma (Open-angle glaucoma)",
+      "aliases": [
+        "high eye pressure",
+        "ocular hypertension",
+        "POAG"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "glaucoma (open-angle glaucoma)"
+    },
+    {
+      "id": "cond_gonorrhea",
+      "name": "Gonorrhea",
+      "aliases": [
+        "gonorrhea",
+        "the clap",
+        "GC"
+      ],
+      "category": "infections",
+      "nameLower": "gonorrhea"
+    },
+    {
+      "id": "cond_gout",
+      "name": "Gout (Gouty arthritis)",
+      "aliases": [
+        "hyperuricemia",
+        "gouty arthritis",
+        "high uric acid"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "gout (gouty arthritis)"
+    },
+    {
+      "id": "cond_gout_2",
+      "name": "Gout (Gouty Arthritis)",
+      "aliases": [
+        "gouty arthritis",
+        "urate crystal arthropathy"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "gout (gouty arthritis)"
+    },
+    {
+      "id": "cond_gout_related_nephropathy_hyperuricemia",
+      "name": "Gout-related nephropathy / Hyperuricemia",
+      "aliases": [
+        "hyperuricemia",
+        "gout",
+        "uric acid nephropathy",
+        "high uric acid"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "gout-related nephropathy / hyperuricemia"
+    },
+    {
+      "id": "cond_h_pylori_infection",
+      "name": "H. pylori infection (Helicobacter pylori Gastritis)",
+      "aliases": [
+        "H. pylori",
+        "Helicobacter pylori",
+        "stomach bacteria infection"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "h. pylori infection (helicobacter pylori gastritis)"
+    },
+    {
+      "id": "cond_hair_loss",
+      "name": "Hair loss (Androgenetic alopecia)",
+      "aliases": [
+        "Male pattern baldness",
+        "Female pattern hair loss",
+        "Androgenic alopecia"
+      ],
+      "category": "dermatology",
+      "nameLower": "hair loss (androgenetic alopecia)"
+    },
+    {
+      "id": "cond_hay_fever",
+      "name": "Hay fever (Allergic rhinitis)",
+      "aliases": [
+        "hay fever",
+        "nasal allergies",
+        "seasonal allergies"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "hay fever (allergic rhinitis)"
+    },
+    {
+      "id": "cond_head_lice",
+      "name": "Head lice (Pediculosis)",
+      "aliases": [
+        "head lice",
+        "lice",
+        "pediculosis",
+        "nits"
+      ],
+      "category": "dermatology",
+      "nameLower": "head lice (pediculosis)"
+    },
+    {
+      "id": "cond_heart_attack_recovery",
+      "name": "Heart attack recovery (Post-myocardial infarction)",
+      "aliases": [
+        "heart attack",
+        "MI",
+        "post-MI",
+        "myocardial infarction"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "heart attack recovery (post-myocardial infarction)"
+    },
+    {
+      "id": "cond_heart_failure",
+      "name": "Heart failure (Congestive heart failure)",
+      "aliases": [
+        "CHF",
+        "HFrEF",
+        "congestive heart failure"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "heart failure (congestive heart failure)"
+    },
+    {
+      "id": "cond_heavy_menstrual_bleeding",
+      "name": "Heavy Menstrual Bleeding (Menorrhagia)",
+      "aliases": [
+        "heavy periods",
+        "menorrhagia",
+        "abnormal uterine bleeding",
+        "HMB"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "heavy menstrual bleeding (menorrhagia)"
+    },
+    {
+      "id": "cond_helicobacter_pylori_infection",
+      "name": "Helicobacter pylori infection (Stomach ulcer-related)",
+      "aliases": [
+        "H. pylori",
+        "H pylori",
+        "stomach ulcer infection",
+        "peptic ulcer infection"
+      ],
+      "category": "infections",
+      "nameLower": "helicobacter pylori infection (stomach ulcer-related)"
+    },
+    {
+      "id": "cond_hemorrhoids",
+      "name": "Hemorrhoids (Piles)",
+      "aliases": [
+        "hemorrhoids",
+        "piles",
+        "haemorrhoids"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "hemorrhoids (piles)"
+    },
+    {
+      "id": "cond_hepatitis_b",
+      "name": "Hepatitis B (Chronic hepatitis B infection)",
+      "aliases": [
+        "HBV infection",
+        "Chronic HBV"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "hepatitis b (chronic hepatitis b infection)"
+    },
+    {
+      "id": "cond_hepatitis_c",
+      "name": "Hepatitis C (Chronic hepatitis C infection)",
+      "aliases": [
+        "HCV infection",
+        "Chronic HCV"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "hepatitis c (chronic hepatitis c infection)"
+    },
+    {
+      "id": "cond_hereditary_angioedema",
+      "name": "Hereditary angioedema (C1 inhibitor deficiency)",
+      "aliases": [
+        "HAE",
+        "C1 inhibitor deficiency"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "hereditary angioedema (c1 inhibitor deficiency)"
+    },
+    {
+      "id": "cond_herpes_simplex",
+      "name": "Herpes simplex (Cold sores / Genital herpes)",
+      "aliases": [
+        "herpes",
+        "HSV",
+        "cold sores",
+        "genital herpes"
+      ],
+      "category": "infections",
+      "nameLower": "herpes simplex (cold sores / genital herpes)"
+    },
+    {
+      "id": "cond_hidradenitis_suppurativa",
+      "name": "Hidradenitis suppurativa (Acne inversa)",
+      "aliases": [
+        "Acne inversa",
+        "HS"
+      ],
+      "category": "dermatology",
+      "nameLower": "hidradenitis suppurativa (acne inversa)"
+    },
+    {
+      "id": "cond_high_blood_pressure",
+      "name": "High blood pressure (Hypertension)",
+      "aliases": [
+        "HTN",
+        "high BP",
+        "elevated blood pressure"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "high blood pressure (hypertension)"
+    },
+    {
+      "id": "cond_high_cholesterol",
+      "name": "High cholesterol (Hyperlipidemia / Dyslipidemia)",
+      "aliases": [
+        "hyperlipidemia",
+        "dyslipidemia",
+        "high LDL"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "high cholesterol (hyperlipidemia / dyslipidemia)"
+    },
+    {
+      "id": "cond_high_cholesterol_2",
+      "name": "High cholesterol (Hyperlipidemia)",
+      "aliases": [
+        "dyslipidemia",
+        "hyperlipidemia",
+        "high blood lipids",
+        "high LDL"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "high cholesterol (hyperlipidemia)"
+    },
+    {
+      "id": "cond_high_potassium",
+      "name": "High potassium (Hyperkalemia)",
+      "aliases": [
+        "elevated potassium",
+        "high blood potassium"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "high potassium (hyperkalemia)"
+    },
+    {
+      "id": "cond_hiv_infection",
+      "name": "HIV infection (Human immunodeficiency virus)",
+      "aliases": [
+        "HIV/AIDS",
+        "Acquired immunodeficiency syndrome"
+      ],
+      "category": "infections",
+      "nameLower": "hiv infection (human immunodeficiency virus)"
+    },
+    {
+      "id": "cond_hives",
+      "name": "Hives (Chronic urticaria)",
+      "aliases": [
+        "hives",
+        "urticaria",
+        "chronic spontaneous urticaria",
+        "CSU",
+        "welts"
+      ],
+      "category": "dermatology",
+      "nameLower": "hives (chronic urticaria)"
+    },
+    {
+      "id": "cond_hyperkalemia_in_renal_disease",
+      "name": "Hyperkalemia in renal disease (High potassium)",
+      "aliases": [
+        "hyperkalemia",
+        "high potassium",
+        "elevated potassium"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "hyperkalemia in renal disease (high potassium)"
+    },
+    {
+      "id": "cond_hyperprolactinemia",
+      "name": "Hyperprolactinemia (High prolactin / prolactinoma)",
+      "aliases": [
+        "high prolactin",
+        "prolactinoma",
+        "elevated prolactin"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "hyperprolactinemia (high prolactin / prolactinoma)"
+    },
+    {
+      "id": "cond_hypoparathyroidism",
+      "name": "Hypoparathyroidism (Low parathyroid hormone)",
+      "aliases": [
+        "low parathyroid hormone",
+        "low calcium",
+        "hypocalcemia"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "hypoparathyroidism (low parathyroid hormone)"
+    },
+    {
+      "id": "cond_idiopathic_pulmonary_fibrosis",
+      "name": "Idiopathic pulmonary fibrosis (Lung scarring)",
+      "aliases": [
+        "IPF",
+        "pulmonary fibrosis",
+        "interstitial lung disease"
+      ],
+      "category": "respiratory",
+      "nameLower": "idiopathic pulmonary fibrosis (lung scarring)"
+    },
+    {
+      "id": "cond_immunosuppression",
+      "name": "Immunosuppression (Transplant maintenance immunosuppression)",
+      "aliases": [
+        "transplant immunosuppression",
+        "anti-rejection therapy"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "immunosuppression (transplant maintenance immunosuppression)"
+    },
+    {
+      "id": "cond_indigestion",
+      "name": "Indigestion (Functional Dyspepsia)",
+      "aliases": [
+        "dyspepsia",
+        "indigestion",
+        "functional dyspepsia",
+        "upset stomach"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "indigestion (functional dyspepsia)"
+    },
+    {
+      "id": "cond_influenza",
+      "name": "Influenza (Flu)",
+      "aliases": [
+        "flu",
+        "influenza",
+        "seasonal flu"
+      ],
+      "category": "infections",
+      "nameLower": "influenza (flu)"
+    },
+    {
+      "id": "cond_insomnia",
+      "name": "Insomnia (Insomnia Disorder)",
+      "aliases": [
+        "sleeplessness",
+        "chronic insomnia",
+        "insomnia"
+      ],
+      "category": "mental_health",
+      "nameLower": "insomnia (insomnia disorder)"
+    },
+    {
+      "id": "cond_interstitial_cystitis",
+      "name": "Interstitial cystitis (Bladder pain syndrome)",
+      "aliases": [
+        "interstitial cystitis",
+        "IC",
+        "bladder pain syndrome",
+        "painful bladder syndrome"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "interstitial cystitis (bladder pain syndrome)"
+    },
+    {
+      "id": "cond_intestinal_worms",
+      "name": "Intestinal worms (Helminth / parasitic worm infection)",
+      "aliases": [
+        "Pinworm",
+        "Roundworm",
+        "Threadworm",
+        "Helminthiasis"
+      ],
+      "category": "infections",
+      "nameLower": "intestinal worms (helminth / parasitic worm infection)"
+    },
+    {
+      "id": "cond_iron_deficiency_anemia",
+      "name": "Iron-deficiency anemia (Iron-deficiency anaemia)",
+      "aliases": [
+        "IDA",
+        "low iron anemia",
+        "iron deficiency"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "iron-deficiency anemia (iron-deficiency anaemia)"
+    },
+    {
+      "id": "cond_irritable_bowel_syndrome_with_constipation",
+      "name": "Irritable bowel syndrome with constipation (IBS-C)",
+      "aliases": [
+        "IBS-C",
+        "constipation-predominant IBS"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "irritable bowel syndrome with constipation (ibs-c)"
+    },
+    {
+      "id": "cond_irritable_bowel_syndrome_with_diarrhea",
+      "name": "Irritable bowel syndrome with diarrhea (IBS-D)",
+      "aliases": [
+        "IBS-D",
+        "diarrhea-predominant IBS"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "irritable bowel syndrome with diarrhea (ibs-d)"
+    },
+    {
+      "id": "cond_kidney_infection",
+      "name": "Kidney infection (Pyelonephritis)",
+      "aliases": [
+        "pyelonephritis",
+        "upper UTI",
+        "kidney infection"
+      ],
+      "category": "infections",
+      "nameLower": "kidney infection (pyelonephritis)"
+    },
+    {
+      "id": "cond_kidney_stones",
+      "name": "Kidney stones (Nephrolithiasis)",
+      "aliases": [
+        "kidney stones",
+        "renal calculi",
+        "urolithiasis",
+        "nephrolithiasis"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "kidney stones (nephrolithiasis)"
+    },
+    {
+      "id": "cond_lactose_intolerance",
+      "name": "Lactose intolerance (Lactase deficiency)",
+      "aliases": [
+        "Dairy intolerance",
+        "Hypolactasia"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "lactose intolerance (lactase deficiency)"
+    },
+    {
+      "id": "cond_low_back_pain",
+      "name": "Low Back Pain (Lumbago)",
+      "aliases": [
+        "lumbago",
+        "back pain",
+        "lumbar pain"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "low back pain (lumbago)"
+    },
+    {
+      "id": "cond_low_blood_pressure",
+      "name": "Low blood pressure (Hypotension)",
+      "aliases": [
+        "Hypotension",
+        "Orthostatic hypotension",
+        "Postural hypotension"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "low blood pressure (hypotension)"
+    },
+    {
+      "id": "cond_low_blood_sugar",
+      "name": "Low blood sugar (Hypoglycemia)",
+      "aliases": [
+        "Hypoglycemia",
+        "Insulin reaction"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "low blood sugar (hypoglycemia)"
+    },
+    {
+      "id": "cond_low_calcium",
+      "name": "Low calcium (Hypocalcemia)",
+      "aliases": [
+        "calcium deficiency",
+        "low blood calcium"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "low calcium (hypocalcemia)"
+    },
+    {
+      "id": "cond_low_magnesium",
+      "name": "Low magnesium (Hypomagnesemia)",
+      "aliases": [
+        "magnesium deficiency",
+        "low blood magnesium"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "low magnesium (hypomagnesemia)"
+    },
+    {
+      "id": "cond_low_potassium",
+      "name": "Low potassium (Hypokalemia)",
+      "aliases": [
+        "potassium deficiency",
+        "low blood potassium"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "low potassium (hypokalemia)"
+    },
+    {
+      "id": "cond_low_testosterone",
+      "name": "Low testosterone (Male hypogonadism)",
+      "aliases": [
+        "Hypogonadism",
+        "Testosterone deficiency",
+        "Low T"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "low testosterone (male hypogonadism)"
+    },
+    {
+      "id": "cond_lupus",
+      "name": "Lupus (Systemic lupus erythematosus)",
+      "aliases": [
+        "SLE",
+        "Lupus"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "lupus (systemic lupus erythematosus)"
+    },
+    {
+      "id": "cond_malaria",
+      "name": "Malaria",
+      "aliases": [
+        "malaria",
+        "Plasmodium infection"
+      ],
+      "category": "infections",
+      "nameLower": "malaria"
+    },
+    {
+      "id": "cond_mastitis",
+      "name": "Mastitis (Breast infection during breastfeeding)",
+      "aliases": [
+        "Lactational mastitis",
+        "Breast infection"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "mastitis (breast infection during breastfeeding)"
+    },
+    {
+      "id": "cond_melasma",
+      "name": "Melasma (Hyperpigmentation)",
+      "aliases": [
+        "melasma",
+        "hyperpigmentation",
+        "dark spots",
+        "chloasma"
+      ],
+      "category": "dermatology",
+      "nameLower": "melasma (hyperpigmentation)"
+    },
+    {
+      "id": "cond_menopause_hormone_replacement_therapy",
+      "name": "Menopause & Hormone Replacement Therapy (Menopausal Symptoms)",
+      "aliases": [
+        "menopause",
+        "HRT",
+        "MHT",
+        "hot flashes",
+        "vasomotor symptoms",
+        "change of life"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "menopause & hormone replacement therapy (menopausal symptoms)"
+    },
+    {
+      "id": "cond_menstrual_pain",
+      "name": "Menstrual Pain (Dysmenorrhea)",
+      "aliases": [
+        "period pain",
+        "dysmenorrhea",
+        "menstrual cramps"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "menstrual pain (dysmenorrhea)"
+    },
+    {
+      "id": "cond_middle_ear_infection",
+      "name": "Middle ear infection (Otitis media)",
+      "aliases": [
+        "ear infection",
+        "otitis media",
+        "middle ear infection"
+      ],
+      "category": "infections",
+      "nameLower": "middle ear infection (otitis media)"
+    },
+    {
+      "id": "cond_migraine",
+      "name": "Migraine (Migraine headache)",
+      "aliases": [
+        "migraines",
+        "migraine attacks"
+      ],
+      "category": "neurological",
+      "nameLower": "migraine (migraine headache)"
+    },
+    {
+      "id": "cond_migraine_headache",
+      "name": "Migraine Headache",
+      "aliases": [
+        "migraine",
+        "migraine with aura"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "migraine headache"
+    },
+    {
+      "id": "cond_motion_sickness",
+      "name": "Motion sickness (Travel sickness)",
+      "aliases": [
+        "Travel sickness",
+        "Seasickness",
+        "Car sickness",
+        "Kinetosis"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "motion sickness (travel sickness)"
+    },
+    {
+      "id": "cond_mouth_ulcers_canker_sores",
+      "name": "Mouth ulcers / Canker sores (Aphthous stomatitis)",
+      "aliases": [
+        "Canker sores",
+        "Aphthous ulcers",
+        "Mouth sores"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "mouth ulcers / canker sores (aphthous stomatitis)"
+    },
+    {
+      "id": "cond_multiple_sclerosis",
+      "name": "Multiple sclerosis (Multiple sclerosis)",
+      "aliases": [
+        "MS",
+        "relapsing-remitting MS",
+        "RRMS"
+      ],
+      "category": "neurological",
+      "nameLower": "multiple sclerosis (multiple sclerosis)"
+    },
+    {
+      "id": "cond_muscle_and_joint_sprains_strains",
+      "name": "Muscle and joint sprains / strains (Acute soft tissue injury)",
+      "aliases": [
+        "Sprain",
+        "Strain",
+        "Sports injury"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "muscle and joint sprains / strains (acute soft tissue injury)"
+    },
+    {
+      "id": "cond_muscle_spasm",
+      "name": "Muscle Spasm (Muscle Cramp / Strain)",
+      "aliases": [
+        "muscle cramp",
+        "muscle strain",
+        "musculoskeletal spasm"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "muscle spasm (muscle cramp / strain)"
+    },
+    {
+      "id": "cond_myasthenia_gravis",
+      "name": "Myasthenia gravis (Myasthenia gravis)",
+      "aliases": [
+        "MG",
+        "autoimmune neuromuscular junction disorder"
+      ],
+      "category": "neurological",
+      "nameLower": "myasthenia gravis (myasthenia gravis)"
+    },
+    {
+      "id": "cond_narcolepsy",
+      "name": "Narcolepsy (Narcolepsy)",
+      "aliases": [
+        "chronic sleep disorder",
+        "excessive daytime sleepiness with cataplexy"
+      ],
+      "category": "neurological",
+      "nameLower": "narcolepsy (narcolepsy)"
+    },
+    {
+      "id": "cond_nasal_polyps",
+      "name": "Nasal polyps (Chronic rhinosinusitis with polyps)",
+      "aliases": [
+        "nasal polyposis",
+        "CRSwNP",
+        "chronic sinusitis with polyps"
+      ],
+      "category": "respiratory",
+      "nameLower": "nasal polyps (chronic rhinosinusitis with polyps)"
+    },
+    {
+      "id": "cond_nausea_vomiting_of_pregnancy",
+      "name": "Nausea & Vomiting of Pregnancy (Morning Sickness)",
+      "aliases": [
+        "morning sickness",
+        "hyperemesis gravidarum",
+        "pregnancy nausea"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "nausea & vomiting of pregnancy (morning sickness)"
+    },
+    {
+      "id": "cond_nausea_and_vomiting",
+      "name": "Nausea and vomiting (Emesis)",
+      "aliases": [
+        "nausea",
+        "vomiting",
+        "emesis",
+        "sickness"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "nausea and vomiting (emesis)"
+    },
+    {
+      "id": "cond_nephrotic_syndrome",
+      "name": "Nephrotic syndrome",
+      "aliases": [
+        "nephrotic syndrome",
+        "proteinuria syndrome"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "nephrotic syndrome"
+    },
+    {
+      "id": "cond_neuropathic_pain_2",
+      "name": "Neuropathic Pain (Nerve Pain)",
+      "aliases": [
+        "nerve pain",
+        "neuralgia",
+        "peripheral neuropathy"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "neuropathic pain (nerve pain)"
+    },
+    {
+      "id": "cond_neuropathic_pain",
+      "name": "Neuropathic pain (Neuropathic pain)",
+      "aliases": [
+        "nerve pain",
+        "neuralgia",
+        "peripheral neuropathy pain"
+      ],
+      "category": "neurological",
+      "nameLower": "neuropathic pain (neuropathic pain)"
+    },
+    {
+      "id": "cond_nicotine_dependence_smoking_cessation",
+      "name": "Nicotine dependence / Smoking cessation (Tobacco use disorder)",
+      "aliases": [
+        "Smoking cessation",
+        "Quit smoking",
+        "Tobacco dependence"
+      ],
+      "category": "mental_health",
+      "nameLower": "nicotine dependence / smoking cessation (tobacco use disorder)"
+    },
+    {
+      "id": "cond_nosebleeds",
+      "name": "Nosebleeds (Epistaxis)",
+      "aliases": [
+        "nosebleed",
+        "epistaxis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "nosebleeds (epistaxis)"
+    },
+    {
+      "id": "cond_obesity",
+      "name": "Obesity (Overweight / excess body weight)",
+      "aliases": [
+        "overweight",
+        "weight management",
+        "excess body weight"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "obesity (overweight / excess body weight)"
+    },
+    {
+      "id": "cond_obsessive_compulsive_and_related_body_dysmorphic_disorder",
+      "name": "Obsessive-Compulsive and Related: Body Dysmorphic Disorder (BDD)",
+      "aliases": [
+        "BDD",
+        "body dysmorphia",
+        "body dysmorphic disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "obsessive-compulsive and related: body dysmorphic disorder (bdd)"
+    },
+    {
+      "id": "cond_obsessive_compulsive_disorder",
+      "name": "Obsessive-Compulsive Disorder (OCD)",
+      "aliases": [
+        "OCD",
+        "obsessive compulsive disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "obsessive-compulsive disorder (ocd)"
+    },
+    {
+      "id": "cond_obstructive_sleep_apnea",
+      "name": "Obstructive sleep apnea (Sleep-related breathing disorder)",
+      "aliases": [
+        "OSA",
+        "sleep apnea"
+      ],
+      "category": "respiratory",
+      "nameLower": "obstructive sleep apnea (sleep-related breathing disorder)"
+    },
+    {
+      "id": "cond_opioid_use_disorder",
+      "name": "Opioid use disorder (Opioid dependence)",
+      "aliases": [
+        "Opioid addiction",
+        "Narcotic dependence"
+      ],
+      "category": "mental_health",
+      "nameLower": "opioid use disorder (opioid dependence)"
+    },
+    {
+      "id": "cond_oral_thrush",
+      "name": "Oral thrush (Oral candidiasis)",
+      "aliases": [
+        "Mouth yeast infection",
+        "Oropharyngeal candidiasis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "oral thrush (oral candidiasis)"
+    },
+    {
+      "id": "cond_osteoarthritis",
+      "name": "Osteoarthritis (Degenerative Joint Disease)",
+      "aliases": [
+        "OA",
+        "degenerative arthritis",
+        "wear-and-tear arthritis"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "osteoarthritis (degenerative joint disease)"
+    },
+    {
+      "id": "cond_osteoporosis",
+      "name": "Osteoporosis (Bone density loss)",
+      "aliases": [
+        "brittle bones",
+        "low bone density",
+        "osteopenia"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "osteoporosis (bone density loss)"
+    },
+    {
+      "id": "cond_osteoporosis_2",
+      "name": "Osteoporosis (Bone Fragility)",
+      "aliases": [
+        "brittle bones",
+        "low bone density",
+        "bone loss"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "osteoporosis (bone fragility)"
+    },
+    {
+      "id": "cond_overactive_bladder",
+      "name": "Overactive bladder (OAB)",
+      "aliases": [
+        "OAB",
+        "urge incontinence",
+        "urinary urgency"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "overactive bladder (oab)"
+    },
+    {
+      "id": "cond_overactive_thyroid",
+      "name": "Overactive thyroid (Hyperthyroidism)",
+      "aliases": [
+        "Graves disease",
+        "thyrotoxicosis",
+        "overactive thyroid gland"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "overactive thyroid (hyperthyroidism)"
+    },
+    {
+      "id": "cond_pancreatic_enzyme_insufficiency",
+      "name": "Pancreatic enzyme insufficiency (Exocrine Pancreatic Insufficiency)",
+      "aliases": [
+        "EPI",
+        "exocrine pancreatic insufficiency",
+        "pancreatic insufficiency"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "pancreatic enzyme insufficiency (exocrine pancreatic insufficiency)"
+    },
+    {
+      "id": "cond_panic_disorder",
+      "name": "Panic Disorder",
+      "aliases": [
+        "panic attacks",
+        "panic disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "panic disorder"
+    },
+    {
+      "id": "cond_parkinson_disease",
+      "name": "Parkinson disease (Parkinson's disease)",
+      "aliases": [
+        "Parkinsons",
+        "PD",
+        "parkinsonism"
+      ],
+      "category": "neurological",
+      "nameLower": "parkinson disease (parkinson's disease)"
+    },
+    {
+      "id": "cond_peptic_ulcer_disease",
+      "name": "Peptic ulcer disease (Gastric and Duodenal Ulcers)",
+      "aliases": [
+        "PUD",
+        "stomach ulcer",
+        "duodenal ulcer",
+        "gastric ulcer"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "peptic ulcer disease (gastric and duodenal ulcers)"
+    },
+    {
+      "id": "cond_peripheral_artery_disease",
+      "name": "Peripheral artery disease (PAD)",
+      "aliases": [
+        "PAD",
+        "peripheral vascular disease",
+        "PVD",
+        "claudication"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "peripheral artery disease (pad)"
+    },
+    {
+      "id": "cond_pernicious_anemia",
+      "name": "Pernicious anemia (Autoimmune B12 deficiency anemia)",
+      "aliases": [
+        "Addison-Biermer anemia",
+        "autoimmune gastritis anemia"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "pernicious anemia (autoimmune b12 deficiency anemia)"
+    },
+    {
+      "id": "cond_pink_eye",
+      "name": "Pink eye (Bacterial conjunctivitis)",
+      "aliases": [
+        "pink eye",
+        "bacterial pink eye"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "pink eye (bacterial conjunctivitis)"
+    },
+    {
+      "id": "cond_polycystic_ovary_syndrome",
+      "name": "Polycystic ovary syndrome (PCOS)",
+      "aliases": [
+        "PCOS",
+        "polycystic ovaries",
+        "Stein-Leventhal syndrome"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "polycystic ovary syndrome (pcos)"
+    },
+    {
+      "id": "cond_polycystic_ovary_syndrome_2",
+      "name": "Polycystic Ovary Syndrome (PCOS)",
+      "aliases": [
+        "PCOS",
+        "polycystic ovaries",
+        "polycystic ovarian syndrome"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "polycystic ovary syndrome (pcos)"
+    },
+    {
+      "id": "cond_post_traumatic_stress_disorder",
+      "name": "Post-Traumatic Stress Disorder (PTSD)",
+      "aliases": [
+        "PTSD",
+        "post traumatic stress"
+      ],
+      "category": "mental_health",
+      "nameLower": "post-traumatic stress disorder (ptsd)"
+    },
+    {
+      "id": "cond_postherpetic_neuralgia",
+      "name": "Postherpetic neuralgia (Postherpetic neuralgia)",
+      "aliases": [
+        "PHN",
+        "shingles nerve pain",
+        "post-shingles pain"
+      ],
+      "category": "neurological",
+      "nameLower": "postherpetic neuralgia (postherpetic neuralgia)"
+    },
+    {
+      "id": "cond_postmenopausal_osteoporosis",
+      "name": "Postmenopausal Osteoporosis (Bone Loss)",
+      "aliases": [
+        "osteoporosis",
+        "bone loss",
+        "brittle bones",
+        "low bone density"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "postmenopausal osteoporosis (bone loss)"
+    },
+    {
+      "id": "cond_postpartum_depression",
+      "name": "Postpartum Depression (Perinatal Depression)",
+      "aliases": [
+        "PPD",
+        "perinatal depression",
+        "postnatal depression"
+      ],
+      "category": "mental_health",
+      "nameLower": "postpartum depression (perinatal depression)"
+    },
+    {
+      "id": "cond_prediabetes",
+      "name": "Prediabetes",
+      "aliases": [
+        "Impaired glucose tolerance",
+        "Impaired fasting glucose",
+        "Borderline diabetes"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "prediabetes"
+    },
+    {
+      "id": "cond_premature_ejaculation",
+      "name": "Premature ejaculation",
+      "aliases": [
+        "PE",
+        "Rapid ejaculation"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "premature ejaculation"
+    },
+    {
+      "id": "cond_premenstrual_dysphoric_disorder",
+      "name": "Premenstrual Dysphoric Disorder (PMDD)",
+      "aliases": [
+        "PMDD",
+        "severe PMS",
+        "premenstrual dysphoric disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "premenstrual dysphoric disorder (pmdd)"
+    },
+    {
+      "id": "cond_premenstrual_syndrome_pmdd",
+      "name": "Premenstrual Syndrome & PMDD (Premenstrual Dysphoric Disorder)",
+      "aliases": [
+        "PMS",
+        "PMDD",
+        "premenstrual dysphoric disorder"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "premenstrual syndrome & pmdd (premenstrual dysphoric disorder)"
+    },
+    {
+      "id": "cond_prenatal_pregnancy_supplementation",
+      "name": "Prenatal & Pregnancy Supplementation",
+      "aliases": [
+        "prenatal vitamins",
+        "pregnancy supplements",
+        "antenatal vitamins"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "prenatal & pregnancy supplementation"
+    },
+    {
+      "id": "cond_primary_immunodeficiency",
+      "name": "Primary immunodeficiency (Antibody deficiency)",
+      "aliases": [
+        "PID",
+        "primary immunodeficiency",
+        "CVID",
+        "antibody deficiency"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "primary immunodeficiency (antibody deficiency)"
+    },
+    {
+      "id": "cond_psoriasis",
+      "name": "Psoriasis (Plaque psoriasis)",
+      "aliases": [
+        "psoriasis",
+        "plaque psoriasis"
+      ],
+      "category": "dermatology",
+      "nameLower": "psoriasis (plaque psoriasis)"
+    },
+    {
+      "id": "cond_psoriatic_arthritis",
+      "name": "Psoriatic Arthritis (PsA)",
+      "aliases": [
+        "PsA",
+        "psoriatic arthropathy"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "psoriatic arthritis (psa)"
+    },
+    {
+      "id": "cond_pulmonary_arterial_hypertension_2",
+      "name": "Pulmonary arterial hypertension (High blood pressure in lung arteries)",
+      "aliases": [
+        "PAH",
+        "pulmonary hypertension"
+      ],
+      "category": "respiratory",
+      "nameLower": "pulmonary arterial hypertension (high blood pressure in lung arteries)"
+    },
+    {
+      "id": "cond_pulmonary_arterial_hypertension",
+      "name": "Pulmonary arterial hypertension (PAH)",
+      "aliases": [
+        "PAH",
+        "pulmonary hypertension"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "pulmonary arterial hypertension (pah)"
+    },
+    {
+      "id": "cond_pulmonary_embolism_2",
+      "name": "Pulmonary embolism (Blood clot in the lung)",
+      "aliases": [
+        "PE",
+        "VTE",
+        "venous thromboembolism",
+        "lung clot"
+      ],
+      "category": "respiratory",
+      "nameLower": "pulmonary embolism (blood clot in the lung)"
+    },
+    {
+      "id": "cond_pulmonary_embolism",
+      "name": "Pulmonary embolism (PE)",
+      "aliases": [
+        "PE",
+        "lung clot",
+        "pulmonary embolus"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "pulmonary embolism (pe)"
+    },
+    {
+      "id": "cond_renal_anemia",
+      "name": "Renal anemia (Anemia of chronic kidney disease)",
+      "aliases": [
+        "renal anemia",
+        "anemia of CKD",
+        "anemia of kidney disease"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "renal anemia (anemia of chronic kidney disease)"
+    },
+    {
+      "id": "cond_resistant_secondary_hypertension",
+      "name": "Resistant / Secondary hypertension",
+      "aliases": [
+        "resistant hypertension",
+        "treatment-resistant high blood pressure"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "resistant / secondary hypertension"
+    },
+    {
+      "id": "cond_restless_legs_syndrome",
+      "name": "Restless legs syndrome (Restless legs syndrome)",
+      "aliases": [
+        "RLS",
+        "Willis-Ekbom disease"
+      ],
+      "category": "neurological",
+      "nameLower": "restless legs syndrome (restless legs syndrome)"
+    },
+    {
+      "id": "cond_rheumatoid_arthritis",
+      "name": "Rheumatoid Arthritis (RA)",
+      "aliases": [
+        "RA",
+        "inflammatory arthritis"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "rheumatoid arthritis (ra)"
+    },
+    {
+      "id": "cond_rosacea",
+      "name": "Rosacea",
+      "aliases": [
+        "rosacea",
+        "facial redness",
+        "adult acne"
+      ],
+      "category": "dermatology",
+      "nameLower": "rosacea"
+    },
+    {
+      "id": "cond_scabies",
+      "name": "Scabies",
+      "aliases": [
+        "scabies",
+        "mites",
+        "sarcoptes infestation"
+      ],
+      "category": "dermatology",
+      "nameLower": "scabies"
+    },
+    {
+      "id": "cond_schizophrenia",
+      "name": "Schizophrenia",
+      "aliases": [
+        "psychosis",
+        "schizophrenic disorder"
+      ],
+      "category": "mental_health",
+      "nameLower": "schizophrenia"
+    },
+    {
+      "id": "cond_seasonal_affective_disorder",
+      "name": "Seasonal Affective Disorder (SAD)",
+      "aliases": [
+        "SAD",
+        "winter depression",
+        "seasonal depression"
+      ],
+      "category": "mental_health",
+      "nameLower": "seasonal affective disorder (sad)"
+    },
+    {
+      "id": "cond_seasonal_allergies",
+      "name": "Seasonal allergies (Allergic rhinitis / Hay fever)",
+      "aliases": [
+        "hay fever",
+        "allergic rhinitis",
+        "pollen allergy",
+        "AR"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "seasonal allergies (allergic rhinitis / hay fever)"
+    },
+    {
+      "id": "cond_seborrheic_dermatitis",
+      "name": "Seborrheic dermatitis (Dandruff)",
+      "aliases": [
+        "seborrheic dermatitis",
+        "dandruff",
+        "seborrhea",
+        "cradle cap"
+      ],
+      "category": "dermatology",
+      "nameLower": "seborrheic dermatitis (dandruff)"
+    },
+    {
+      "id": "cond_severe_eosinophilic_asthma_2",
+      "name": "Severe eosinophilic asthma (Allergic asthma)",
+      "aliases": [
+        "eosinophilic asthma",
+        "allergic asthma",
+        "severe asthma"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "severe eosinophilic asthma (allergic asthma)"
+    },
+    {
+      "id": "cond_severe_eosinophilic_asthma",
+      "name": "Severe eosinophilic asthma (Biologic-treated asthma)",
+      "aliases": [
+        "severe asthma",
+        "refractory asthma",
+        "T2-high asthma"
+      ],
+      "category": "respiratory",
+      "nameLower": "severe eosinophilic asthma (biologic-treated asthma)"
+    },
+    {
+      "id": "cond_shingles",
+      "name": "Shingles (Herpes zoster)",
+      "aliases": [
+        "shingles",
+        "herpes zoster",
+        "zoster"
+      ],
+      "category": "infections",
+      "nameLower": "shingles (herpes zoster)"
+    },
+    {
+      "id": "cond_sickle_cell_disease",
+      "name": "Sickle cell disease (Sickle cell anemia)",
+      "aliases": [
+        "Sickle cell anemia",
+        "HbSS disease"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "sickle cell disease (sickle cell anemia)"
+    },
+    {
+      "id": "cond_sinus_infection",
+      "name": "Sinus infection (Sinusitis)",
+      "aliases": [
+        "sinusitis",
+        "sinus infection",
+        "rhinosinusitis"
+      ],
+      "category": "infections",
+      "nameLower": "sinus infection (sinusitis)"
+    },
+    {
+      "id": "cond_sinus_infection_2",
+      "name": "Sinus infection (Sinusitis)",
+      "aliases": [
+        "sinusitis",
+        "sinus infection",
+        "rhinosinusitis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "sinus infection (sinusitis)"
+    },
+    {
+      "id": "cond_skin_and_soft_tissue_infection",
+      "name": "Skin and soft tissue infection (Cellulitis)",
+      "aliases": [
+        "cellulitis",
+        "skin infection",
+        "soft tissue infection"
+      ],
+      "category": "infections",
+      "nameLower": "skin and soft tissue infection (cellulitis)"
+    },
+    {
+      "id": "cond_social_anxiety_disorder",
+      "name": "Social Anxiety Disorder (Social Phobia)",
+      "aliases": [
+        "social phobia",
+        "SAD",
+        "social anxiety"
+      ],
+      "category": "mental_health",
+      "nameLower": "social anxiety disorder (social phobia)"
+    },
+    {
+      "id": "cond_sore_throat_from_strep",
+      "name": "Sore throat from strep (Streptococcal pharyngitis)",
+      "aliases": [
+        "strep throat",
+        "sore throat",
+        "tonsillitis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "sore throat from strep (streptococcal pharyngitis)"
+    },
+    {
+      "id": "cond_spasticity",
+      "name": "Spasticity (Muscle spasticity)",
+      "aliases": [
+        "muscle spasticity",
+        "hypertonia",
+        "spastic muscles"
+      ],
+      "category": "neurological",
+      "nameLower": "spasticity (muscle spasticity)"
+    },
+    {
+      "id": "cond_spasticity_2",
+      "name": "Spasticity (Neurological Muscle Stiffness)",
+      "aliases": [
+        "muscle spasticity",
+        "hypertonia"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "spasticity (neurological muscle stiffness)"
+    },
+    {
+      "id": "cond_stinging_insect_allergy",
+      "name": "Stinging insect allergy (Hymenoptera venom allergy)",
+      "aliases": [
+        "venom allergy",
+        "bee sting allergy",
+        "insect sting allergy"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "stinging insect allergy (hymenoptera venom allergy)"
+    },
+    {
+      "id": "cond_strep_throat",
+      "name": "Strep throat (Streptococcal pharyngitis)",
+      "aliases": [
+        "strep throat",
+        "streptococcal pharyngitis",
+        "tonsillitis"
+      ],
+      "category": "infections",
+      "nameLower": "strep throat (streptococcal pharyngitis)"
+    },
+    {
+      "id": "cond_stroke_prevention",
+      "name": "Stroke prevention (Ischemic stroke / TIA secondary prevention)",
+      "aliases": [
+        "TIA",
+        "mini-stroke",
+        "cerebrovascular accident",
+        "CVA"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "stroke prevention (ischemic stroke / tia secondary prevention)"
+    },
+    {
+      "id": "cond_stye_and_eyelid_inflammation",
+      "name": "Stye and eyelid inflammation (Blepharitis)",
+      "aliases": [
+        "stye",
+        "hordeolum",
+        "eyelid inflammation"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "stye and eyelid inflammation (blepharitis)"
+    },
+    {
+      "id": "cond_sunburn",
+      "name": "Sunburn (Solar erythema / UV burn)",
+      "aliases": [
+        "Solar erythema",
+        "UV burn"
+      ],
+      "category": "dermatology",
+      "nameLower": "sunburn (solar erythema / uv burn)"
+    },
+    {
+      "id": "cond_supraventricular_tachycardia_other_arrhythmias",
+      "name": "Supraventricular tachycardia / Other arrhythmias (SVT)",
+      "aliases": [
+        "SVT",
+        "PSVT",
+        "rapid heartbeat",
+        "tachycardia"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "supraventricular tachycardia / other arrhythmias (svt)"
+    },
+    {
+      "id": "cond_swelling_fluid_overload",
+      "name": "Swelling / Fluid overload (Edema)",
+      "aliases": [
+        "edema",
+        "fluid retention",
+        "fluid overload"
+      ],
+      "category": "cardiovascular",
+      "nameLower": "swelling / fluid overload (edema)"
+    },
+    {
+      "id": "cond_swimmer_s_ear",
+      "name": "Swimmer's ear (Otitis externa)",
+      "aliases": [
+        "swimmer's ear",
+        "outer ear infection"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "swimmer's ear (otitis externa)"
+    },
+    {
+      "id": "cond_syphilis",
+      "name": "Syphilis (Treponema pallidum infection)",
+      "aliases": [
+        "Treponemal infection",
+        "Lues"
+      ],
+      "category": "infections",
+      "nameLower": "syphilis (treponema pallidum infection)"
+    },
+    {
+      "id": "cond_systemic_mastocytosis",
+      "name": "Systemic mastocytosis (Mast cell disease)",
+      "aliases": [
+        "mastocytosis",
+        "mast cell disease",
+        "MCAS"
+      ],
+      "category": "allergy_immunology",
+      "nameLower": "systemic mastocytosis (mast cell disease)"
+    },
+    {
+      "id": "cond_tension_headache",
+      "name": "Tension Headache",
+      "aliases": [
+        "tension-type headache",
+        "stress headache",
+        "TTH"
+      ],
+      "category": "pain_musculoskeletal",
+      "nameLower": "tension headache"
+    },
+    {
+      "id": "cond_tonsillitis",
+      "name": "Tonsillitis (Acute tonsillitis)",
+      "aliases": [
+        "Tonsil infection",
+        "Tonsillopharyngitis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "tonsillitis (acute tonsillitis)"
+    },
+    {
+      "id": "cond_trigeminal_neuralgia",
+      "name": "Trigeminal neuralgia (Trigeminal neuralgia)",
+      "aliases": [
+        "tic douloureux",
+        "TN",
+        "facial nerve pain"
+      ],
+      "category": "neurological",
+      "nameLower": "trigeminal neuralgia (trigeminal neuralgia)"
+    },
+    {
+      "id": "cond_tuberculosis",
+      "name": "Tuberculosis (TB)",
+      "aliases": [
+        "TB",
+        "tuberculosis",
+        "consumption"
+      ],
+      "category": "infections",
+      "nameLower": "tuberculosis (tb)"
+    },
+    {
+      "id": "cond_type_1_diabetes",
+      "name": "Type 1 diabetes (Type 1 diabetes mellitus)",
+      "aliases": [
+        "T1DM",
+        "type I diabetes",
+        "insulin-dependent diabetes",
+        "juvenile diabetes"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "type 1 diabetes (type 1 diabetes mellitus)"
+    },
+    {
+      "id": "cond_type_2_diabetes",
+      "name": "Type 2 diabetes (Type 2 diabetes mellitus)",
+      "aliases": [
+        "T2DM",
+        "type II diabetes",
+        "adult-onset diabetes",
+        "high blood sugar"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "type 2 diabetes (type 2 diabetes mellitus)"
+    },
+    {
+      "id": "cond_ulcerative_colitis",
+      "name": "Ulcerative colitis (Ulcerative Colitis)",
+      "aliases": [
+        "UC",
+        "ulcerative colitis",
+        "IBD"
+      ],
+      "category": "gastrointestinal",
+      "nameLower": "ulcerative colitis (ulcerative colitis)"
+    },
+    {
+      "id": "cond_underactive_thyroid",
+      "name": "Underactive thyroid (Hypothyroidism)",
+      "aliases": [
+        "low thyroid",
+        "Hashimoto thyroiditis",
+        "underactive thyroid gland"
+      ],
+      "category": "endocrine_metabolic",
+      "nameLower": "underactive thyroid (hypothyroidism)"
+    },
+    {
+      "id": "cond_urinary_incontinence",
+      "name": "Urinary incontinence (stress and mixed)",
+      "aliases": [
+        "incontinence",
+        "stress incontinence",
+        "leaky bladder",
+        "bladder leakage"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "urinary incontinence (stress and mixed)"
+    },
+    {
+      "id": "cond_urinary_tract_infection",
+      "name": "Urinary tract infection (Cystitis)",
+      "aliases": [
+        "UTI",
+        "bladder infection",
+        "cystitis"
+      ],
+      "category": "infections",
+      "nameLower": "urinary tract infection (cystitis)"
+    },
+    {
+      "id": "cond_urinary_tract_infection_2",
+      "name": "Urinary tract infection (UTI)",
+      "aliases": [
+        "UTI",
+        "bladder infection",
+        "cystitis",
+        "acute cystitis"
+      ],
+      "category": "genitourinary_renal",
+      "nameLower": "urinary tract infection (uti)"
+    },
+    {
+      "id": "cond_uterine_fibroids",
+      "name": "Uterine Fibroids (Leiomyomas)",
+      "aliases": [
+        "fibroids",
+        "uterine fibroids",
+        "leiomyoma",
+        "myoma"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "uterine fibroids (leiomyomas)"
+    },
+    {
+      "id": "cond_vaginal_atrophy_dryness",
+      "name": "Vaginal Atrophy & Dryness (Genitourinary Syndrome of Menopause)",
+      "aliases": [
+        "GSM",
+        "vaginal dryness",
+        "atrophic vaginitis",
+        "vulvovaginal atrophy"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "vaginal atrophy & dryness (genitourinary syndrome of menopause)"
+    },
+    {
+      "id": "cond_vaginal_yeast_infection",
+      "name": "Vaginal yeast infection (Candidiasis)",
+      "aliases": [
+        "yeast infection",
+        "candidiasis",
+        "thrush",
+        "Candida"
+      ],
+      "category": "infections",
+      "nameLower": "vaginal yeast infection (candidiasis)"
+    },
+    {
+      "id": "cond_vaginal_yeast_infection_2",
+      "name": "Vaginal Yeast Infection (Vulvovaginal Candidiasis)",
+      "aliases": [
+        "yeast infection",
+        "thrush",
+        "candidiasis",
+        "vaginal candidiasis"
+      ],
+      "category": "womens_reproductive_health",
+      "nameLower": "vaginal yeast infection (vulvovaginal candidiasis)"
+    },
+    {
+      "id": "cond_vertigo_and_motion_related_dizziness",
+      "name": "Vertigo and motion-related dizziness (Vestibular disorders)",
+      "aliases": [
+        "vertigo",
+        "dizziness",
+        "Meniere's disease",
+        "labyrinthitis"
+      ],
+      "category": "eye_ear_nose_throat",
+      "nameLower": "vertigo and motion-related dizziness (vestibular disorders)"
+    },
+    {
+      "id": "cond_vitamin_b1_deficiency",
+      "name": "Vitamin B1 deficiency (Thiamine deficiency / Beriberi)",
+      "aliases": [
+        "thiamine deficiency",
+        "beriberi",
+        "Wernicke encephalopathy"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin b1 deficiency (thiamine deficiency / beriberi)"
+    },
+    {
+      "id": "cond_vitamin_b12_deficiency",
+      "name": "Vitamin B12 deficiency (Cobalamin deficiency)",
+      "aliases": [
+        "B12 deficiency",
+        "low B12",
+        "cobalamin deficiency"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin b12 deficiency (cobalamin deficiency)"
+    },
+    {
+      "id": "cond_vitamin_b6_deficiency",
+      "name": "Vitamin B6 deficiency (Pyridoxine deficiency)",
+      "aliases": [
+        "pyridoxine deficiency",
+        "low B6"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin b6 deficiency (pyridoxine deficiency)"
+    },
+    {
+      "id": "cond_vitamin_c_deficiency",
+      "name": "Vitamin C deficiency (Scurvy)",
+      "aliases": [
+        "scurvy",
+        "ascorbic acid deficiency"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin c deficiency (scurvy)"
+    },
+    {
+      "id": "cond_vitamin_d_deficiency",
+      "name": "Vitamin D deficiency (Hypovitaminosis D)",
+      "aliases": [
+        "low vitamin D",
+        "vitamin D insufficiency"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin d deficiency (hypovitaminosis d)"
+    },
+    {
+      "id": "cond_vitamin_k_deficiency",
+      "name": "Vitamin K deficiency (Hypovitaminosis K)",
+      "aliases": [
+        "low vitamin K"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "vitamin k deficiency (hypovitaminosis k)"
+    },
+    {
+      "id": "cond_warts",
+      "name": "Warts (Verruca / HPV skin infection)",
+      "aliases": [
+        "warts",
+        "verruca",
+        "plantar warts",
+        "common warts",
+        "genital warts"
+      ],
+      "category": "dermatology",
+      "nameLower": "warts (verruca / hpv skin infection)"
+    },
+    {
+      "id": "cond_zinc_deficiency",
+      "name": "Zinc deficiency (Hypozincemia)",
+      "aliases": [
+        "low zinc"
+      ],
+      "category": "nutrition_blood",
+      "nameLower": "zinc deficiency (hypozincemia)"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_high_blood_pressure",
+      "drugIds": [
+        "drug_lisinopril",
+        "drug_amlodipine",
+        "drug_losartan",
+        "drug_hydrochlorothiazide",
+        "drug_chlorthalidone",
+        "drug_metoprolol",
+        "drug_valsartan",
+        "drug_olmesartan"
+      ]
+    },
+    {
+      "id": "cond_high_cholesterol",
+      "drugIds": [
+        "drug_atorvastatin",
+        "drug_rosuvastatin",
+        "drug_simvastatin",
+        "drug_pravastatin",
+        "drug_ezetimibe",
+        "drug_evolocumab",
+        "drug_fenofibrate",
+        "drug_bempedoic_acid"
+      ]
+    },
+    {
+      "id": "cond_heart_failure",
+      "drugIds": [
+        "drug_sacubitril_valsartan",
+        "drug_dapagliflozin",
+        "drug_empagliflozin",
+        "drug_carvedilol",
+        "drug_spironolactone",
+        "drug_furosemide",
+        "drug_lisinopril",
+        "drug_eplerenone"
+      ]
+    },
+    {
+      "id": "cond_atrial_fibrillation",
+      "drugIds": [
+        "drug_apixaban",
+        "drug_rivaroxaban",
+        "drug_dabigatran",
+        "drug_warfarin",
+        "drug_metoprolol",
+        "drug_diltiazem",
+        "drug_amiodarone",
+        "drug_digoxin"
+      ]
+    },
+    {
+      "id": "cond_angina",
+      "drugIds": [
+        "drug_nitroglycerin",
+        "drug_isosorbide_mononitrate",
+        "drug_metoprolol",
+        "drug_amlodipine",
+        "drug_ranolazine",
+        "drug_diltiazem",
+        "drug_atenolol"
+      ]
+    },
+    {
+      "id": "cond_coronary_artery_disease",
+      "drugIds": [
+        "drug_aspirin",
+        "drug_clopidogrel",
+        "drug_atorvastatin",
+        "drug_rosuvastatin",
+        "drug_metoprolol",
+        "drug_lisinopril",
+        "drug_ticagrelor"
+      ]
+    },
+    {
+      "id": "cond_deep_vein_thrombosis_blood_clots",
+      "drugIds": [
+        "drug_apixaban",
+        "drug_rivaroxaban",
+        "drug_enoxaparin",
+        "drug_warfarin",
+        "drug_dabigatran",
+        "drug_edoxaban",
+        "drug_heparin"
+      ]
+    },
+    {
+      "id": "cond_stroke_prevention",
+      "drugIds": [
+        "drug_aspirin",
+        "drug_clopidogrel",
+        "drug_apixaban",
+        "drug_rivaroxaban",
+        "drug_atorvastatin",
+        "drug_dipyridamole_aspirin",
+        "drug_warfarin"
+      ]
+    },
+    {
+      "id": "cond_heart_attack_recovery",
+      "drugIds": [
+        "drug_aspirin",
+        "drug_ticagrelor",
+        "drug_clopidogrel",
+        "drug_atorvastatin",
+        "drug_metoprolol",
+        "drug_lisinopril",
+        "drug_eplerenone"
+      ]
+    },
+    {
+      "id": "cond_peripheral_artery_disease",
+      "drugIds": [
+        "drug_cilostazol",
+        "drug_clopidogrel",
+        "drug_aspirin",
+        "drug_rivaroxaban",
+        "drug_atorvastatin",
+        "drug_pentoxifylline"
+      ]
+    },
+    {
+      "id": "cond_supraventricular_tachycardia_other_arrhythmias",
+      "drugIds": [
+        "drug_metoprolol",
+        "drug_diltiazem",
+        "drug_verapamil",
+        "drug_adenosine",
+        "drug_flecainide",
+        "drug_sotalol",
+        "drug_propafenone"
+      ]
+    },
+    {
+      "id": "cond_pulmonary_embolism",
+      "drugIds": [
+        "drug_apixaban",
+        "drug_rivaroxaban",
+        "drug_enoxaparin",
+        "drug_warfarin",
+        "drug_edoxaban",
+        "drug_dabigatran",
+        "drug_heparin"
+      ]
+    },
+    {
+      "id": "cond_pulmonary_arterial_hypertension",
+      "drugIds": [
+        "drug_sildenafil",
+        "drug_tadalafil",
+        "drug_ambrisentan",
+        "drug_bosentan",
+        "drug_macitentan",
+        "drug_riociguat",
+        "drug_treprostinil"
+      ]
+    },
+    {
+      "id": "cond_swelling_fluid_overload",
+      "drugIds": [
+        "drug_furosemide",
+        "drug_torsemide",
+        "drug_bumetanide",
+        "drug_hydrochlorothiazide",
+        "drug_spironolactone",
+        "drug_metolazone"
+      ]
+    },
+    {
+      "id": "cond_resistant_secondary_hypertension",
+      "drugIds": [
+        "drug_spironolactone",
+        "drug_hydralazine",
+        "drug_clonidine",
+        "drug_carvedilol",
+        "drug_doxazosin",
+        "drug_minoxidil",
+        "drug_eplerenone"
+      ]
+    },
+    {
+      "id": "cond_low_blood_pressure",
+      "drugIds": [
+        "drug_midodrine",
+        "drug_fludrocortisone",
+        "drug_droxidopa"
+      ]
+    }
+  ]
+}

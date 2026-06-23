@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_ferrous_sulfate",
+      "name": "Ferrous sulfate",
+      "aliases": [
+        "Feosol",
+        "Fer-In-Sol",
+        "Slow Fe"
+      ],
+      "nameLower": "ferrous sulfate"
+    },
+    {
+      "id": "drug_ferrous_gluconate",
+      "name": "Ferrous gluconate",
+      "aliases": [
+        "Ferate",
+        "Fergon"
+      ],
+      "nameLower": "ferrous gluconate"
+    },
+    {
+      "id": "drug_ferrous_fumarate",
+      "name": "Ferrous fumarate",
+      "aliases": [
+        "Ferretts",
+        "Hemocyte"
+      ],
+      "nameLower": "ferrous fumarate"
+    },
+    {
+      "id": "drug_ferric_maltol",
+      "name": "Ferric maltol",
+      "aliases": [
+        "Accrufer",
+        "Feraccru"
+      ],
+      "nameLower": "ferric maltol"
+    },
+    {
+      "id": "drug_iron_polysaccharide_complex",
+      "name": "Iron polysaccharide complex",
+      "aliases": [
+        "Ferrex",
+        "Niferex",
+        "Nu-Iron"
+      ],
+      "nameLower": "iron polysaccharide complex"
+    },
+    {
+      "id": "drug_ferric_carboxymaltose",
+      "name": "Ferric carboxymaltose",
+      "aliases": [
+        "Injectafer",
+        "Ferinject"
+      ],
+      "nameLower": "ferric carboxymaltose"
+    },
+    {
+      "id": "drug_ferric_derisomaltose",
+      "name": "Ferric derisomaltose",
+      "aliases": [
+        "Monoferric",
+        "Monofer"
+      ],
+      "nameLower": "ferric derisomaltose"
+    },
+    {
+      "id": "drug_iron_sucrose",
+      "name": "Iron sucrose",
+      "aliases": [
+        "Venofer"
+      ],
+      "nameLower": "iron sucrose"
+    },
+    {
+      "id": "drug_ferumoxytol",
+      "name": "Ferumoxytol",
+      "aliases": [
+        "Feraheme"
+      ],
+      "nameLower": "ferumoxytol"
+    },
+    {
+      "id": "drug_sodium_ferric_gluconate_complex",
+      "name": "Sodium ferric gluconate complex",
+      "aliases": [
+        "Ferrlecit"
+      ],
+      "nameLower": "sodium ferric gluconate complex"
+    },
+    {
+      "id": "drug_cyanocobalamin",
+      "name": "Cyanocobalamin",
+      "aliases": [
+        "Nascobal",
+        "CaloMist"
+      ],
+      "nameLower": "cyanocobalamin"
+    },
+    {
+      "id": "drug_hydroxocobalamin",
+      "name": "Hydroxocobalamin",
+      "aliases": [
+        "Cyanokit",
+        "Vitamin B12a"
+      ],
+      "nameLower": "hydroxocobalamin"
+    },
+    {
+      "id": "drug_methylcobalamin",
+      "name": "Methylcobalamin",
+      "aliases": [
+        "Methyl B12"
+      ],
+      "nameLower": "methylcobalamin"
+    },
+    {
+      "id": "drug_folic_acid",
+      "name": "Folic acid",
+      "aliases": [
+        "Folacin",
+        "Vitamin B9",
+        "Folate"
+      ],
+      "nameLower": "folic acid"
+    },
+    {
+      "id": "drug_levomefolate",
+      "name": "Levomefolate",
+      "aliases": [
+        "L-methylfolate",
+        "Deplin",
+        "Metafolin"
+      ],
+      "nameLower": "levomefolate"
+    },
+    {
+      "id": "drug_folinic_acid",
+      "name": "Folinic acid",
+      "aliases": [
+        "Leucovorin",
+        "Calcium folinate"
+      ],
+      "nameLower": "folinic acid"
+    },
+    {
+      "id": "drug_cholecalciferol",
+      "name": "Cholecalciferol",
+      "aliases": [
+        "Vitamin D3",
+        "D-Vi-Sol"
+      ],
+      "nameLower": "cholecalciferol"
+    },
+    {
+      "id": "drug_ergocalciferol",
+      "name": "Ergocalciferol",
+      "aliases": [
+        "Vitamin D2",
+        "Drisdol"
+      ],
+      "nameLower": "ergocalciferol"
+    },
+    {
+      "id": "drug_calcitriol",
+      "name": "Calcitriol",
+      "aliases": [
+        "Rocaltrol",
+        "Vectical"
+      ],
+      "nameLower": "calcitriol"
+    },
+    {
+      "id": "drug_calcifediol",
+      "name": "Calcifediol",
+      "aliases": [
+        "Rayaldee",
+        "25-hydroxyvitamin D3"
+      ],
+      "nameLower": "calcifediol"
+    },
+    {
+      "id": "drug_alfacalcidol",
+      "name": "Alfacalcidol",
+      "aliases": [
+        "One-Alpha"
+      ],
+      "nameLower": "alfacalcidol"
+    },
+    {
+      "id": "drug_potassium_chloride",
+      "name": "Potassium chloride",
+      "aliases": [
+        "Klor-Con",
+        "K-Dur",
+        "Micro-K",
+        "Slow-K"
+      ],
+      "nameLower": "potassium chloride"
+    },
+    {
+      "id": "drug_potassium_citrate",
+      "name": "Potassium citrate",
+      "aliases": [
+        "Urocit-K"
+      ],
+      "nameLower": "potassium citrate"
+    },
+    {
+      "id": "drug_potassium_bicarbonate",
+      "name": "Potassium bicarbonate",
+      "aliases": [
+        "K-Lyte",
+        "Effer-K"
+      ],
+      "nameLower": "potassium bicarbonate"
+    },
+    {
+      "id": "drug_potassium_gluconate",
+      "name": "Potassium gluconate",
+      "aliases": [
+        "Glu-K"
+      ],
+      "nameLower": "potassium gluconate"
+    },
+    {
+      "id": "drug_spironolactone",
+      "name": "Spironolactone",
+      "aliases": [
+        "Aldactone"
+      ],
+      "nameLower": "spironolactone"
+    },
+    {
+      "id": "drug_patiromer",
+      "name": "Patiromer",
+      "aliases": [
+        "Veltassa"
+      ],
+      "nameLower": "patiromer"
+    },
+    {
+      "id": "drug_sodium_zirconium_cyclosilicate",
+      "name": "Sodium zirconium cyclosilicate",
+      "aliases": [
+        "Lokelma",
+        "SZC"
+      ],
+      "nameLower": "sodium zirconium cyclosilicate"
+    },
+    {
+      "id": "drug_sodium_polystyrene_sulfonate",
+      "name": "Sodium polystyrene sulfonate",
+      "aliases": [
+        "Kayexalate",
+        "SPS",
+        "Kionex"
+      ],
+      "nameLower": "sodium polystyrene sulfonate"
+    },
+    {
+      "id": "drug_insulin",
+      "name": "Insulin",
+      "aliases": [
+        "regular insulin",
+        "Humulin R"
+      ],
+      "nameLower": "insulin"
+    },
+    {
+      "id": "drug_albuterol",
+      "name": "Albuterol",
+      "aliases": [
+        "Ventolin",
+        "ProAir",
+        "salbutamol"
+      ],
+      "nameLower": "albuterol"
+    },
+    {
+      "id": "drug_sodium_bicarbonate",
+      "name": "Sodium bicarbonate",
+      "aliases": [
+        "bicarb"
+      ],
+      "nameLower": "sodium bicarbonate"
+    },
+    {
+      "id": "drug_calcium_gluconate",
+      "name": "Calcium gluconate",
+      "aliases": [],
+      "nameLower": "calcium gluconate"
+    },
+    {
+      "id": "drug_magnesium_oxide",
+      "name": "Magnesium oxide",
+      "aliases": [
+        "Mag-Ox",
+        "Uro-Mag"
+      ],
+      "nameLower": "magnesium oxide"
+    },
+    {
+      "id": "drug_magnesium_chloride",
+      "name": "Magnesium chloride",
+      "aliases": [
+        "Slow-Mag"
+      ],
+      "nameLower": "magnesium chloride"
+    },
+    {
+      "id": "drug_magnesium_gluconate",
+      "name": "Magnesium gluconate",
+      "aliases": [
+        "Magtrate"
+      ],
+      "nameLower": "magnesium gluconate"
+    },
+    {
+      "id": "drug_magnesium_sulfate",
+      "name": "Magnesium sulfate",
+      "aliases": [
+        "Epsom salt",
+        "MgSO4"
+      ],
+      "nameLower": "magnesium sulfate"
+    },
+    {
+      "id": "drug_magnesium_citrate",
+      "name": "Magnesium citrate",
+      "aliases": [
+        "Citroma"
+      ],
+      "nameLower": "magnesium citrate"
+    },
+    {
+      "id": "drug_magnesium_lactate",
+      "name": "Magnesium lactate",
+      "aliases": [
+        "Mag-Tab SR"
+      ],
+      "nameLower": "magnesium lactate"
+    },
+    {
+      "id": "drug_calcium_carbonate",
+      "name": "Calcium carbonate",
+      "aliases": [
+        "Tums",
+        "Caltrate",
+        "Os-Cal"
+      ],
+      "nameLower": "calcium carbonate"
+    },
+    {
+      "id": "drug_calcium_citrate",
+      "name": "Calcium citrate",
+      "aliases": [
+        "Citracal"
+      ],
+      "nameLower": "calcium citrate"
+    },
+    {
+      "id": "drug_calcium_chloride",
+      "name": "Calcium chloride",
+      "aliases": [],
+      "nameLower": "calcium chloride"
+    },
+    {
+      "id": "drug_ascorbic_acid",
+      "name": "Ascorbic acid",
+      "aliases": [
+        "Vitamin C",
+        "Cecon",
+        "Ascor"
+      ],
+      "nameLower": "ascorbic acid"
+    },
+    {
+      "id": "drug_sodium_ascorbate",
+      "name": "Sodium ascorbate",
+      "aliases": [
+        "buffered vitamin C"
+      ],
+      "nameLower": "sodium ascorbate"
+    },
+    {
+      "id": "drug_zinc_sulfate",
+      "name": "Zinc sulfate",
+      "aliases": [
+        "Zincate",
+        "Orazinc"
+      ],
+      "nameLower": "zinc sulfate"
+    },
+    {
+      "id": "drug_zinc_gluconate",
+      "name": "Zinc gluconate",
+      "aliases": [],
+      "nameLower": "zinc gluconate"
+    },
+    {
+      "id": "drug_zinc_acetate",
+      "name": "Zinc acetate",
+      "aliases": [
+        "Galzin"
+      ],
+      "nameLower": "zinc acetate"
+    },
+    {
+      "id": "drug_multivitamin",
+      "name": "Multivitamin",
+      "aliases": [
+        "Centrum",
+        "One A Day",
+        "Theragran"
+      ],
+      "nameLower": "multivitamin"
+    },
+    {
+      "id": "drug_prenatal_multivitamin",
+      "name": "Prenatal multivitamin",
+      "aliases": [
+        "PreNate",
+        "Prenatal Plus"
+      ],
+      "nameLower": "prenatal multivitamin"
+    },
+    {
+      "id": "drug_thiamine",
+      "name": "Thiamine",
+      "aliases": [
+        "Vitamin B1",
+        "Thiamin"
+      ],
+      "nameLower": "thiamine"
+    },
+    {
+      "id": "drug_benfotiamine",
+      "name": "Benfotiamine",
+      "aliases": [],
+      "nameLower": "benfotiamine"
+    },
+    {
+      "id": "drug_pyridoxine",
+      "name": "Pyridoxine",
+      "aliases": [
+        "Vitamin B6"
+      ],
+      "nameLower": "pyridoxine"
+    },
+    {
+      "id": "drug_pyridoxal_phosphate",
+      "name": "Pyridoxal phosphate",
+      "aliases": [
+        "P5P",
+        "pyridoxal-5-phosphate"
+      ],
+      "nameLower": "pyridoxal phosphate"
+    },
+    {
+      "id": "drug_phytonadione",
+      "name": "Phytonadione",
+      "aliases": [
+        "Vitamin K1",
+        "Mephyton",
+        "AquaMEPHYTON"
+      ],
+      "nameLower": "phytonadione"
+    },
+    {
+      "id": "drug_menadione",
+      "name": "Menadione",
+      "aliases": [
+        "Vitamin K3"
+      ],
+      "nameLower": "menadione"
+    },
+    {
+      "id": "drug_hydroxyurea",
+      "name": "hydroxyurea",
+      "aliases": [
+        "Hydrea",
+        "Droxia",
+        "Siklos"
+      ],
+      "nameLower": "hydroxyurea"
+    },
+    {
+      "id": "drug_l_glutamine",
+      "name": "L-glutamine",
+      "aliases": [
+        "Endari"
+      ],
+      "nameLower": "l-glutamine"
+    },
+    {
+      "id": "drug_voxelotor",
+      "name": "voxelotor",
+      "aliases": [
+        "Oxbryta"
+      ],
+      "nameLower": "voxelotor"
+    },
+    {
+      "id": "drug_crizanlizumab",
+      "name": "crizanlizumab",
+      "aliases": [
+        "Adakveo"
+      ],
+      "nameLower": "crizanlizumab"
+    }
+  ]
+}

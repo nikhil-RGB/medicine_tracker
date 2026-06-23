@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_seasonal_allergies",
+      "drugIds": [
+        "drug_loratadine",
+        "drug_cetirizine",
+        "drug_fexofenadine",
+        "drug_levocetirizine",
+        "drug_desloratadine",
+        "drug_fluticasone_propionate",
+        "drug_mometasone",
+        "drug_azelastine",
+        "drug_montelukast",
+        "drug_oxymetazoline"
+      ]
+    },
+    {
+      "id": "cond_anaphylaxis",
+      "drugIds": [
+        "drug_epinephrine",
+        "drug_diphenhydramine",
+        "drug_cetirizine",
+        "drug_methylprednisolone",
+        "drug_prednisone",
+        "drug_hydrocortisone",
+        "drug_albuterol",
+        "drug_famotidine"
+      ]
+    },
+    {
+      "id": "cond_drug_allergy",
+      "drugIds": [
+        "drug_epinephrine",
+        "drug_diphenhydramine",
+        "drug_cetirizine",
+        "drug_prednisone",
+        "drug_methylprednisolone",
+        "drug_hydrocortisone",
+        "drug_famotidine"
+      ]
+    },
+    {
+      "id": "cond_chronic_hives",
+      "drugIds": [
+        "drug_cetirizine",
+        "drug_levocetirizine",
+        "drug_fexofenadine",
+        "drug_loratadine",
+        "drug_omalizumab",
+        "drug_dupilumab",
+        "drug_remibrutinib",
+        "drug_cyclosporine",
+        "drug_hydroxyzine",
+        "drug_montelukast"
+      ]
+    },
+    {
+      "id": "cond_immunosuppression",
+      "drugIds": [
+        "drug_tacrolimus",
+        "drug_mycophenolate_mofetil",
+        "drug_mycophenolic_acid",
+        "drug_cyclosporine",
+        "drug_prednisone",
+        "drug_sirolimus",
+        "drug_everolimus",
+        "drug_azathioprine",
+        "drug_belatacept"
+      ]
+    },
+    {
+      "id": "cond_eczema_2",
+      "drugIds": [
+        "drug_triamcinolone",
+        "drug_hydrocortisone",
+        "drug_tacrolimus",
+        "drug_pimecrolimus",
+        "drug_crisaborole",
+        "drug_dupilumab",
+        "drug_tralokinumab",
+        "drug_ruxolitinib",
+        "drug_upadacitinib",
+        "drug_abrocitinib"
+      ]
+    },
+    {
+      "id": "cond_allergic_conjunctivitis",
+      "drugIds": [
+        "drug_olopatadine",
+        "drug_ketotifen",
+        "drug_azelastine",
+        "drug_cromolyn_sodium",
+        "drug_bepotastine",
+        "drug_epinastine",
+        "drug_loteprednol"
+      ]
+    },
+    {
+      "id": "cond_food_allergy",
+      "drugIds": [
+        "drug_epinephrine",
+        "drug_diphenhydramine",
+        "drug_cetirizine",
+        "drug_omalizumab",
+        "drug_peanut_allergen_powder",
+        "drug_prednisone"
+      ]
+    },
+    {
+      "id": "cond_hereditary_angioedema",
+      "drugIds": [
+        "drug_lanadelumab",
+        "drug_berotralstat",
+        "drug_c1_esterase_inhibitor",
+        "drug_icatibant",
+        "drug_ecallantide",
+        "drug_sebetralstat",
+        "drug_garadacimab"
+      ]
+    },
+    {
+      "id": "cond_eosinophilic_esophagitis",
+      "drugIds": [
+        "drug_dupilumab",
+        "drug_budesonide",
+        "drug_fluticasone_propionate",
+        "drug_omeprazole",
+        "drug_esomeprazole",
+        "drug_pantoprazole"
+      ]
+    },
+    {
+      "id": "cond_severe_eosinophilic_asthma_2",
+      "drugIds": [
+        "drug_mepolizumab",
+        "drug_benralizumab",
+        "drug_reslizumab",
+        "drug_omalizumab",
+        "drug_dupilumab",
+        "drug_tezepelumab",
+        "drug_fluticasone_propionate",
+        "drug_montelukast"
+      ]
+    },
+    {
+      "id": "cond_systemic_mastocytosis",
+      "drugIds": [
+        "drug_cetirizine",
+        "drug_fexofenadine",
+        "drug_famotidine",
+        "drug_cromolyn_sodium",
+        "drug_montelukast",
+        "drug_omalizumab",
+        "drug_avapritinib",
+        "drug_midostaurin",
+        "drug_epinephrine"
+      ]
+    },
+    {
+      "id": "cond_primary_immunodeficiency",
+      "drugIds": [
+        "drug_immune_globulin",
+        "drug_immune_globulin_subcutaneous",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_amoxicillin_clavulanate",
+        "drug_azithromycin"
+      ]
+    },
+    {
+      "id": "cond_allergic_contact_dermatitis",
+      "drugIds": [
+        "drug_triamcinolone",
+        "drug_clobetasol",
+        "drug_hydrocortisone",
+        "drug_mometasone",
+        "drug_prednisone",
+        "drug_tacrolimus",
+        "drug_diphenhydramine"
+      ]
+    },
+    {
+      "id": "cond_stinging_insect_allergy",
+      "drugIds": [
+        "drug_epinephrine",
+        "drug_cetirizine",
+        "drug_diphenhydramine",
+        "drug_prednisone",
+        "drug_hymenoptera_venom_immunotherapy_extract"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_lisinopril",
+      "name": "Lisinopril",
+      "aliases": [
+        "Zestril",
+        "Prinivil"
+      ],
+      "nameLower": "lisinopril"
+    },
+    {
+      "id": "drug_amlodipine",
+      "name": "Amlodipine",
+      "aliases": [
+        "Norvasc"
+      ],
+      "nameLower": "amlodipine"
+    },
+    {
+      "id": "drug_losartan",
+      "name": "Losartan",
+      "aliases": [
+        "Cozaar"
+      ],
+      "nameLower": "losartan"
+    },
+    {
+      "id": "drug_hydrochlorothiazide",
+      "name": "Hydrochlorothiazide",
+      "aliases": [
+        "Microzide",
+        "HCTZ"
+      ],
+      "nameLower": "hydrochlorothiazide"
+    },
+    {
+      "id": "drug_chlorthalidone",
+      "name": "Chlorthalidone",
+      "aliases": [
+        "Thalitone"
+      ],
+      "nameLower": "chlorthalidone"
+    },
+    {
+      "id": "drug_metoprolol",
+      "name": "Metoprolol",
+      "aliases": [
+        "Lopressor",
+        "Toprol XL"
+      ],
+      "nameLower": "metoprolol"
+    },
+    {
+      "id": "drug_valsartan",
+      "name": "Valsartan",
+      "aliases": [
+        "Diovan"
+      ],
+      "nameLower": "valsartan"
+    },
+    {
+      "id": "drug_olmesartan",
+      "name": "Olmesartan",
+      "aliases": [
+        "Benicar"
+      ],
+      "nameLower": "olmesartan"
+    },
+    {
+      "id": "drug_atorvastatin",
+      "name": "Atorvastatin",
+      "aliases": [
+        "Lipitor"
+      ],
+      "nameLower": "atorvastatin"
+    },
+    {
+      "id": "drug_rosuvastatin",
+      "name": "Rosuvastatin",
+      "aliases": [
+        "Crestor"
+      ],
+      "nameLower": "rosuvastatin"
+    },
+    {
+      "id": "drug_simvastatin",
+      "name": "Simvastatin",
+      "aliases": [
+        "Zocor"
+      ],
+      "nameLower": "simvastatin"
+    },
+    {
+      "id": "drug_pravastatin",
+      "name": "Pravastatin",
+      "aliases": [
+        "Pravachol"
+      ],
+      "nameLower": "pravastatin"
+    },
+    {
+      "id": "drug_ezetimibe",
+      "name": "Ezetimibe",
+      "aliases": [
+        "Zetia"
+      ],
+      "nameLower": "ezetimibe"
+    },
+    {
+      "id": "drug_evolocumab",
+      "name": "Evolocumab",
+      "aliases": [
+        "Repatha"
+      ],
+      "nameLower": "evolocumab"
+    },
+    {
+      "id": "drug_fenofibrate",
+      "name": "Fenofibrate",
+      "aliases": [
+        "Tricor",
+        "Fenoglide"
+      ],
+      "nameLower": "fenofibrate"
+    },
+    {
+      "id": "drug_bempedoic_acid",
+      "name": "Bempedoic acid",
+      "aliases": [
+        "Nexletol"
+      ],
+      "nameLower": "bempedoic acid"
+    },
+    {
+      "id": "drug_sacubitril_valsartan",
+      "name": "Sacubitril/valsartan",
+      "aliases": [
+        "Entresto"
+      ],
+      "nameLower": "sacubitril/valsartan"
+    },
+    {
+      "id": "drug_dapagliflozin",
+      "name": "Dapagliflozin",
+      "aliases": [
+        "Farxiga"
+      ],
+      "nameLower": "dapagliflozin"
+    },
+    {
+      "id": "drug_empagliflozin",
+      "name": "Empagliflozin",
+      "aliases": [
+        "Jardiance"
+      ],
+      "nameLower": "empagliflozin"
+    },
+    {
+      "id": "drug_carvedilol",
+      "name": "Carvedilol",
+      "aliases": [
+        "Coreg"
+      ],
+      "nameLower": "carvedilol"
+    },
+    {
+      "id": "drug_spironolactone",
+      "name": "Spironolactone",
+      "aliases": [
+        "Aldactone"
+      ],
+      "nameLower": "spironolactone"
+    },
+    {
+      "id": "drug_furosemide",
+      "name": "Furosemide",
+      "aliases": [
+        "Lasix"
+      ],
+      "nameLower": "furosemide"
+    },
+    {
+      "id": "drug_eplerenone",
+      "name": "Eplerenone",
+      "aliases": [
+        "Inspra"
+      ],
+      "nameLower": "eplerenone"
+    },
+    {
+      "id": "drug_apixaban",
+      "name": "Apixaban",
+      "aliases": [
+        "Eliquis"
+      ],
+      "nameLower": "apixaban"
+    },
+    {
+      "id": "drug_rivaroxaban",
+      "name": "Rivaroxaban",
+      "aliases": [
+        "Xarelto"
+      ],
+      "nameLower": "rivaroxaban"
+    },
+    {
+      "id": "drug_dabigatran",
+      "name": "Dabigatran",
+      "aliases": [
+        "Pradaxa"
+      ],
+      "nameLower": "dabigatran"
+    },
+    {
+      "id": "drug_warfarin",
+      "name": "Warfarin",
+      "aliases": [
+        "Coumadin",
+        "Jantoven"
+      ],
+      "nameLower": "warfarin"
+    },
+    {
+      "id": "drug_diltiazem",
+      "name": "Diltiazem",
+      "aliases": [
+        "Cardizem",
+        "Tiazac"
+      ],
+      "nameLower": "diltiazem"
+    },
+    {
+      "id": "drug_amiodarone",
+      "name": "Amiodarone",
+      "aliases": [
+        "Pacerone",
+        "Cordarone"
+      ],
+      "nameLower": "amiodarone"
+    },
+    {
+      "id": "drug_digoxin",
+      "name": "Digoxin",
+      "aliases": [
+        "Lanoxin"
+      ],
+      "nameLower": "digoxin"
+    },
+    {
+      "id": "drug_nitroglycerin",
+      "name": "Nitroglycerin",
+      "aliases": [
+        "Nitrostat",
+        "Nitro-Bid",
+        "Nitrolingual"
+      ],
+      "nameLower": "nitroglycerin"
+    },
+    {
+      "id": "drug_isosorbide_mononitrate",
+      "name": "Isosorbide mononitrate",
+      "aliases": [
+        "Imdur"
+      ],
+      "nameLower": "isosorbide mononitrate"
+    },
+    {
+      "id": "drug_ranolazine",
+      "name": "Ranolazine",
+      "aliases": [
+        "Ranexa"
+      ],
+      "nameLower": "ranolazine"
+    },
+    {
+      "id": "drug_atenolol",
+      "name": "Atenolol",
+      "aliases": [
+        "Tenormin"
+      ],
+      "nameLower": "atenolol"
+    },
+    {
+      "id": "drug_aspirin",
+      "name": "Aspirin",
+      "aliases": [
+        "Bayer",
+        "Ecotrin"
+      ],
+      "nameLower": "aspirin"
+    },
+    {
+      "id": "drug_clopidogrel",
+      "name": "Clopidogrel",
+      "aliases": [
+        "Plavix"
+      ],
+      "nameLower": "clopidogrel"
+    },
+    {
+      "id": "drug_ticagrelor",
+      "name": "Ticagrelor",
+      "aliases": [
+        "Brilinta"
+      ],
+      "nameLower": "ticagrelor"
+    },
+    {
+      "id": "drug_enoxaparin",
+      "name": "Enoxaparin",
+      "aliases": [
+        "Lovenox"
+      ],
+      "nameLower": "enoxaparin"
+    },
+    {
+      "id": "drug_edoxaban",
+      "name": "Edoxaban",
+      "aliases": [
+        "Savaysa"
+      ],
+      "nameLower": "edoxaban"
+    },
+    {
+      "id": "drug_heparin",
+      "name": "Heparin",
+      "aliases": [],
+      "nameLower": "heparin"
+    },
+    {
+      "id": "drug_dipyridamole_aspirin",
+      "name": "Dipyridamole/aspirin",
+      "aliases": [
+        "Aggrenox"
+      ],
+      "nameLower": "dipyridamole/aspirin"
+    },
+    {
+      "id": "drug_cilostazol",
+      "name": "Cilostazol",
+      "aliases": [
+        "Pletal"
+      ],
+      "nameLower": "cilostazol"
+    },
+    {
+      "id": "drug_pentoxifylline",
+      "name": "Pentoxifylline",
+      "aliases": [
+        "Trental"
+      ],
+      "nameLower": "pentoxifylline"
+    },
+    {
+      "id": "drug_verapamil",
+      "name": "Verapamil",
+      "aliases": [
+        "Calan",
+        "Verelan"
+      ],
+      "nameLower": "verapamil"
+    },
+    {
+      "id": "drug_adenosine",
+      "name": "Adenosine",
+      "aliases": [
+        "Adenocard"
+      ],
+      "nameLower": "adenosine"
+    },
+    {
+      "id": "drug_flecainide",
+      "name": "Flecainide",
+      "aliases": [
+        "Tambocor"
+      ],
+      "nameLower": "flecainide"
+    },
+    {
+      "id": "drug_sotalol",
+      "name": "Sotalol",
+      "aliases": [
+        "Betapace",
+        "Sotylize"
+      ],
+      "nameLower": "sotalol"
+    },
+    {
+      "id": "drug_propafenone",
+      "name": "Propafenone",
+      "aliases": [
+        "Rythmol"
+      ],
+      "nameLower": "propafenone"
+    },
+    {
+      "id": "drug_sildenafil",
+      "name": "Sildenafil",
+      "aliases": [
+        "Revatio"
+      ],
+      "nameLower": "sildenafil"
+    },
+    {
+      "id": "drug_tadalafil",
+      "name": "Tadalafil",
+      "aliases": [
+        "Adcirca"
+      ],
+      "nameLower": "tadalafil"
+    },
+    {
+      "id": "drug_ambrisentan",
+      "name": "Ambrisentan",
+      "aliases": [
+        "Letairis"
+      ],
+      "nameLower": "ambrisentan"
+    },
+    {
+      "id": "drug_bosentan",
+      "name": "Bosentan",
+      "aliases": [
+        "Tracleer"
+      ],
+      "nameLower": "bosentan"
+    },
+    {
+      "id": "drug_macitentan",
+      "name": "Macitentan",
+      "aliases": [
+        "Opsumit"
+      ],
+      "nameLower": "macitentan"
+    },
+    {
+      "id": "drug_riociguat",
+      "name": "Riociguat",
+      "aliases": [
+        "Adempas"
+      ],
+      "nameLower": "riociguat"
+    },
+    {
+      "id": "drug_treprostinil",
+      "name": "Treprostinil",
+      "aliases": [
+        "Remodulin",
+        "Orenitram",
+        "Tyvaso"
+      ],
+      "nameLower": "treprostinil"
+    },
+    {
+      "id": "drug_torsemide",
+      "name": "Torsemide",
+      "aliases": [
+        "Demadex"
+      ],
+      "nameLower": "torsemide"
+    },
+    {
+      "id": "drug_bumetanide",
+      "name": "Bumetanide",
+      "aliases": [
+        "Bumex"
+      ],
+      "nameLower": "bumetanide"
+    },
+    {
+      "id": "drug_metolazone",
+      "name": "Metolazone",
+      "aliases": [
+        "Zaroxolyn"
+      ],
+      "nameLower": "metolazone"
+    },
+    {
+      "id": "drug_hydralazine",
+      "name": "Hydralazine",
+      "aliases": [
+        "Apresoline"
+      ],
+      "nameLower": "hydralazine"
+    },
+    {
+      "id": "drug_clonidine",
+      "name": "Clonidine",
+      "aliases": [
+        "Catapres"
+      ],
+      "nameLower": "clonidine"
+    },
+    {
+      "id": "drug_doxazosin",
+      "name": "Doxazosin",
+      "aliases": [
+        "Cardura"
+      ],
+      "nameLower": "doxazosin"
+    },
+    {
+      "id": "drug_minoxidil",
+      "name": "Minoxidil",
+      "aliases": [],
+      "nameLower": "minoxidil"
+    },
+    {
+      "id": "drug_midodrine",
+      "name": "midodrine",
+      "aliases": [
+        "ProAmatine",
+        "Orvaten"
+      ],
+      "nameLower": "midodrine"
+    },
+    {
+      "id": "drug_fludrocortisone",
+      "name": "fludrocortisone",
+      "aliases": [
+        "Florinef"
+      ],
+      "nameLower": "fludrocortisone"
+    },
+    {
+      "id": "drug_droxidopa",
+      "name": "droxidopa",
+      "aliases": [
+        "Northera"
+      ],
+      "nameLower": "droxidopa"
+    }
+  ]
+}

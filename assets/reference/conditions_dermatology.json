@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_acne",
+      "drugIds": [
+        "drug_benzoyl_peroxide",
+        "drug_adapalene",
+        "drug_tretinoin",
+        "drug_clindamycin",
+        "drug_doxycycline",
+        "drug_minocycline",
+        "drug_isotretinoin",
+        "drug_azelaic_acid",
+        "drug_spironolactone",
+        "drug_clascoterone"
+      ]
+    },
+    {
+      "id": "cond_eczema",
+      "drugIds": [
+        "drug_hydrocortisone",
+        "drug_triamcinolone",
+        "drug_tacrolimus",
+        "drug_pimecrolimus",
+        "drug_crisaborole",
+        "drug_roflumilast",
+        "drug_tapinarof",
+        "drug_dupilumab",
+        "drug_upadacitinib",
+        "drug_tralokinumab"
+      ]
+    },
+    {
+      "id": "cond_psoriasis",
+      "drugIds": [
+        "drug_calcipotriene",
+        "drug_betamethasone",
+        "drug_tazarotene",
+        "drug_methotrexate",
+        "drug_apremilast",
+        "drug_adalimumab",
+        "drug_secukinumab",
+        "drug_ustekinumab",
+        "drug_ixekizumab",
+        "drug_guselkumab"
+      ]
+    },
+    {
+      "id": "cond_rosacea",
+      "drugIds": [
+        "drug_metronidazole",
+        "drug_azelaic_acid",
+        "drug_ivermectin",
+        "drug_brimonidine",
+        "drug_oxymetazoline",
+        "drug_minocycline",
+        "drug_doxycycline",
+        "drug_sodium_sulfacetamide"
+      ]
+    },
+    {
+      "id": "cond_hives",
+      "drugIds": [
+        "drug_cetirizine",
+        "drug_fexofenadine",
+        "drug_loratadine",
+        "drug_levocetirizine",
+        "drug_hydroxyzine",
+        "drug_diphenhydramine",
+        "drug_omalizumab",
+        "drug_cyclosporine",
+        "drug_montelukast"
+      ]
+    },
+    {
+      "id": "cond_athlete_s_foot_and_ringworm_2",
+      "drugIds": [
+        "drug_terbinafine",
+        "drug_clotrimazole",
+        "drug_miconazole",
+        "drug_ketoconazole",
+        "drug_econazole",
+        "drug_griseofulvin",
+        "drug_itraconazole",
+        "drug_naftifine"
+      ]
+    },
+    {
+      "id": "cond_fungal_nail_infection",
+      "drugIds": [
+        "drug_terbinafine",
+        "drug_itraconazole",
+        "drug_fluconazole",
+        "drug_efinaconazole",
+        "drug_ciclopirox",
+        "drug_tavaborole"
+      ]
+    },
+    {
+      "id": "cond_seborrheic_dermatitis",
+      "drugIds": [
+        "drug_ketoconazole",
+        "drug_selenium_sulfide",
+        "drug_ciclopirox",
+        "drug_pyrithione_zinc",
+        "drug_hydrocortisone",
+        "drug_coal_tar",
+        "drug_roflumilast"
+      ]
+    },
+    {
+      "id": "cond_bacterial_skin_infection",
+      "drugIds": [
+        "drug_cephalexin",
+        "drug_dicloxacillin",
+        "drug_clindamycin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_mupirocin",
+        "drug_doxycycline",
+        "drug_amoxicillin_clavulanate",
+        "drug_ozenoxacin"
+      ]
+    },
+    {
+      "id": "cond_cold_sores",
+      "drugIds": [
+        "drug_acyclovir",
+        "drug_valacyclovir",
+        "drug_famciclovir",
+        "drug_penciclovir",
+        "drug_docosanol"
+      ]
+    },
+    {
+      "id": "cond_warts",
+      "drugIds": [
+        "drug_salicylic_acid",
+        "drug_imiquimod",
+        "drug_podofilox",
+        "drug_sinecatechins",
+        "drug_cantharidin",
+        "drug_fluorouracil"
+      ]
+    },
+    {
+      "id": "cond_scabies",
+      "drugIds": [
+        "drug_permethrin",
+        "drug_ivermectin",
+        "drug_crotamiton",
+        "drug_lindane",
+        "drug_spinosad"
+      ]
+    },
+    {
+      "id": "cond_head_lice",
+      "drugIds": [
+        "drug_permethrin",
+        "drug_pyrethrin",
+        "drug_ivermectin",
+        "drug_spinosad",
+        "drug_malathion",
+        "drug_abametapir"
+      ]
+    },
+    {
+      "id": "cond_contact_dermatitis",
+      "drugIds": [
+        "drug_hydrocortisone",
+        "drug_triamcinolone",
+        "drug_clobetasol",
+        "drug_prednisone",
+        "drug_diphenhydramine",
+        "drug_tacrolimus"
+      ]
+    },
+    {
+      "id": "cond_melasma",
+      "drugIds": [
+        "drug_hydroquinone",
+        "drug_tretinoin",
+        "drug_azelaic_acid",
+        "drug_tranexamic_acid",
+        "drug_kojic_acid",
+        "drug_hydrocortisone"
+      ]
+    },
+    {
+      "id": "cond_actinic_keratosis",
+      "drugIds": [
+        "drug_fluorouracil",
+        "drug_imiquimod",
+        "drug_diclofenac",
+        "drug_tirbanibulin",
+        "drug_ingenol_mebutate"
+      ]
+    },
+    {
+      "id": "cond_sunburn",
+      "drugIds": [
+        "drug_hydrocortisone_topical",
+        "drug_aloe_vera",
+        "drug_ibuprofen",
+        "drug_lidocaine_topical"
+      ]
+    },
+    {
+      "id": "cond_hidradenitis_suppurativa",
+      "drugIds": [
+        "drug_clindamycin_topical",
+        "drug_adalimumab",
+        "drug_doxycycline",
+        "drug_secukinumab"
+      ]
+    },
+    {
+      "id": "cond_hair_loss",
+      "drugIds": [
+        "drug_minoxidil",
+        "drug_finasteride",
+        "drug_dutasteride",
+        "drug_spironolactone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_iron_deficiency_anemia",
+      "drugIds": [
+        "drug_ferrous_sulfate",
+        "drug_ferrous_gluconate",
+        "drug_ferrous_fumarate",
+        "drug_ferric_maltol",
+        "drug_iron_polysaccharide_complex",
+        "drug_ferric_carboxymaltose",
+        "drug_ferric_derisomaltose",
+        "drug_iron_sucrose",
+        "drug_ferumoxytol",
+        "drug_sodium_ferric_gluconate_complex"
+      ]
+    },
+    {
+      "id": "cond_vitamin_b12_deficiency",
+      "drugIds": [
+        "drug_cyanocobalamin",
+        "drug_hydroxocobalamin",
+        "drug_methylcobalamin"
+      ]
+    },
+    {
+      "id": "cond_pernicious_anemia",
+      "drugIds": [
+        "drug_hydroxocobalamin",
+        "drug_cyanocobalamin",
+        "drug_methylcobalamin"
+      ]
+    },
+    {
+      "id": "cond_folate_deficiency",
+      "drugIds": [
+        "drug_folic_acid",
+        "drug_levomefolate",
+        "drug_folinic_acid"
+      ]
+    },
+    {
+      "id": "cond_vitamin_d_deficiency",
+      "drugIds": [
+        "drug_cholecalciferol",
+        "drug_ergocalciferol",
+        "drug_calcitriol",
+        "drug_calcifediol",
+        "drug_alfacalcidol"
+      ]
+    },
+    {
+      "id": "cond_low_potassium",
+      "drugIds": [
+        "drug_potassium_chloride",
+        "drug_potassium_citrate",
+        "drug_potassium_bicarbonate",
+        "drug_potassium_gluconate",
+        "drug_spironolactone"
+      ]
+    },
+    {
+      "id": "cond_high_potassium",
+      "drugIds": [
+        "drug_patiromer",
+        "drug_sodium_zirconium_cyclosilicate",
+        "drug_sodium_polystyrene_sulfonate",
+        "drug_insulin",
+        "drug_albuterol",
+        "drug_sodium_bicarbonate",
+        "drug_calcium_gluconate"
+      ]
+    },
+    {
+      "id": "cond_low_magnesium",
+      "drugIds": [
+        "drug_magnesium_oxide",
+        "drug_magnesium_chloride",
+        "drug_magnesium_gluconate",
+        "drug_magnesium_sulfate",
+        "drug_magnesium_citrate",
+        "drug_magnesium_lactate"
+      ]
+    },
+    {
+      "id": "cond_low_calcium",
+      "drugIds": [
+        "drug_calcium_carbonate",
+        "drug_calcium_citrate",
+        "drug_calcium_gluconate",
+        "drug_calcium_chloride",
+        "drug_calcitriol"
+      ]
+    },
+    {
+      "id": "cond_vitamin_c_deficiency",
+      "drugIds": [
+        "drug_ascorbic_acid",
+        "drug_sodium_ascorbate"
+      ]
+    },
+    {
+      "id": "cond_zinc_deficiency",
+      "drugIds": [
+        "drug_zinc_sulfate",
+        "drug_zinc_gluconate",
+        "drug_zinc_acetate"
+      ]
+    },
+    {
+      "id": "cond_general_multivitamin_support",
+      "drugIds": [
+        "drug_multivitamin",
+        "drug_prenatal_multivitamin",
+        "drug_ascorbic_acid",
+        "drug_cholecalciferol",
+        "drug_folic_acid"
+      ]
+    },
+    {
+      "id": "cond_vitamin_b1_deficiency",
+      "drugIds": [
+        "drug_thiamine",
+        "drug_benfotiamine"
+      ]
+    },
+    {
+      "id": "cond_vitamin_b6_deficiency",
+      "drugIds": [
+        "drug_pyridoxine",
+        "drug_pyridoxal_phosphate"
+      ]
+    },
+    {
+      "id": "cond_vitamin_k_deficiency",
+      "drugIds": [
+        "drug_phytonadione",
+        "drug_menadione"
+      ]
+    },
+    {
+      "id": "cond_sickle_cell_disease",
+      "drugIds": [
+        "drug_hydroxyurea",
+        "drug_l_glutamine",
+        "drug_voxelotor",
+        "drug_crizanlizumab",
+        "drug_folic_acid"
+      ]
+    }
+  ]
+}

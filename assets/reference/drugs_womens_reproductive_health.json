@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_ethinyl_estradiol_levonorgestrel",
+      "name": "Ethinyl estradiol/Levonorgestrel",
+      "aliases": [
+        "Levora",
+        "Aviane",
+        "Lutera",
+        "Alesse"
+      ],
+      "nameLower": "ethinyl estradiol/levonorgestrel"
+    },
+    {
+      "id": "drug_ethinyl_estradiol_norethindrone",
+      "name": "Ethinyl estradiol/Norethindrone",
+      "aliases": [
+        "Loestrin",
+        "Junel",
+        "Microgestin",
+        "Ortho-Novum"
+      ],
+      "nameLower": "ethinyl estradiol/norethindrone"
+    },
+    {
+      "id": "drug_ethinyl_estradiol_norgestimate",
+      "name": "Ethinyl estradiol/Norgestimate",
+      "aliases": [
+        "Ortho Tri-Cyclen",
+        "Sprintec",
+        "TriNessa"
+      ],
+      "nameLower": "ethinyl estradiol/norgestimate"
+    },
+    {
+      "id": "drug_ethinyl_estradiol_drospirenone",
+      "name": "Ethinyl estradiol/Drospirenone",
+      "aliases": [
+        "Yaz",
+        "Yasmin",
+        "Ocella",
+        "Gianvi"
+      ],
+      "nameLower": "ethinyl estradiol/drospirenone"
+    },
+    {
+      "id": "drug_norethindrone",
+      "name": "Norethindrone",
+      "aliases": [
+        "Camila",
+        "Errin",
+        "Norlyda",
+        "mini-pill"
+      ],
+      "nameLower": "norethindrone"
+    },
+    {
+      "id": "drug_drospirenone",
+      "name": "Drospirenone",
+      "aliases": [
+        "Slynd"
+      ],
+      "nameLower": "drospirenone"
+    },
+    {
+      "id": "drug_medroxyprogesterone_acetate",
+      "name": "Medroxyprogesterone acetate",
+      "aliases": [
+        "Depo-Provera",
+        "Depo shot",
+        "Provera"
+      ],
+      "nameLower": "medroxyprogesterone acetate"
+    },
+    {
+      "id": "drug_etonogestrel",
+      "name": "Etonogestrel",
+      "aliases": [
+        "Nexplanon",
+        "implant"
+      ],
+      "nameLower": "etonogestrel"
+    },
+    {
+      "id": "drug_levonorgestrel_intrauterine_system",
+      "name": "Levonorgestrel intrauterine system",
+      "aliases": [
+        "Mirena",
+        "Kyleena",
+        "Liletta",
+        "Skyla",
+        "hormonal IUD"
+      ],
+      "nameLower": "levonorgestrel intrauterine system"
+    },
+    {
+      "id": "drug_norelgestromin_ethinyl_estradiol",
+      "name": "Norelgestromin/Ethinyl estradiol",
+      "aliases": [
+        "Xulane",
+        "Twirla",
+        "the patch"
+      ],
+      "nameLower": "norelgestromin/ethinyl estradiol"
+    },
+    {
+      "id": "drug_levonorgestrel",
+      "name": "Levonorgestrel",
+      "aliases": [
+        "Plan B One-Step",
+        "Take Action",
+        "My Way"
+      ],
+      "nameLower": "levonorgestrel"
+    },
+    {
+      "id": "drug_ulipristal_acetate",
+      "name": "Ulipristal acetate",
+      "aliases": [
+        "Ella"
+      ],
+      "nameLower": "ulipristal acetate"
+    },
+    {
+      "id": "drug_estradiol",
+      "name": "Estradiol",
+      "aliases": [
+        "Estrace",
+        "Climara",
+        "Vivelle-Dot",
+        "Divigel",
+        "Estraderm"
+      ],
+      "nameLower": "estradiol"
+    },
+    {
+      "id": "drug_conjugated_estrogens",
+      "name": "Conjugated estrogens",
+      "aliases": [
+        "Premarin"
+      ],
+      "nameLower": "conjugated estrogens"
+    },
+    {
+      "id": "drug_estradiol_progesterone",
+      "name": "Estradiol/Progesterone",
+      "aliases": [
+        "Bijuva"
+      ],
+      "nameLower": "estradiol/progesterone"
+    },
+    {
+      "id": "drug_conjugated_estrogens_medroxyprogesterone",
+      "name": "Conjugated estrogens/Medroxyprogesterone",
+      "aliases": [
+        "Prempro",
+        "Premphase"
+      ],
+      "nameLower": "conjugated estrogens/medroxyprogesterone"
+    },
+    {
+      "id": "drug_conjugated_estrogens_bazedoxifene",
+      "name": "Conjugated estrogens/Bazedoxifene",
+      "aliases": [
+        "Duavee"
+      ],
+      "nameLower": "conjugated estrogens/bazedoxifene"
+    },
+    {
+      "id": "drug_micronized_progesterone",
+      "name": "Micronized progesterone",
+      "aliases": [
+        "Prometrium"
+      ],
+      "nameLower": "micronized progesterone"
+    },
+    {
+      "id": "drug_fezolinetant",
+      "name": "Fezolinetant",
+      "aliases": [
+        "Veozah"
+      ],
+      "nameLower": "fezolinetant"
+    },
+    {
+      "id": "drug_elinzanetant",
+      "name": "Elinzanetant",
+      "aliases": [
+        "Lynkuet"
+      ],
+      "nameLower": "elinzanetant"
+    },
+    {
+      "id": "drug_paroxetine",
+      "name": "Paroxetine",
+      "aliases": [
+        "Brisdelle",
+        "Paxil"
+      ],
+      "nameLower": "paroxetine"
+    },
+    {
+      "id": "drug_venlafaxine",
+      "name": "Venlafaxine",
+      "aliases": [
+        "Effexor"
+      ],
+      "nameLower": "venlafaxine"
+    },
+    {
+      "id": "drug_estradiol_vaginal",
+      "name": "Estradiol vaginal",
+      "aliases": [
+        "Vagifem",
+        "Estring",
+        "Imvexxy",
+        "Yuvafem"
+      ],
+      "nameLower": "estradiol vaginal"
+    },
+    {
+      "id": "drug_conjugated_estrogens_vaginal_cream",
+      "name": "Conjugated estrogens vaginal cream",
+      "aliases": [
+        "Premarin Vaginal Cream"
+      ],
+      "nameLower": "conjugated estrogens vaginal cream"
+    },
+    {
+      "id": "drug_ospemifene",
+      "name": "Ospemifene",
+      "aliases": [
+        "Osphena"
+      ],
+      "nameLower": "ospemifene"
+    },
+    {
+      "id": "drug_prasterone",
+      "name": "Prasterone",
+      "aliases": [
+        "Intrarosa",
+        "DHEA"
+      ],
+      "nameLower": "prasterone"
+    },
+    {
+      "id": "drug_metformin",
+      "name": "Metformin",
+      "aliases": [
+        "Glucophage",
+        "Fortamet",
+        "Glumetza"
+      ],
+      "nameLower": "metformin"
+    },
+    {
+      "id": "drug_spironolactone",
+      "name": "Spironolactone",
+      "aliases": [
+        "Aldactone",
+        "CaroSpir"
+      ],
+      "nameLower": "spironolactone"
+    },
+    {
+      "id": "drug_letrozole",
+      "name": "Letrozole",
+      "aliases": [
+        "Femara"
+      ],
+      "nameLower": "letrozole"
+    },
+    {
+      "id": "drug_clomiphene",
+      "name": "Clomiphene",
+      "aliases": [
+        "Clomid",
+        "Serophene"
+      ],
+      "nameLower": "clomiphene"
+    },
+    {
+      "id": "drug_myo_inositol",
+      "name": "Myo-inositol",
+      "aliases": [
+        "inositol"
+      ],
+      "nameLower": "myo-inositol"
+    },
+    {
+      "id": "drug_eflornithine",
+      "name": "Eflornithine",
+      "aliases": [
+        "Vaniqa"
+      ],
+      "nameLower": "eflornithine"
+    },
+    {
+      "id": "drug_dienogest",
+      "name": "Dienogest",
+      "aliases": [
+        "Visanne"
+      ],
+      "nameLower": "dienogest"
+    },
+    {
+      "id": "drug_norethindrone_acetate",
+      "name": "Norethindrone acetate",
+      "aliases": [
+        "Aygestin"
+      ],
+      "nameLower": "norethindrone acetate"
+    },
+    {
+      "id": "drug_elagolix",
+      "name": "Elagolix",
+      "aliases": [
+        "Orilissa"
+      ],
+      "nameLower": "elagolix"
+    },
+    {
+      "id": "drug_relugolix_estradiol_norethindrone",
+      "name": "Relugolix/Estradiol/Norethindrone",
+      "aliases": [
+        "Myfembree"
+      ],
+      "nameLower": "relugolix/estradiol/norethindrone"
+    },
+    {
+      "id": "drug_leuprolide",
+      "name": "Leuprolide",
+      "aliases": [
+        "Lupron",
+        "Lupron Depot"
+      ],
+      "nameLower": "leuprolide"
+    },
+    {
+      "id": "drug_goserelin",
+      "name": "Goserelin",
+      "aliases": [
+        "Zoladex"
+      ],
+      "nameLower": "goserelin"
+    },
+    {
+      "id": "drug_elagolix_estradiol_norethindrone",
+      "name": "Elagolix/Estradiol/Norethindrone",
+      "aliases": [
+        "Oriahnn"
+      ],
+      "nameLower": "elagolix/estradiol/norethindrone"
+    },
+    {
+      "id": "drug_tranexamic_acid",
+      "name": "Tranexamic acid",
+      "aliases": [
+        "Lysteda",
+        "Cyklokapron"
+      ],
+      "nameLower": "tranexamic acid"
+    },
+    {
+      "id": "drug_naproxen",
+      "name": "Naproxen",
+      "aliases": [
+        "Aleve",
+        "Naprosyn"
+      ],
+      "nameLower": "naproxen"
+    },
+    {
+      "id": "drug_mefenamic_acid",
+      "name": "Mefenamic acid",
+      "aliases": [
+        "Ponstel"
+      ],
+      "nameLower": "mefenamic acid"
+    },
+    {
+      "id": "drug_ibuprofen",
+      "name": "Ibuprofen",
+      "aliases": [
+        "Advil",
+        "Motrin"
+      ],
+      "nameLower": "ibuprofen"
+    },
+    {
+      "id": "drug_diclofenac",
+      "name": "Diclofenac",
+      "aliases": [
+        "Cataflam",
+        "Voltaren"
+      ],
+      "nameLower": "diclofenac"
+    },
+    {
+      "id": "drug_acetaminophen",
+      "name": "Acetaminophen",
+      "aliases": [
+        "Tylenol"
+      ],
+      "nameLower": "acetaminophen"
+    },
+    {
+      "id": "drug_sertraline",
+      "name": "Sertraline",
+      "aliases": [
+        "Zoloft"
+      ],
+      "nameLower": "sertraline"
+    },
+    {
+      "id": "drug_fluoxetine",
+      "name": "Fluoxetine",
+      "aliases": [
+        "Prozac",
+        "Sarafem"
+      ],
+      "nameLower": "fluoxetine"
+    },
+    {
+      "id": "drug_escitalopram",
+      "name": "Escitalopram",
+      "aliases": [
+        "Lexapro"
+      ],
+      "nameLower": "escitalopram"
+    },
+    {
+      "id": "drug_citalopram",
+      "name": "Citalopram",
+      "aliases": [
+        "Celexa"
+      ],
+      "nameLower": "citalopram"
+    },
+    {
+      "id": "drug_folic_acid",
+      "name": "Folic acid",
+      "aliases": [
+        "folate",
+        "vitamin B9"
+      ],
+      "nameLower": "folic acid"
+    },
+    {
+      "id": "drug_prenatal_multivitamin",
+      "name": "Prenatal multivitamin",
+      "aliases": [
+        "PreNate",
+        "Prenate",
+        "Citranatal",
+        "OneVite"
+      ],
+      "nameLower": "prenatal multivitamin"
+    },
+    {
+      "id": "drug_ferrous_sulfate",
+      "name": "Ferrous sulfate",
+      "aliases": [
+        "iron supplement",
+        "Feosol"
+      ],
+      "nameLower": "ferrous sulfate"
+    },
+    {
+      "id": "drug_cholecalciferol",
+      "name": "Cholecalciferol",
+      "aliases": [
+        "vitamin D3"
+      ],
+      "nameLower": "cholecalciferol"
+    },
+    {
+      "id": "drug_docosahexaenoic_acid",
+      "name": "Docosahexaenoic acid",
+      "aliases": [
+        "DHA",
+        "omega-3"
+      ],
+      "nameLower": "docosahexaenoic acid"
+    },
+    {
+      "id": "drug_cyanocobalamin",
+      "name": "Cyanocobalamin",
+      "aliases": [
+        "vitamin B12"
+      ],
+      "nameLower": "cyanocobalamin"
+    },
+    {
+      "id": "drug_doxylamine_pyridoxine",
+      "name": "Doxylamine/Pyridoxine",
+      "aliases": [
+        "Diclegis",
+        "Bonjesta"
+      ],
+      "nameLower": "doxylamine/pyridoxine"
+    },
+    {
+      "id": "drug_pyridoxine",
+      "name": "Pyridoxine",
+      "aliases": [
+        "vitamin B6"
+      ],
+      "nameLower": "pyridoxine"
+    },
+    {
+      "id": "drug_ondansetron",
+      "name": "Ondansetron",
+      "aliases": [
+        "Zofran"
+      ],
+      "nameLower": "ondansetron"
+    },
+    {
+      "id": "drug_promethazine",
+      "name": "Promethazine",
+      "aliases": [
+        "Phenergan"
+      ],
+      "nameLower": "promethazine"
+    },
+    {
+      "id": "drug_metoclopramide",
+      "name": "Metoclopramide",
+      "aliases": [
+        "Reglan"
+      ],
+      "nameLower": "metoclopramide"
+    },
+    {
+      "id": "drug_dimenhydrinate",
+      "name": "Dimenhydrinate",
+      "aliases": [
+        "Dramamine"
+      ],
+      "nameLower": "dimenhydrinate"
+    },
+    {
+      "id": "drug_fluconazole",
+      "name": "Fluconazole",
+      "aliases": [
+        "Diflucan"
+      ],
+      "nameLower": "fluconazole"
+    },
+    {
+      "id": "drug_miconazole",
+      "name": "Miconazole",
+      "aliases": [
+        "Monistat"
+      ],
+      "nameLower": "miconazole"
+    },
+    {
+      "id": "drug_clotrimazole",
+      "name": "Clotrimazole",
+      "aliases": [
+        "Gyne-Lotrimin",
+        "Lotrimin"
+      ],
+      "nameLower": "clotrimazole"
+    },
+    {
+      "id": "drug_terconazole",
+      "name": "Terconazole",
+      "aliases": [
+        "Terazol"
+      ],
+      "nameLower": "terconazole"
+    },
+    {
+      "id": "drug_tioconazole",
+      "name": "Tioconazole",
+      "aliases": [
+        "Vagistat-1",
+        "Monistat 1"
+      ],
+      "nameLower": "tioconazole"
+    },
+    {
+      "id": "drug_ibrexafungerp",
+      "name": "Ibrexafungerp",
+      "aliases": [
+        "Brexafemme"
+      ],
+      "nameLower": "ibrexafungerp"
+    },
+    {
+      "id": "drug_oteseconazole",
+      "name": "Oteseconazole",
+      "aliases": [
+        "Vivjoa"
+      ],
+      "nameLower": "oteseconazole"
+    },
+    {
+      "id": "drug_metronidazole",
+      "name": "Metronidazole",
+      "aliases": [
+        "Flagyl",
+        "MetroGel-Vaginal"
+      ],
+      "nameLower": "metronidazole"
+    },
+    {
+      "id": "drug_clindamycin",
+      "name": "Clindamycin",
+      "aliases": [
+        "Cleocin",
+        "Clindesse"
+      ],
+      "nameLower": "clindamycin"
+    },
+    {
+      "id": "drug_secnidazole",
+      "name": "Secnidazole",
+      "aliases": [
+        "Solosec"
+      ],
+      "nameLower": "secnidazole"
+    },
+    {
+      "id": "drug_tinidazole",
+      "name": "Tinidazole",
+      "aliases": [
+        "Tindamax"
+      ],
+      "nameLower": "tinidazole"
+    },
+    {
+      "id": "drug_follitropin_alfa",
+      "name": "Follitropin alfa",
+      "aliases": [
+        "Gonal-F",
+        "FSH"
+      ],
+      "nameLower": "follitropin alfa"
+    },
+    {
+      "id": "drug_menotropins",
+      "name": "Menotropins",
+      "aliases": [
+        "Menopur",
+        "hMG"
+      ],
+      "nameLower": "menotropins"
+    },
+    {
+      "id": "drug_progesterone",
+      "name": "Progesterone",
+      "aliases": [
+        "Crinone",
+        "Endometrin",
+        "Prometrium"
+      ],
+      "nameLower": "progesterone"
+    },
+    {
+      "id": "drug_human_chorionic_gonadotropin",
+      "name": "Human chorionic gonadotropin",
+      "aliases": [
+        "Ovidrel",
+        "Pregnyl",
+        "hCG"
+      ],
+      "nameLower": "human chorionic gonadotropin"
+    },
+    {
+      "id": "drug_alendronate",
+      "name": "Alendronate",
+      "aliases": [
+        "Fosamax",
+        "Binosto"
+      ],
+      "nameLower": "alendronate"
+    },
+    {
+      "id": "drug_risedronate",
+      "name": "Risedronate",
+      "aliases": [
+        "Actonel",
+        "Atelvia"
+      ],
+      "nameLower": "risedronate"
+    },
+    {
+      "id": "drug_zoledronic_acid",
+      "name": "Zoledronic acid",
+      "aliases": [
+        "Reclast"
+      ],
+      "nameLower": "zoledronic acid"
+    },
+    {
+      "id": "drug_denosumab",
+      "name": "Denosumab",
+      "aliases": [
+        "Prolia"
+      ],
+      "nameLower": "denosumab"
+    },
+    {
+      "id": "drug_raloxifene",
+      "name": "Raloxifene",
+      "aliases": [
+        "Evista"
+      ],
+      "nameLower": "raloxifene"
+    },
+    {
+      "id": "drug_teriparatide",
+      "name": "Teriparatide",
+      "aliases": [
+        "Forteo"
+      ],
+      "nameLower": "teriparatide"
+    },
+    {
+      "id": "drug_romosozumab",
+      "name": "Romosozumab",
+      "aliases": [
+        "Evenity"
+      ],
+      "nameLower": "romosozumab"
+    },
+    {
+      "id": "drug_dicloxacillin",
+      "name": "dicloxacillin",
+      "aliases": [
+        "Dynapen"
+      ],
+      "nameLower": "dicloxacillin"
+    },
+    {
+      "id": "drug_cephalexin",
+      "name": "cephalexin",
+      "aliases": [
+        "Keflex"
+      ],
+      "nameLower": "cephalexin"
+    }
+  ]
+}

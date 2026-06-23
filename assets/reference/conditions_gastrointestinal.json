@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_acid_reflux_heartburn",
+      "drugIds": [
+        "drug_omeprazole",
+        "drug_esomeprazole",
+        "drug_pantoprazole",
+        "drug_lansoprazole",
+        "drug_rabeprazole",
+        "drug_famotidine",
+        "drug_vonoprazan",
+        "drug_sucralfate"
+      ]
+    },
+    {
+      "id": "cond_peptic_ulcer_disease",
+      "drugIds": [
+        "drug_omeprazole",
+        "drug_esomeprazole",
+        "drug_pantoprazole",
+        "drug_lansoprazole",
+        "drug_sucralfate",
+        "drug_misoprostol",
+        "drug_famotidine"
+      ]
+    },
+    {
+      "id": "cond_h_pylori_infection",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_clarithromycin",
+        "drug_metronidazole",
+        "drug_tetracycline",
+        "drug_bismuth_subsalicylate",
+        "drug_vonoprazan",
+        "drug_omeprazole",
+        "drug_levofloxacin",
+        "drug_rifabutin"
+      ]
+    },
+    {
+      "id": "cond_irritable_bowel_syndrome_with_constipation",
+      "drugIds": [
+        "drug_linaclotide",
+        "drug_plecanatide",
+        "drug_lubiprostone",
+        "drug_tenapanor",
+        "drug_tegaserod",
+        "drug_polyethylene_glycol_3350"
+      ]
+    },
+    {
+      "id": "cond_irritable_bowel_syndrome_with_diarrhea",
+      "drugIds": [
+        "drug_rifaximin",
+        "drug_eluxadoline",
+        "drug_alosetron",
+        "drug_loperamide",
+        "drug_dicyclomine",
+        "drug_hyoscyamine",
+        "drug_amitriptyline"
+      ]
+    },
+    {
+      "id": "cond_constipation",
+      "drugIds": [
+        "drug_polyethylene_glycol_3350",
+        "drug_bisacodyl",
+        "drug_senna",
+        "drug_docusate",
+        "drug_lactulose",
+        "drug_linaclotide",
+        "drug_lubiprostone",
+        "drug_psyllium"
+      ]
+    },
+    {
+      "id": "cond_diarrhea",
+      "drugIds": [
+        "drug_loperamide",
+        "drug_bismuth_subsalicylate",
+        "drug_diphenoxylate_atropine",
+        "drug_rifaximin",
+        "drug_octreotide"
+      ]
+    },
+    {
+      "id": "cond_nausea_and_vomiting",
+      "drugIds": [
+        "drug_ondansetron",
+        "drug_promethazine",
+        "drug_prochlorperazine",
+        "drug_metoclopramide",
+        "drug_granisetron",
+        "drug_meclizine",
+        "drug_dimenhydrinate",
+        "drug_aprepitant"
+      ]
+    },
+    {
+      "id": "cond_crohn_disease",
+      "drugIds": [
+        "drug_adalimumab",
+        "drug_infliximab",
+        "drug_ustekinumab",
+        "drug_vedolizumab",
+        "drug_azathioprine",
+        "drug_methotrexate",
+        "drug_budesonide",
+        "drug_risankizumab",
+        "drug_upadacitinib"
+      ]
+    },
+    {
+      "id": "cond_ulcerative_colitis",
+      "drugIds": [
+        "drug_mesalamine",
+        "drug_sulfasalazine",
+        "drug_balsalazide",
+        "drug_prednisone",
+        "drug_infliximab",
+        "drug_adalimumab",
+        "drug_vedolizumab",
+        "drug_tofacitinib",
+        "drug_ozanimod"
+      ]
+    },
+    {
+      "id": "cond_gastroparesis",
+      "drugIds": [
+        "drug_metoclopramide",
+        "drug_erythromycin",
+        "drug_domperidone",
+        "drug_prochlorperazine",
+        "drug_ondansetron"
+      ]
+    },
+    {
+      "id": "cond_hemorrhoids",
+      "drugIds": [
+        "drug_hydrocortisone",
+        "drug_phenylephrine",
+        "drug_pramoxine",
+        "drug_witch_hazel",
+        "drug_lidocaine"
+      ]
+    },
+    {
+      "id": "cond_indigestion",
+      "drugIds": [
+        "drug_omeprazole",
+        "drug_esomeprazole",
+        "drug_famotidine",
+        "drug_metoclopramide",
+        "drug_amitriptyline",
+        "drug_calcium_carbonate"
+      ]
+    },
+    {
+      "id": "cond_excess_stomach_gas_and_bloating",
+      "drugIds": [
+        "drug_simethicone",
+        "drug_alpha_galactosidase",
+        "drug_rifaximin",
+        "drug_activated_charcoal"
+      ]
+    },
+    {
+      "id": "cond_clostridioides_difficile_infection",
+      "drugIds": [
+        "drug_vancomycin",
+        "drug_fidaxomicin",
+        "drug_metronidazole",
+        "drug_bezlotoxumab"
+      ]
+    },
+    {
+      "id": "cond_pancreatic_enzyme_insufficiency",
+      "drugIds": [
+        "drug_pancrelipase",
+        "drug_omeprazole",
+        "drug_pantoprazole"
+      ]
+    },
+    {
+      "id": "cond_celiac_disease",
+      "drugIds": [
+        "drug_calcium_carbonate",
+        "drug_cholecalciferol",
+        "drug_ferrous_sulfate",
+        "drug_folic_acid"
+      ]
+    },
+    {
+      "id": "cond_lactose_intolerance",
+      "drugIds": [
+        "drug_lactase_enzyme",
+        "drug_simethicone"
+      ]
+    },
+    {
+      "id": "cond_gallstones",
+      "drugIds": [
+        "drug_ursodiol",
+        "drug_hyoscyamine",
+        "drug_acetaminophen"
+      ]
+    },
+    {
+      "id": "cond_fatty_liver_disease",
+      "drugIds": [
+        "drug_resmetirom",
+        "drug_pioglitazone",
+        "drug_vitamin_e",
+        "drug_semaglutide"
+      ]
+    },
+    {
+      "id": "cond_hepatitis_c",
+      "drugIds": [
+        "drug_sofosbuvir_velpatasvir",
+        "drug_glecaprevir_pibrentasvir",
+        "drug_ledipasvir_sofosbuvir",
+        "drug_ribavirin"
+      ]
+    },
+    {
+      "id": "cond_hepatitis_b",
+      "drugIds": [
+        "drug_tenofovir_disoproxil",
+        "drug_entecavir",
+        "drug_tenofovir_alafenamide",
+        "drug_peginterferon_alfa_2a"
+      ]
+    },
+    {
+      "id": "cond_motion_sickness",
+      "drugIds": [
+        "drug_meclizine",
+        "drug_dimenhydrinate",
+        "drug_scopolamine",
+        "drug_promethazine"
+      ]
+    }
+  ]
+}

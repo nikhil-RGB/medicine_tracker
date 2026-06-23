@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_pink_eye",
+      "drugIds": [
+        "drug_erythromycin",
+        "drug_polymyxin_b_trimethoprim",
+        "drug_moxifloxacin",
+        "drug_ofloxacin",
+        "drug_ciprofloxacin",
+        "drug_tobramycin",
+        "drug_azithromycin",
+        "drug_besifloxacin",
+        "drug_gentamicin"
+      ]
+    },
+    {
+      "id": "cond_eye_allergies",
+      "drugIds": [
+        "drug_olopatadine",
+        "drug_ketotifen",
+        "drug_azelastine",
+        "drug_epinastine",
+        "drug_bepotastine",
+        "drug_cromolyn",
+        "drug_loteprednol",
+        "drug_naphazoline_pheniramine"
+      ]
+    },
+    {
+      "id": "cond_glaucoma",
+      "drugIds": [
+        "drug_latanoprost",
+        "drug_bimatoprost",
+        "drug_travoprost",
+        "drug_timolol",
+        "drug_brimonidine",
+        "drug_dorzolamide",
+        "drug_brinzolamide",
+        "drug_netarsudil",
+        "drug_latanoprostene_bunod",
+        "drug_pilocarpine"
+      ]
+    },
+    {
+      "id": "cond_dry_eye_disease",
+      "drugIds": [
+        "drug_cyclosporine",
+        "drug_lifitegrast",
+        "drug_varenicline",
+        "drug_perfluorohexyloctane",
+        "drug_loteprednol",
+        "drug_hydroxypropyl_methylcellulose",
+        "drug_carboxymethylcellulose"
+      ]
+    },
+    {
+      "id": "cond_ear_infection",
+      "drugIds": [
+        "drug_amoxicillin",
+        "drug_amoxicillin_clavulanate",
+        "drug_cefdinir",
+        "drug_cefuroxime",
+        "drug_cefpodoxime",
+        "drug_ceftriaxone",
+        "drug_azithromycin",
+        "drug_clindamycin"
+      ]
+    },
+    {
+      "id": "cond_swimmer_s_ear",
+      "drugIds": [
+        "drug_ciprofloxacin_dexamethasone",
+        "drug_ciprofloxacin_hydrocortisone",
+        "drug_ofloxacin",
+        "drug_neomycin_polymyxin_b_hydrocortisone",
+        "drug_acetic_acid",
+        "drug_finafloxacin",
+        "drug_clotrimazole"
+      ]
+    },
+    {
+      "id": "cond_hay_fever",
+      "drugIds": [
+        "drug_fluticasone",
+        "drug_mometasone",
+        "drug_triamcinolone",
+        "drug_budesonide",
+        "drug_azelastine",
+        "drug_cetirizine",
+        "drug_loratadine",
+        "drug_fexofenadine",
+        "drug_montelukast",
+        "drug_ipratropium"
+      ]
+    },
+    {
+      "id": "cond_sinus_infection_2",
+      "drugIds": [
+        "drug_amoxicillin_clavulanate",
+        "drug_amoxicillin",
+        "drug_doxycycline",
+        "drug_levofloxacin",
+        "drug_cefpodoxime",
+        "drug_clindamycin",
+        "drug_fluticasone",
+        "drug_mometasone"
+      ]
+    },
+    {
+      "id": "cond_sore_throat_from_strep",
+      "drugIds": [
+        "drug_penicillin_v",
+        "drug_amoxicillin",
+        "drug_cephalexin",
+        "drug_cefadroxil",
+        "drug_azithromycin",
+        "drug_clarithromycin",
+        "drug_clindamycin"
+      ]
+    },
+    {
+      "id": "cond_stye_and_eyelid_inflammation",
+      "drugIds": [
+        "drug_erythromycin",
+        "drug_bacitracin",
+        "drug_azithromycin",
+        "drug_doxycycline",
+        "drug_tobramycin_dexamethasone",
+        "drug_loteprednol"
+      ]
+    },
+    {
+      "id": "cond_eye_herpes_infection",
+      "drugIds": [
+        "drug_trifluridine",
+        "drug_ganciclovir",
+        "drug_acyclovir",
+        "drug_valacyclovir",
+        "drug_famciclovir"
+      ]
+    },
+    {
+      "id": "cond_eye_inflammation",
+      "drugIds": [
+        "drug_prednisolone_acetate",
+        "drug_difluprednate",
+        "drug_dexamethasone",
+        "drug_loteprednol",
+        "drug_cyclopentolate",
+        "drug_atropine",
+        "drug_homatropine"
+      ]
+    },
+    {
+      "id": "cond_earwax_buildup",
+      "drugIds": [
+        "drug_carbamide_peroxide",
+        "drug_hydrogen_peroxide",
+        "drug_docusate_sodium",
+        "drug_triethanolamine_polypeptide"
+      ]
+    },
+    {
+      "id": "cond_vertigo_and_motion_related_dizziness",
+      "drugIds": [
+        "drug_meclizine",
+        "drug_dimenhydrinate",
+        "drug_scopolamine",
+        "drug_promethazine",
+        "drug_diazepam",
+        "drug_betahistine",
+        "drug_ondansetron"
+      ]
+    },
+    {
+      "id": "cond_nosebleeds",
+      "drugIds": [
+        "drug_oxymetazoline",
+        "drug_phenylephrine",
+        "drug_tranexamic_acid",
+        "drug_mupirocin",
+        "drug_silver_nitrate"
+      ]
+    },
+    {
+      "id": "cond_tonsillitis",
+      "drugIds": [
+        "drug_penicillin_v",
+        "drug_amoxicillin",
+        "drug_acetaminophen",
+        "drug_ibuprofen",
+        "drug_benzocaine_lozenge"
+      ]
+    },
+    {
+      "id": "cond_mouth_ulcers_canker_sores",
+      "drugIds": [
+        "drug_benzocaine_topical",
+        "drug_triamcinolone_dental_paste",
+        "drug_chlorhexidine_mouthwash",
+        "drug_amlexanox"
+      ]
+    },
+    {
+      "id": "cond_oral_thrush",
+      "drugIds": [
+        "drug_nystatin",
+        "drug_clotrimazole_troche",
+        "drug_fluconazole",
+        "drug_miconazole_buccal"
+      ]
+    }
+  ]
+}

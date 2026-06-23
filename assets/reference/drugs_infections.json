@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_nitrofurantoin",
+      "name": "Nitrofurantoin",
+      "aliases": [
+        "Macrobid",
+        "Macrodantin"
+      ],
+      "nameLower": "nitrofurantoin"
+    },
+    {
+      "id": "drug_trimethoprim_sulfamethoxazole",
+      "name": "Trimethoprim-sulfamethoxazole",
+      "aliases": [
+        "Bactrim",
+        "Septra",
+        "Co-trimoxazole"
+      ],
+      "nameLower": "trimethoprim-sulfamethoxazole"
+    },
+    {
+      "id": "drug_fosfomycin",
+      "name": "Fosfomycin",
+      "aliases": [
+        "Monurol"
+      ],
+      "nameLower": "fosfomycin"
+    },
+    {
+      "id": "drug_cephalexin",
+      "name": "Cephalexin",
+      "aliases": [
+        "Keflex"
+      ],
+      "nameLower": "cephalexin"
+    },
+    {
+      "id": "drug_ciprofloxacin",
+      "name": "Ciprofloxacin",
+      "aliases": [
+        "Cipro"
+      ],
+      "nameLower": "ciprofloxacin"
+    },
+    {
+      "id": "drug_trimethoprim",
+      "name": "Trimethoprim",
+      "aliases": [
+        "Primsol"
+      ],
+      "nameLower": "trimethoprim"
+    },
+    {
+      "id": "drug_amoxicillin_clavulanate",
+      "name": "Amoxicillin-clavulanate",
+      "aliases": [
+        "Augmentin"
+      ],
+      "nameLower": "amoxicillin-clavulanate"
+    },
+    {
+      "id": "drug_levofloxacin",
+      "name": "Levofloxacin",
+      "aliases": [
+        "Levaquin"
+      ],
+      "nameLower": "levofloxacin"
+    },
+    {
+      "id": "drug_ceftriaxone",
+      "name": "Ceftriaxone",
+      "aliases": [
+        "Rocephin"
+      ],
+      "nameLower": "ceftriaxone"
+    },
+    {
+      "id": "drug_cefpodoxime",
+      "name": "Cefpodoxime",
+      "aliases": [
+        "Vantin"
+      ],
+      "nameLower": "cefpodoxime"
+    },
+    {
+      "id": "drug_ertapenem",
+      "name": "Ertapenem",
+      "aliases": [
+        "Invanz"
+      ],
+      "nameLower": "ertapenem"
+    },
+    {
+      "id": "drug_penicillin_v",
+      "name": "Penicillin V",
+      "aliases": [
+        "Penicillin VK",
+        "Pen-Vee K"
+      ],
+      "nameLower": "penicillin v"
+    },
+    {
+      "id": "drug_amoxicillin",
+      "name": "Amoxicillin",
+      "aliases": [
+        "Amoxil"
+      ],
+      "nameLower": "amoxicillin"
+    },
+    {
+      "id": "drug_benzathine_penicillin_g",
+      "name": "Benzathine penicillin G",
+      "aliases": [
+        "Bicillin L-A"
+      ],
+      "nameLower": "benzathine penicillin g"
+    },
+    {
+      "id": "drug_azithromycin",
+      "name": "Azithromycin",
+      "aliases": [
+        "Zithromax",
+        "Z-Pak"
+      ],
+      "nameLower": "azithromycin"
+    },
+    {
+      "id": "drug_clindamycin",
+      "name": "Clindamycin",
+      "aliases": [
+        "Cleocin"
+      ],
+      "nameLower": "clindamycin"
+    },
+    {
+      "id": "drug_clarithromycin",
+      "name": "Clarithromycin",
+      "aliases": [
+        "Biaxin"
+      ],
+      "nameLower": "clarithromycin"
+    },
+    {
+      "id": "drug_doxycycline",
+      "name": "Doxycycline",
+      "aliases": [
+        "Vibramycin",
+        "Doryx"
+      ],
+      "nameLower": "doxycycline"
+    },
+    {
+      "id": "drug_cefuroxime",
+      "name": "Cefuroxime",
+      "aliases": [
+        "Ceftin"
+      ],
+      "nameLower": "cefuroxime"
+    },
+    {
+      "id": "drug_dicloxacillin",
+      "name": "Dicloxacillin",
+      "aliases": [
+        "Dynapen"
+      ],
+      "nameLower": "dicloxacillin"
+    },
+    {
+      "id": "drug_vancomycin",
+      "name": "Vancomycin",
+      "aliases": [
+        "Vancocin",
+        "Firvanq"
+      ],
+      "nameLower": "vancomycin"
+    },
+    {
+      "id": "drug_linezolid",
+      "name": "Linezolid",
+      "aliases": [
+        "Zyvox"
+      ],
+      "nameLower": "linezolid"
+    },
+    {
+      "id": "drug_oseltamivir",
+      "name": "Oseltamivir",
+      "aliases": [
+        "Tamiflu"
+      ],
+      "nameLower": "oseltamivir"
+    },
+    {
+      "id": "drug_baloxavir_marboxil",
+      "name": "Baloxavir marboxil",
+      "aliases": [
+        "Xofluza"
+      ],
+      "nameLower": "baloxavir marboxil"
+    },
+    {
+      "id": "drug_zanamivir",
+      "name": "Zanamivir",
+      "aliases": [
+        "Relenza"
+      ],
+      "nameLower": "zanamivir"
+    },
+    {
+      "id": "drug_peramivir",
+      "name": "Peramivir",
+      "aliases": [
+        "Rapivab"
+      ],
+      "nameLower": "peramivir"
+    },
+    {
+      "id": "drug_acyclovir",
+      "name": "Acyclovir",
+      "aliases": [
+        "Zovirax"
+      ],
+      "nameLower": "acyclovir"
+    },
+    {
+      "id": "drug_valacyclovir",
+      "name": "Valacyclovir",
+      "aliases": [
+        "Valtrex"
+      ],
+      "nameLower": "valacyclovir"
+    },
+    {
+      "id": "drug_famciclovir",
+      "name": "Famciclovir",
+      "aliases": [
+        "Famvir"
+      ],
+      "nameLower": "famciclovir"
+    },
+    {
+      "id": "drug_isoniazid",
+      "name": "Isoniazid",
+      "aliases": [
+        "INH",
+        "Nydrazid"
+      ],
+      "nameLower": "isoniazid"
+    },
+    {
+      "id": "drug_rifampin",
+      "name": "Rifampin",
+      "aliases": [
+        "Rifadin",
+        "Rimactane",
+        "Rifampicin"
+      ],
+      "nameLower": "rifampin"
+    },
+    {
+      "id": "drug_pyrazinamide",
+      "name": "Pyrazinamide",
+      "aliases": [
+        "PZA"
+      ],
+      "nameLower": "pyrazinamide"
+    },
+    {
+      "id": "drug_ethambutol",
+      "name": "Ethambutol",
+      "aliases": [
+        "Myambutol"
+      ],
+      "nameLower": "ethambutol"
+    },
+    {
+      "id": "drug_rifapentine",
+      "name": "Rifapentine",
+      "aliases": [
+        "Priftin"
+      ],
+      "nameLower": "rifapentine"
+    },
+    {
+      "id": "drug_bedaquiline",
+      "name": "Bedaquiline",
+      "aliases": [
+        "Sirturo"
+      ],
+      "nameLower": "bedaquiline"
+    },
+    {
+      "id": "drug_artemether_lumefantrine",
+      "name": "Artemether-lumefantrine",
+      "aliases": [
+        "Coartem"
+      ],
+      "nameLower": "artemether-lumefantrine"
+    },
+    {
+      "id": "drug_atovaquone_proguanil",
+      "name": "Atovaquone-proguanil",
+      "aliases": [
+        "Malarone"
+      ],
+      "nameLower": "atovaquone-proguanil"
+    },
+    {
+      "id": "drug_chloroquine",
+      "name": "Chloroquine",
+      "aliases": [
+        "Aralen"
+      ],
+      "nameLower": "chloroquine"
+    },
+    {
+      "id": "drug_hydroxychloroquine",
+      "name": "Hydroxychloroquine",
+      "aliases": [
+        "Plaquenil"
+      ],
+      "nameLower": "hydroxychloroquine"
+    },
+    {
+      "id": "drug_mefloquine",
+      "name": "Mefloquine",
+      "aliases": [
+        "Lariam"
+      ],
+      "nameLower": "mefloquine"
+    },
+    {
+      "id": "drug_primaquine",
+      "name": "Primaquine",
+      "aliases": [],
+      "nameLower": "primaquine"
+    },
+    {
+      "id": "drug_quinine",
+      "name": "Quinine",
+      "aliases": [
+        "Qualaquin"
+      ],
+      "nameLower": "quinine"
+    },
+    {
+      "id": "drug_fluconazole",
+      "name": "Fluconazole",
+      "aliases": [
+        "Diflucan"
+      ],
+      "nameLower": "fluconazole"
+    },
+    {
+      "id": "drug_miconazole",
+      "name": "Miconazole",
+      "aliases": [
+        "Monistat",
+        "Micatin"
+      ],
+      "nameLower": "miconazole"
+    },
+    {
+      "id": "drug_clotrimazole",
+      "name": "Clotrimazole",
+      "aliases": [
+        "Lotrimin",
+        "Mycelex"
+      ],
+      "nameLower": "clotrimazole"
+    },
+    {
+      "id": "drug_terconazole",
+      "name": "Terconazole",
+      "aliases": [
+        "Terazol"
+      ],
+      "nameLower": "terconazole"
+    },
+    {
+      "id": "drug_nystatin",
+      "name": "Nystatin",
+      "aliases": [
+        "Mycostatin"
+      ],
+      "nameLower": "nystatin"
+    },
+    {
+      "id": "drug_tioconazole",
+      "name": "Tioconazole",
+      "aliases": [
+        "Vagistat"
+      ],
+      "nameLower": "tioconazole"
+    },
+    {
+      "id": "drug_cefdinir",
+      "name": "Cefdinir",
+      "aliases": [
+        "Omnicef"
+      ],
+      "nameLower": "cefdinir"
+    },
+    {
+      "id": "drug_cefixime",
+      "name": "Cefixime",
+      "aliases": [
+        "Suprax"
+      ],
+      "nameLower": "cefixime"
+    },
+    {
+      "id": "drug_gentamicin",
+      "name": "Gentamicin",
+      "aliases": [
+        "Garamycin"
+      ],
+      "nameLower": "gentamicin"
+    },
+    {
+      "id": "drug_erythromycin",
+      "name": "Erythromycin",
+      "aliases": [
+        "Ery-Tab",
+        "Erythrocin"
+      ],
+      "nameLower": "erythromycin"
+    },
+    {
+      "id": "drug_metronidazole",
+      "name": "Metronidazole",
+      "aliases": [
+        "Flagyl"
+      ],
+      "nameLower": "metronidazole"
+    },
+    {
+      "id": "drug_tetracycline",
+      "name": "Tetracycline",
+      "aliases": [
+        "Sumycin"
+      ],
+      "nameLower": "tetracycline"
+    },
+    {
+      "id": "drug_bismuth_subsalicylate",
+      "name": "Bismuth subsalicylate",
+      "aliases": [
+        "Pepto-Bismol",
+        "Kaopectate"
+      ],
+      "nameLower": "bismuth subsalicylate"
+    },
+    {
+      "id": "drug_omeprazole",
+      "name": "Omeprazole",
+      "aliases": [
+        "Prilosec"
+      ],
+      "nameLower": "omeprazole"
+    },
+    {
+      "id": "drug_terbinafine",
+      "name": "Terbinafine",
+      "aliases": [
+        "Lamisil"
+      ],
+      "nameLower": "terbinafine"
+    },
+    {
+      "id": "drug_ketoconazole",
+      "name": "Ketoconazole",
+      "aliases": [
+        "Nizoral"
+      ],
+      "nameLower": "ketoconazole"
+    },
+    {
+      "id": "drug_griseofulvin",
+      "name": "Griseofulvin",
+      "aliases": [
+        "Grifulvin V",
+        "Gris-PEG"
+      ],
+      "nameLower": "griseofulvin"
+    },
+    {
+      "id": "drug_itraconazole",
+      "name": "Itraconazole",
+      "aliases": [
+        "Sporanox"
+      ],
+      "nameLower": "itraconazole"
+    },
+    {
+      "id": "drug_fidaxomicin",
+      "name": "Fidaxomicin",
+      "aliases": [
+        "Dificid"
+      ],
+      "nameLower": "fidaxomicin"
+    },
+    {
+      "id": "drug_bictegravir_emtricitabine_tenofovir_alafenamide",
+      "name": "bictegravir/emtricitabine/tenofovir alafenamide",
+      "aliases": [
+        "Biktarvy"
+      ],
+      "nameLower": "bictegravir/emtricitabine/tenofovir alafenamide"
+    },
+    {
+      "id": "drug_dolutegravir_abacavir_lamivudine",
+      "name": "dolutegravir/abacavir/lamivudine",
+      "aliases": [
+        "Triumeq"
+      ],
+      "nameLower": "dolutegravir/abacavir/lamivudine"
+    },
+    {
+      "id": "drug_emtricitabine_tenofovir_disoproxil",
+      "name": "emtricitabine/tenofovir disoproxil",
+      "aliases": [
+        "Truvada",
+        "PrEP"
+      ],
+      "nameLower": "emtricitabine/tenofovir disoproxil"
+    },
+    {
+      "id": "drug_dolutegravir_lamivudine",
+      "name": "dolutegravir/lamivudine",
+      "aliases": [
+        "Dovato"
+      ],
+      "nameLower": "dolutegravir/lamivudine"
+    },
+    {
+      "id": "drug_cabotegravir_rilpivirine",
+      "name": "cabotegravir/rilpivirine",
+      "aliases": [
+        "Cabenuva"
+      ],
+      "nameLower": "cabotegravir/rilpivirine"
+    },
+    {
+      "id": "drug_nirmatrelvir_ritonavir",
+      "name": "nirmatrelvir/ritonavir",
+      "aliases": [
+        "Paxlovid"
+      ],
+      "nameLower": "nirmatrelvir/ritonavir"
+    },
+    {
+      "id": "drug_molnupiravir",
+      "name": "molnupiravir",
+      "aliases": [
+        "Lagevrio"
+      ],
+      "nameLower": "molnupiravir"
+    },
+    {
+      "id": "drug_remdesivir",
+      "name": "remdesivir",
+      "aliases": [
+        "Veklury"
+      ],
+      "nameLower": "remdesivir"
+    },
+    {
+      "id": "drug_dexamethasone",
+      "name": "dexamethasone",
+      "aliases": [
+        "Decadron"
+      ],
+      "nameLower": "dexamethasone"
+    },
+    {
+      "id": "drug_albendazole",
+      "name": "albendazole",
+      "aliases": [
+        "Albenza"
+      ],
+      "nameLower": "albendazole"
+    },
+    {
+      "id": "drug_mebendazole",
+      "name": "mebendazole",
+      "aliases": [
+        "Vermox",
+        "Emverm"
+      ],
+      "nameLower": "mebendazole"
+    },
+    {
+      "id": "drug_pyrantel_pamoate",
+      "name": "pyrantel pamoate",
+      "aliases": [
+        "Reese's Pinworm Medicine",
+        "Pin-X"
+      ],
+      "nameLower": "pyrantel pamoate"
+    },
+    {
+      "id": "drug_ivermectin",
+      "name": "ivermectin",
+      "aliases": [
+        "Stromectol"
+      ],
+      "nameLower": "ivermectin"
+    },
+    {
+      "id": "drug_loperamide",
+      "name": "loperamide",
+      "aliases": [
+        "Imodium"
+      ],
+      "nameLower": "loperamide"
+    },
+    {
+      "id": "drug_rifaximin",
+      "name": "rifaximin",
+      "aliases": [
+        "Xifaxan"
+      ],
+      "nameLower": "rifaximin"
+    }
+  ]
+}

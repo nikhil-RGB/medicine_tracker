@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_osteoarthritis",
+      "drugIds": [
+        "drug_diclofenac",
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_celecoxib",
+        "drug_meloxicam",
+        "drug_acetaminophen",
+        "drug_duloxetine",
+        "drug_capsaicin"
+      ]
+    },
+    {
+      "id": "cond_rheumatoid_arthritis",
+      "drugIds": [
+        "drug_methotrexate",
+        "drug_hydroxychloroquine",
+        "drug_sulfasalazine",
+        "drug_leflunomide",
+        "drug_adalimumab",
+        "drug_etanercept",
+        "drug_tofacitinib",
+        "drug_prednisone"
+      ]
+    },
+    {
+      "id": "cond_gout_2",
+      "drugIds": [
+        "drug_allopurinol",
+        "drug_febuxostat",
+        "drug_colchicine",
+        "drug_indomethacin",
+        "drug_naproxen",
+        "drug_probenecid",
+        "drug_prednisone"
+      ]
+    },
+    {
+      "id": "cond_fibromyalgia",
+      "drugIds": [
+        "drug_pregabalin",
+        "drug_duloxetine",
+        "drug_milnacipran",
+        "drug_gabapentin",
+        "drug_amitriptyline",
+        "drug_cyclobenzaprine"
+      ]
+    },
+    {
+      "id": "cond_low_back_pain",
+      "drugIds": [
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_diclofenac",
+        "drug_cyclobenzaprine",
+        "drug_acetaminophen",
+        "drug_duloxetine",
+        "drug_gabapentin"
+      ]
+    },
+    {
+      "id": "cond_muscle_spasm",
+      "drugIds": [
+        "drug_cyclobenzaprine",
+        "drug_methocarbamol",
+        "drug_metaxalone",
+        "drug_carisoprodol",
+        "drug_orphenadrine",
+        "drug_tizanidine",
+        "drug_chlorzoxazone"
+      ]
+    },
+    {
+      "id": "cond_spasticity_2",
+      "drugIds": [
+        "drug_baclofen",
+        "drug_tizanidine",
+        "drug_dantrolene",
+        "drug_diazepam",
+        "drug_onabotulinumtoxina"
+      ]
+    },
+    {
+      "id": "cond_general_pain_and_fever",
+      "drugIds": [
+        "drug_acetaminophen",
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_aspirin",
+        "drug_ketorolac"
+      ]
+    },
+    {
+      "id": "cond_migraine_headache",
+      "drugIds": [
+        "drug_sumatriptan",
+        "drug_rizatriptan",
+        "drug_topiramate",
+        "drug_propranolol",
+        "drug_rimegepant",
+        "drug_erenumab",
+        "drug_naproxen"
+      ]
+    },
+    {
+      "id": "cond_tension_headache",
+      "drugIds": [
+        "drug_acetaminophen",
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_aspirin",
+        "drug_amitriptyline"
+      ]
+    },
+    {
+      "id": "cond_ankylosing_spondylitis",
+      "drugIds": [
+        "drug_naproxen",
+        "drug_indomethacin",
+        "drug_celecoxib",
+        "drug_adalimumab",
+        "drug_etanercept",
+        "drug_secukinumab",
+        "drug_upadacitinib"
+      ]
+    },
+    {
+      "id": "cond_psoriatic_arthritis",
+      "drugIds": [
+        "drug_methotrexate",
+        "drug_sulfasalazine",
+        "drug_leflunomide",
+        "drug_adalimumab",
+        "drug_secukinumab",
+        "drug_ustekinumab",
+        "drug_apremilast"
+      ]
+    },
+    {
+      "id": "cond_bursitis_and_tendinitis",
+      "drugIds": [
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_diclofenac",
+        "drug_meloxicam",
+        "drug_methylprednisolone",
+        "drug_triamcinolone"
+      ]
+    },
+    {
+      "id": "cond_neuropathic_pain_2",
+      "drugIds": [
+        "drug_gabapentin",
+        "drug_pregabalin",
+        "drug_duloxetine",
+        "drug_amitriptyline",
+        "drug_nortriptyline",
+        "drug_carbamazepine",
+        "drug_lidocaine"
+      ]
+    },
+    {
+      "id": "cond_acute_moderate_to_severe_pain",
+      "drugIds": [
+        "drug_tramadol",
+        "drug_hydrocodone",
+        "drug_oxycodone",
+        "drug_morphine",
+        "drug_codeine",
+        "drug_ketorolac"
+      ]
+    },
+    {
+      "id": "cond_osteoporosis_2",
+      "drugIds": [
+        "drug_alendronate",
+        "drug_risedronate",
+        "drug_zoledronic_acid",
+        "drug_denosumab",
+        "drug_teriparatide",
+        "drug_raloxifene",
+        "drug_romosozumab"
+      ]
+    },
+    {
+      "id": "cond_muscle_and_joint_sprains_strains",
+      "drugIds": [
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_diclofenac_topical",
+        "drug_acetaminophen",
+        "drug_cyclobenzaprine"
+      ]
+    },
+    {
+      "id": "cond_lupus",
+      "drugIds": [
+        "drug_hydroxychloroquine",
+        "drug_prednisone",
+        "drug_belimumab",
+        "drug_methotrexate",
+        "drug_mycophenolate_mofetil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "drugs": [
+    {
+      "id": "drug_albuterol",
+      "name": "Albuterol",
+      "aliases": [
+        "Ventolin",
+        "ProAir",
+        "Proventil",
+        "Salbutamol"
+      ],
+      "nameLower": "albuterol"
+    },
+    {
+      "id": "drug_budesonide",
+      "name": "Budesonide",
+      "aliases": [
+        "Pulmicort",
+        "Rhinocort"
+      ],
+      "nameLower": "budesonide"
+    },
+    {
+      "id": "drug_fluticasone",
+      "name": "Fluticasone",
+      "aliases": [
+        "Flovent",
+        "Arnuity Ellipta",
+        "Flonase",
+        "Xhance"
+      ],
+      "nameLower": "fluticasone"
+    },
+    {
+      "id": "drug_formoterol",
+      "name": "Formoterol",
+      "aliases": [
+        "Foradil",
+        "Perforomist"
+      ],
+      "nameLower": "formoterol"
+    },
+    {
+      "id": "drug_budesonide_formoterol",
+      "name": "Budesonide/Formoterol",
+      "aliases": [
+        "Symbicort"
+      ],
+      "nameLower": "budesonide/formoterol"
+    },
+    {
+      "id": "drug_fluticasone_salmeterol",
+      "name": "Fluticasone/Salmeterol",
+      "aliases": [
+        "Advair",
+        "AirDuo"
+      ],
+      "nameLower": "fluticasone/salmeterol"
+    },
+    {
+      "id": "drug_montelukast",
+      "name": "Montelukast",
+      "aliases": [
+        "Singulair"
+      ],
+      "nameLower": "montelukast"
+    },
+    {
+      "id": "drug_mometasone",
+      "name": "Mometasone",
+      "aliases": [
+        "Asmanex",
+        "Nasonex"
+      ],
+      "nameLower": "mometasone"
+    },
+    {
+      "id": "drug_tiotropium",
+      "name": "Tiotropium",
+      "aliases": [
+        "Spiriva Respimat",
+        "Spiriva"
+      ],
+      "nameLower": "tiotropium"
+    },
+    {
+      "id": "drug_prednisone",
+      "name": "Prednisone",
+      "aliases": [
+        "Deltasone",
+        "Rayos"
+      ],
+      "nameLower": "prednisone"
+    },
+    {
+      "id": "drug_omalizumab",
+      "name": "Omalizumab",
+      "aliases": [
+        "Xolair"
+      ],
+      "nameLower": "omalizumab"
+    },
+    {
+      "id": "drug_mepolizumab",
+      "name": "Mepolizumab",
+      "aliases": [
+        "Nucala"
+      ],
+      "nameLower": "mepolizumab"
+    },
+    {
+      "id": "drug_benralizumab",
+      "name": "Benralizumab",
+      "aliases": [
+        "Fasenra"
+      ],
+      "nameLower": "benralizumab"
+    },
+    {
+      "id": "drug_dupilumab",
+      "name": "Dupilumab",
+      "aliases": [
+        "Dupixent"
+      ],
+      "nameLower": "dupilumab"
+    },
+    {
+      "id": "drug_reslizumab",
+      "name": "Reslizumab",
+      "aliases": [
+        "Cinqair"
+      ],
+      "nameLower": "reslizumab"
+    },
+    {
+      "id": "drug_tezepelumab",
+      "name": "Tezepelumab",
+      "aliases": [
+        "Tezspire"
+      ],
+      "nameLower": "tezepelumab"
+    },
+    {
+      "id": "drug_umeclidinium",
+      "name": "Umeclidinium",
+      "aliases": [
+        "Incruse Ellipta"
+      ],
+      "nameLower": "umeclidinium"
+    },
+    {
+      "id": "drug_ipratropium",
+      "name": "Ipratropium",
+      "aliases": [
+        "Atrovent"
+      ],
+      "nameLower": "ipratropium"
+    },
+    {
+      "id": "drug_ipratropium_albuterol",
+      "name": "Ipratropium/Albuterol",
+      "aliases": [
+        "Combivent",
+        "DuoNeb"
+      ],
+      "nameLower": "ipratropium/albuterol"
+    },
+    {
+      "id": "drug_umeclidinium_vilanterol",
+      "name": "Umeclidinium/Vilanterol",
+      "aliases": [
+        "Anoro Ellipta"
+      ],
+      "nameLower": "umeclidinium/vilanterol"
+    },
+    {
+      "id": "drug_tiotropium_olodaterol",
+      "name": "Tiotropium/Olodaterol",
+      "aliases": [
+        "Stiolto Respimat"
+      ],
+      "nameLower": "tiotropium/olodaterol"
+    },
+    {
+      "id": "drug_glycopyrrolate_formoterol",
+      "name": "Glycopyrrolate/Formoterol",
+      "aliases": [
+        "Bevespi Aerosphere"
+      ],
+      "nameLower": "glycopyrrolate/formoterol"
+    },
+    {
+      "id": "drug_fluticasone_umeclidinium_vilanterol",
+      "name": "Fluticasone/Umeclidinium/Vilanterol",
+      "aliases": [
+        "Trelegy Ellipta"
+      ],
+      "nameLower": "fluticasone/umeclidinium/vilanterol"
+    },
+    {
+      "id": "drug_roflumilast",
+      "name": "Roflumilast",
+      "aliases": [
+        "Daliresp"
+      ],
+      "nameLower": "roflumilast"
+    },
+    {
+      "id": "drug_azithromycin",
+      "name": "Azithromycin",
+      "aliases": [
+        "Zithromax",
+        "Z-Pak"
+      ],
+      "nameLower": "azithromycin"
+    },
+    {
+      "id": "drug_triamcinolone",
+      "name": "Triamcinolone",
+      "aliases": [
+        "Nasacort"
+      ],
+      "nameLower": "triamcinolone"
+    },
+    {
+      "id": "drug_azelastine",
+      "name": "Azelastine",
+      "aliases": [
+        "Astelin",
+        "Astepro"
+      ],
+      "nameLower": "azelastine"
+    },
+    {
+      "id": "drug_cetirizine",
+      "name": "Cetirizine",
+      "aliases": [
+        "Zyrtec"
+      ],
+      "nameLower": "cetirizine"
+    },
+    {
+      "id": "drug_loratadine",
+      "name": "Loratadine",
+      "aliases": [
+        "Claritin"
+      ],
+      "nameLower": "loratadine"
+    },
+    {
+      "id": "drug_fexofenadine",
+      "name": "Fexofenadine",
+      "aliases": [
+        "Allegra"
+      ],
+      "nameLower": "fexofenadine"
+    },
+    {
+      "id": "drug_azelastine_fluticasone",
+      "name": "Azelastine/Fluticasone",
+      "aliases": [
+        "Dymista"
+      ],
+      "nameLower": "azelastine/fluticasone"
+    },
+    {
+      "id": "drug_cromolyn_sodium",
+      "name": "Cromolyn sodium",
+      "aliases": [
+        "NasalCrom"
+      ],
+      "nameLower": "cromolyn sodium"
+    },
+    {
+      "id": "drug_dextromethorphan",
+      "name": "Dextromethorphan",
+      "aliases": [
+        "Delsym",
+        "Robitussin DM"
+      ],
+      "nameLower": "dextromethorphan"
+    },
+    {
+      "id": "drug_benzonatate",
+      "name": "Benzonatate",
+      "aliases": [
+        "Tessalon Perles"
+      ],
+      "nameLower": "benzonatate"
+    },
+    {
+      "id": "drug_guaifenesin",
+      "name": "Guaifenesin",
+      "aliases": [
+        "Mucinex",
+        "Robitussin"
+      ],
+      "nameLower": "guaifenesin"
+    },
+    {
+      "id": "drug_codeine",
+      "name": "Codeine",
+      "aliases": [
+        "codeine phosphate"
+      ],
+      "nameLower": "codeine"
+    },
+    {
+      "id": "drug_gabapentin",
+      "name": "Gabapentin",
+      "aliases": [
+        "Neurontin"
+      ],
+      "nameLower": "gabapentin"
+    },
+    {
+      "id": "drug_omeprazole",
+      "name": "Omeprazole",
+      "aliases": [
+        "Prilosec"
+      ],
+      "nameLower": "omeprazole"
+    },
+    {
+      "id": "drug_ibuprofen",
+      "name": "Ibuprofen",
+      "aliases": [
+        "Advil",
+        "Motrin"
+      ],
+      "nameLower": "ibuprofen"
+    },
+    {
+      "id": "drug_acetaminophen",
+      "name": "Acetaminophen",
+      "aliases": [
+        "Tylenol"
+      ],
+      "nameLower": "acetaminophen"
+    },
+    {
+      "id": "drug_apixaban",
+      "name": "Apixaban",
+      "aliases": [
+        "Eliquis"
+      ],
+      "nameLower": "apixaban"
+    },
+    {
+      "id": "drug_rivaroxaban",
+      "name": "Rivaroxaban",
+      "aliases": [
+        "Xarelto"
+      ],
+      "nameLower": "rivaroxaban"
+    },
+    {
+      "id": "drug_edoxaban",
+      "name": "Edoxaban",
+      "aliases": [
+        "Savaysa",
+        "Lixiana"
+      ],
+      "nameLower": "edoxaban"
+    },
+    {
+      "id": "drug_dabigatran",
+      "name": "Dabigatran",
+      "aliases": [
+        "Pradaxa"
+      ],
+      "nameLower": "dabigatran"
+    },
+    {
+      "id": "drug_enoxaparin",
+      "name": "Enoxaparin",
+      "aliases": [
+        "Lovenox"
+      ],
+      "nameLower": "enoxaparin"
+    },
+    {
+      "id": "drug_warfarin",
+      "name": "Warfarin",
+      "aliases": [
+        "Coumadin",
+        "Jantoven"
+      ],
+      "nameLower": "warfarin"
+    },
+    {
+      "id": "drug_heparin",
+      "name": "Heparin",
+      "aliases": [
+        "unfractionated heparin"
+      ],
+      "nameLower": "heparin"
+    },
+    {
+      "id": "drug_fondaparinux",
+      "name": "Fondaparinux",
+      "aliases": [
+        "Arixtra"
+      ],
+      "nameLower": "fondaparinux"
+    },
+    {
+      "id": "drug_amoxicillin",
+      "name": "Amoxicillin",
+      "aliases": [
+        "Amoxil"
+      ],
+      "nameLower": "amoxicillin"
+    },
+    {
+      "id": "drug_amoxicillin_clavulanate",
+      "name": "Amoxicillin/Clavulanate",
+      "aliases": [
+        "Augmentin"
+      ],
+      "nameLower": "amoxicillin/clavulanate"
+    },
+    {
+      "id": "drug_doxycycline",
+      "name": "Doxycycline",
+      "aliases": [
+        "Vibramycin"
+      ],
+      "nameLower": "doxycycline"
+    },
+    {
+      "id": "drug_levofloxacin",
+      "name": "Levofloxacin",
+      "aliases": [
+        "Levaquin"
+      ],
+      "nameLower": "levofloxacin"
+    },
+    {
+      "id": "drug_ceftriaxone",
+      "name": "Ceftriaxone",
+      "aliases": [
+        "Rocephin"
+      ],
+      "nameLower": "ceftriaxone"
+    },
+    {
+      "id": "drug_cefuroxime",
+      "name": "Cefuroxime",
+      "aliases": [
+        "Ceftin"
+      ],
+      "nameLower": "cefuroxime"
+    },
+    {
+      "id": "drug_pirfenidone",
+      "name": "Pirfenidone",
+      "aliases": [
+        "Esbriet"
+      ],
+      "nameLower": "pirfenidone"
+    },
+    {
+      "id": "drug_nintedanib",
+      "name": "Nintedanib",
+      "aliases": [
+        "Ofev"
+      ],
+      "nameLower": "nintedanib"
+    },
+    {
+      "id": "drug_mycophenolate_mofetil",
+      "name": "Mycophenolate mofetil",
+      "aliases": [
+        "CellCept"
+      ],
+      "nameLower": "mycophenolate mofetil"
+    },
+    {
+      "id": "drug_azathioprine",
+      "name": "Azathioprine",
+      "aliases": [
+        "Imuran"
+      ],
+      "nameLower": "azathioprine"
+    },
+    {
+      "id": "drug_sildenafil",
+      "name": "Sildenafil",
+      "aliases": [
+        "Revatio"
+      ],
+      "nameLower": "sildenafil"
+    },
+    {
+      "id": "drug_tadalafil",
+      "name": "Tadalafil",
+      "aliases": [
+        "Adcirca"
+      ],
+      "nameLower": "tadalafil"
+    },
+    {
+      "id": "drug_bosentan",
+      "name": "Bosentan",
+      "aliases": [
+        "Tracleer"
+      ],
+      "nameLower": "bosentan"
+    },
+    {
+      "id": "drug_ambrisentan",
+      "name": "Ambrisentan",
+      "aliases": [
+        "Letairis",
+        "Volibris"
+      ],
+      "nameLower": "ambrisentan"
+    },
+    {
+      "id": "drug_macitentan",
+      "name": "Macitentan",
+      "aliases": [
+        "Opsumit"
+      ],
+      "nameLower": "macitentan"
+    },
+    {
+      "id": "drug_riociguat",
+      "name": "Riociguat",
+      "aliases": [
+        "Adempas"
+      ],
+      "nameLower": "riociguat"
+    },
+    {
+      "id": "drug_treprostinil",
+      "name": "Treprostinil",
+      "aliases": [
+        "Remodulin",
+        "Tyvaso",
+        "Orenitram"
+      ],
+      "nameLower": "treprostinil"
+    },
+    {
+      "id": "drug_selexipag",
+      "name": "Selexipag",
+      "aliases": [
+        "Uptravi"
+      ],
+      "nameLower": "selexipag"
+    },
+    {
+      "id": "drug_dornase_alfa",
+      "name": "Dornase alfa",
+      "aliases": [
+        "Pulmozyme"
+      ],
+      "nameLower": "dornase alfa"
+    },
+    {
+      "id": "drug_elexacaftor_tezacaftor_ivacaftor",
+      "name": "Elexacaftor/Tezacaftor/Ivacaftor",
+      "aliases": [
+        "Trikafta",
+        "Kaftrio"
+      ],
+      "nameLower": "elexacaftor/tezacaftor/ivacaftor"
+    },
+    {
+      "id": "drug_ivacaftor",
+      "name": "Ivacaftor",
+      "aliases": [
+        "Kalydeco"
+      ],
+      "nameLower": "ivacaftor"
+    },
+    {
+      "id": "drug_lumacaftor_ivacaftor",
+      "name": "Lumacaftor/Ivacaftor",
+      "aliases": [
+        "Orkambi"
+      ],
+      "nameLower": "lumacaftor/ivacaftor"
+    },
+    {
+      "id": "drug_tobramycin",
+      "name": "Tobramycin",
+      "aliases": [
+        "TOBI",
+        "Bethkis"
+      ],
+      "nameLower": "tobramycin"
+    },
+    {
+      "id": "drug_aztreonam",
+      "name": "Aztreonam",
+      "aliases": [
+        "Cayston"
+      ],
+      "nameLower": "aztreonam"
+    },
+    {
+      "id": "drug_hypertonic_saline",
+      "name": "Hypertonic saline",
+      "aliases": [],
+      "nameLower": "hypertonic saline"
+    },
+    {
+      "id": "drug_modafinil",
+      "name": "Modafinil",
+      "aliases": [
+        "Provigil"
+      ],
+      "nameLower": "modafinil"
+    },
+    {
+      "id": "drug_armodafinil",
+      "name": "Armodafinil",
+      "aliases": [
+        "Nuvigil"
+      ],
+      "nameLower": "armodafinil"
+    },
+    {
+      "id": "drug_solriamfetol",
+      "name": "Solriamfetol",
+      "aliases": [
+        "Sunosi"
+      ],
+      "nameLower": "solriamfetol"
+    },
+    {
+      "id": "drug_pseudoephedrine",
+      "name": "Pseudoephedrine",
+      "aliases": [
+        "Sudafed"
+      ],
+      "nameLower": "pseudoephedrine"
+    },
+    {
+      "id": "drug_phenylephrine",
+      "name": "Phenylephrine",
+      "aliases": [
+        "Sudafed PE"
+      ],
+      "nameLower": "phenylephrine"
+    },
+    {
+      "id": "drug_oxymetazoline",
+      "name": "Oxymetazoline",
+      "aliases": [
+        "Afrin"
+      ],
+      "nameLower": "oxymetazoline"
+    },
+    {
+      "id": "drug_diphenhydramine",
+      "name": "Diphenhydramine",
+      "aliases": [
+        "Benadryl"
+      ],
+      "nameLower": "diphenhydramine"
+    },
+    {
+      "id": "drug_dexamethasone",
+      "name": "Dexamethasone",
+      "aliases": [
+        "Decadron"
+      ],
+      "nameLower": "dexamethasone"
+    },
+    {
+      "id": "drug_prednisolone",
+      "name": "Prednisolone",
+      "aliases": [
+        "Orapred",
+        "Prelone"
+      ],
+      "nameLower": "prednisolone"
+    },
+    {
+      "id": "drug_racemic_epinephrine",
+      "name": "Racemic epinephrine",
+      "aliases": [
+        "Asthmanefrin"
+      ],
+      "nameLower": "racemic epinephrine"
+    },
+    {
+      "id": "drug_ciprofloxacin",
+      "name": "Ciprofloxacin",
+      "aliases": [
+        "Cipro"
+      ],
+      "nameLower": "ciprofloxacin"
+    }
+  ]
+}

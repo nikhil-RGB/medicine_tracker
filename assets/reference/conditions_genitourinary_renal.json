@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_urinary_tract_infection_2",
+      "drugIds": [
+        "drug_nitrofurantoin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_fosfomycin",
+        "drug_ciprofloxacin",
+        "drug_cephalexin",
+        "drug_amoxicillin_clavulanate",
+        "drug_levofloxacin",
+        "drug_cefpodoxime"
+      ]
+    },
+    {
+      "id": "cond_benign_prostatic_hyperplasia",
+      "drugIds": [
+        "drug_tamsulosin",
+        "drug_alfuzosin",
+        "drug_silodosin",
+        "drug_doxazosin",
+        "drug_terazosin",
+        "drug_finasteride",
+        "drug_dutasteride",
+        "drug_tadalafil"
+      ]
+    },
+    {
+      "id": "cond_erectile_dysfunction",
+      "drugIds": [
+        "drug_sildenafil",
+        "drug_tadalafil",
+        "drug_vardenafil",
+        "drug_avanafil",
+        "drug_alprostadil"
+      ]
+    },
+    {
+      "id": "cond_overactive_bladder",
+      "drugIds": [
+        "drug_mirabegron",
+        "drug_vibegron",
+        "drug_oxybutynin",
+        "drug_solifenacin",
+        "drug_tolterodine",
+        "drug_darifenacin",
+        "drug_fesoterodine",
+        "drug_trospium"
+      ]
+    },
+    {
+      "id": "cond_chronic_kidney_disease",
+      "drugIds": [
+        "drug_lisinopril",
+        "drug_losartan",
+        "drug_dapagliflozin",
+        "drug_empagliflozin",
+        "drug_finerenone",
+        "drug_atorvastatin",
+        "drug_furosemide",
+        "drug_sodium_bicarbonate"
+      ]
+    },
+    {
+      "id": "cond_kidney_stones",
+      "drugIds": [
+        "drug_tamsulosin",
+        "drug_potassium_citrate",
+        "drug_hydrochlorothiazide",
+        "drug_chlorthalidone",
+        "drug_allopurinol",
+        "drug_tiopronin",
+        "drug_ketorolac"
+      ]
+    },
+    {
+      "id": "cond_acute_pyelonephritis",
+      "drugIds": [
+        "drug_ciprofloxacin",
+        "drug_levofloxacin",
+        "drug_ceftriaxone",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_cefepime",
+        "drug_ertapenem",
+        "drug_gentamicin"
+      ]
+    },
+    {
+      "id": "cond_benign_prostatic_hyperplasia_related_urinary_retention_chronic_prostatitis",
+      "drugIds": [
+        "drug_ciprofloxacin",
+        "drug_levofloxacin",
+        "drug_trimethoprim_sulfamethoxazole",
+        "drug_tamsulosin",
+        "drug_alfuzosin",
+        "drug_doxycycline"
+      ]
+    },
+    {
+      "id": "cond_diabetic_kidney_disease",
+      "drugIds": [
+        "drug_lisinopril",
+        "drug_losartan",
+        "drug_irbesartan",
+        "drug_dapagliflozin",
+        "drug_empagliflozin",
+        "drug_canagliflozin",
+        "drug_finerenone",
+        "drug_semaglutide"
+      ]
+    },
+    {
+      "id": "cond_urinary_incontinence",
+      "drugIds": [
+        "drug_duloxetine",
+        "drug_oxybutynin",
+        "drug_mirabegron",
+        "drug_estradiol",
+        "drug_imipramine"
+      ]
+    },
+    {
+      "id": "cond_interstitial_cystitis",
+      "drugIds": [
+        "drug_pentosan_polysulfate_sodium",
+        "drug_amitriptyline",
+        "drug_hydroxyzine",
+        "drug_cimetidine",
+        "drug_dimethyl_sulfoxide"
+      ]
+    },
+    {
+      "id": "cond_nephrotic_syndrome",
+      "drugIds": [
+        "drug_prednisone",
+        "drug_tacrolimus",
+        "drug_cyclophosphamide",
+        "drug_lisinopril",
+        "drug_furosemide",
+        "drug_rituximab",
+        "drug_atorvastatin"
+      ]
+    },
+    {
+      "id": "cond_hyperkalemia_in_renal_disease",
+      "drugIds": [
+        "drug_patiromer",
+        "drug_sodium_zirconium_cyclosilicate",
+        "drug_sodium_polystyrene_sulfonate",
+        "drug_furosemide"
+      ]
+    },
+    {
+      "id": "cond_renal_anemia",
+      "drugIds": [
+        "drug_epoetin_alfa",
+        "drug_darbepoetin_alfa",
+        "drug_ferric_carboxymaltose",
+        "drug_ferrous_sulfate",
+        "drug_roxadustat",
+        "drug_daprodustat"
+      ]
+    },
+    {
+      "id": "cond_ckd_mineral_and_bone_disorder_hyperphosphatemia",
+      "drugIds": [
+        "drug_sevelamer",
+        "drug_calcium_acetate",
+        "drug_lanthanum_carbonate",
+        "drug_ferric_citrate",
+        "drug_cinacalcet",
+        "drug_paricalcitol",
+        "drug_calcitriol"
+      ]
+    },
+    {
+      "id": "cond_gout_related_nephropathy_hyperuricemia",
+      "drugIds": [
+        "drug_allopurinol",
+        "drug_febuxostat",
+        "drug_colchicine",
+        "drug_probenecid",
+        "drug_pegloticase"
+      ]
+    },
+    {
+      "id": "cond_premature_ejaculation",
+      "drugIds": [
+        "drug_dapoxetine",
+        "drug_sertraline",
+        "drug_lidocaine_prilocaine_topical",
+        "drug_paroxetine"
+      ]
+    },
+    {
+      "id": "cond_low_testosterone",
+      "drugIds": [
+        "drug_testosterone_cypionate",
+        "drug_testosterone_gel",
+        "drug_testosterone_undecanoate",
+        "drug_clomiphene"
+      ]
+    }
+  ]
+}

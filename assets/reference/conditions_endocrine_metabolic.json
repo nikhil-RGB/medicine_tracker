@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_type_2_diabetes",
+      "drugIds": [
+        "drug_metformin",
+        "drug_empagliflozin",
+        "drug_dapagliflozin",
+        "drug_semaglutide",
+        "drug_tirzepatide",
+        "drug_dulaglutide",
+        "drug_sitagliptin",
+        "drug_glipizide",
+        "drug_pioglitazone",
+        "drug_insulin_glargine"
+      ]
+    },
+    {
+      "id": "cond_type_1_diabetes",
+      "drugIds": [
+        "drug_insulin_glargine",
+        "drug_insulin_detemir",
+        "drug_insulin_degludec",
+        "drug_insulin_aspart",
+        "drug_insulin_lispro",
+        "drug_insulin_glulisine",
+        "drug_regular_insulin",
+        "drug_pramlintide"
+      ]
+    },
+    {
+      "id": "cond_underactive_thyroid",
+      "drugIds": [
+        "drug_levothyroxine",
+        "drug_liothyronine",
+        "drug_thyroid_extract"
+      ]
+    },
+    {
+      "id": "cond_overactive_thyroid",
+      "drugIds": [
+        "drug_methimazole",
+        "drug_carbimazole",
+        "drug_propylthiouracil",
+        "drug_propranolol",
+        "drug_atenolol",
+        "drug_potassium_iodide"
+      ]
+    },
+    {
+      "id": "cond_gout",
+      "drugIds": [
+        "drug_allopurinol",
+        "drug_febuxostat",
+        "drug_colchicine",
+        "drug_probenecid",
+        "drug_indomethacin",
+        "drug_naproxen",
+        "drug_pegloticase"
+      ]
+    },
+    {
+      "id": "cond_osteoporosis",
+      "drugIds": [
+        "drug_alendronate",
+        "drug_risedronate",
+        "drug_zoledronic_acid",
+        "drug_ibandronate",
+        "drug_denosumab",
+        "drug_teriparatide",
+        "drug_romosozumab",
+        "drug_raloxifene"
+      ]
+    },
+    {
+      "id": "cond_adrenal_insufficiency",
+      "drugIds": [
+        "drug_hydrocortisone",
+        "drug_fludrocortisone",
+        "drug_prednisolone",
+        "drug_dexamethasone"
+      ]
+    },
+    {
+      "id": "cond_cushing_syndrome",
+      "drugIds": [
+        "drug_ketoconazole",
+        "drug_metyrapone",
+        "drug_osilodrostat",
+        "drug_mifepristone",
+        "drug_pasireotide",
+        "drug_mitotane"
+      ]
+    },
+    {
+      "id": "cond_high_cholesterol_2",
+      "drugIds": [
+        "drug_atorvastatin",
+        "drug_rosuvastatin",
+        "drug_simvastatin",
+        "drug_pravastatin",
+        "drug_ezetimibe",
+        "drug_evolocumab",
+        "drug_alirocumab",
+        "drug_fenofibrate"
+      ]
+    },
+    {
+      "id": "cond_obesity",
+      "drugIds": [
+        "drug_semaglutide",
+        "drug_tirzepatide",
+        "drug_liraglutide",
+        "drug_phentermine",
+        "drug_naltrexone_bupropion",
+        "drug_orlistat",
+        "drug_phentermine_topiramate"
+      ]
+    },
+    {
+      "id": "cond_hyperprolactinemia",
+      "drugIds": [
+        "drug_cabergoline",
+        "drug_bromocriptine"
+      ]
+    },
+    {
+      "id": "cond_acromegaly",
+      "drugIds": [
+        "drug_octreotide",
+        "drug_lanreotide",
+        "drug_pegvisomant",
+        "drug_pasireotide",
+        "drug_cabergoline"
+      ]
+    },
+    {
+      "id": "cond_diabetes_insipidus",
+      "drugIds": [
+        "drug_desmopressin",
+        "drug_chlorpropamide",
+        "drug_hydrochlorothiazide"
+      ]
+    },
+    {
+      "id": "cond_hypoparathyroidism",
+      "drugIds": [
+        "drug_calcitriol",
+        "drug_calcium_carbonate",
+        "drug_calcium_citrate",
+        "drug_cholecalciferol",
+        "drug_recombinant_human_parathyroid_hormone"
+      ]
+    },
+    {
+      "id": "cond_polycystic_ovary_syndrome",
+      "drugIds": [
+        "drug_metformin",
+        "drug_spironolactone",
+        "drug_clomiphene",
+        "drug_letrozole",
+        "drug_ethinylestradiol_drospirenone",
+        "drug_eflornithine"
+      ]
+    },
+    {
+      "id": "cond_prediabetes",
+      "drugIds": [
+        "drug_metformin",
+        "drug_acarbose",
+        "drug_liraglutide",
+        "drug_semaglutide"
+      ]
+    },
+    {
+      "id": "cond_low_blood_sugar",
+      "drugIds": [
+        "drug_glucagon",
+        "drug_glucose",
+        "drug_diazoxide"
+      ]
+    }
+  ]
+}

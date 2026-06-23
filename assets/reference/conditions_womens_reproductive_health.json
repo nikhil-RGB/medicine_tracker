@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_contraception",
+      "drugIds": [
+        "drug_ethinyl_estradiol_levonorgestrel",
+        "drug_ethinyl_estradiol_norethindrone",
+        "drug_ethinyl_estradiol_norgestimate",
+        "drug_ethinyl_estradiol_drospirenone",
+        "drug_norethindrone",
+        "drug_drospirenone",
+        "drug_medroxyprogesterone_acetate",
+        "drug_etonogestrel",
+        "drug_levonorgestrel_intrauterine_system",
+        "drug_norelgestromin_ethinyl_estradiol"
+      ]
+    },
+    {
+      "id": "cond_emergency_contraception",
+      "drugIds": [
+        "drug_levonorgestrel",
+        "drug_ulipristal_acetate"
+      ]
+    },
+    {
+      "id": "cond_menopause_hormone_replacement_therapy",
+      "drugIds": [
+        "drug_estradiol",
+        "drug_conjugated_estrogens",
+        "drug_estradiol_progesterone",
+        "drug_conjugated_estrogens_medroxyprogesterone",
+        "drug_conjugated_estrogens_bazedoxifene",
+        "drug_micronized_progesterone",
+        "drug_fezolinetant",
+        "drug_elinzanetant",
+        "drug_paroxetine",
+        "drug_venlafaxine"
+      ]
+    },
+    {
+      "id": "cond_vaginal_atrophy_dryness",
+      "drugIds": [
+        "drug_estradiol_vaginal",
+        "drug_conjugated_estrogens_vaginal_cream",
+        "drug_ospemifene",
+        "drug_prasterone"
+      ]
+    },
+    {
+      "id": "cond_polycystic_ovary_syndrome_2",
+      "drugIds": [
+        "drug_ethinyl_estradiol_drospirenone",
+        "drug_ethinyl_estradiol_norgestimate",
+        "drug_metformin",
+        "drug_spironolactone",
+        "drug_letrozole",
+        "drug_clomiphene",
+        "drug_myo_inositol",
+        "drug_eflornithine"
+      ]
+    },
+    {
+      "id": "cond_endometriosis",
+      "drugIds": [
+        "drug_dienogest",
+        "drug_norethindrone_acetate",
+        "drug_elagolix",
+        "drug_relugolix_estradiol_norethindrone",
+        "drug_leuprolide",
+        "drug_medroxyprogesterone_acetate",
+        "drug_levonorgestrel_intrauterine_system",
+        "drug_goserelin"
+      ]
+    },
+    {
+      "id": "cond_uterine_fibroids",
+      "drugIds": [
+        "drug_relugolix_estradiol_norethindrone",
+        "drug_elagolix_estradiol_norethindrone",
+        "drug_leuprolide",
+        "drug_tranexamic_acid",
+        "drug_levonorgestrel_intrauterine_system",
+        "drug_goserelin"
+      ]
+    },
+    {
+      "id": "cond_heavy_menstrual_bleeding",
+      "drugIds": [
+        "drug_tranexamic_acid",
+        "drug_levonorgestrel_intrauterine_system",
+        "drug_norethindrone_acetate",
+        "drug_medroxyprogesterone_acetate",
+        "drug_ethinyl_estradiol_norethindrone",
+        "drug_naproxen",
+        "drug_mefenamic_acid"
+      ]
+    },
+    {
+      "id": "cond_menstrual_pain",
+      "drugIds": [
+        "drug_ibuprofen",
+        "drug_naproxen",
+        "drug_mefenamic_acid",
+        "drug_diclofenac",
+        "drug_ethinyl_estradiol_norgestimate",
+        "drug_acetaminophen"
+      ]
+    },
+    {
+      "id": "cond_premenstrual_syndrome_pmdd",
+      "drugIds": [
+        "drug_sertraline",
+        "drug_fluoxetine",
+        "drug_escitalopram",
+        "drug_paroxetine",
+        "drug_ethinyl_estradiol_drospirenone",
+        "drug_citalopram"
+      ]
+    },
+    {
+      "id": "cond_prenatal_pregnancy_supplementation",
+      "drugIds": [
+        "drug_folic_acid",
+        "drug_prenatal_multivitamin",
+        "drug_ferrous_sulfate",
+        "drug_cholecalciferol",
+        "drug_docosahexaenoic_acid",
+        "drug_cyanocobalamin"
+      ]
+    },
+    {
+      "id": "cond_nausea_vomiting_of_pregnancy",
+      "drugIds": [
+        "drug_doxylamine_pyridoxine",
+        "drug_pyridoxine",
+        "drug_ondansetron",
+        "drug_promethazine",
+        "drug_metoclopramide",
+        "drug_dimenhydrinate"
+      ]
+    },
+    {
+      "id": "cond_vaginal_yeast_infection_2",
+      "drugIds": [
+        "drug_fluconazole",
+        "drug_miconazole",
+        "drug_clotrimazole",
+        "drug_terconazole",
+        "drug_tioconazole",
+        "drug_ibrexafungerp",
+        "drug_oteseconazole"
+      ]
+    },
+    {
+      "id": "cond_bacterial_vaginosis",
+      "drugIds": [
+        "drug_metronidazole",
+        "drug_clindamycin",
+        "drug_secnidazole",
+        "drug_tinidazole"
+      ]
+    },
+    {
+      "id": "cond_female_infertility_ovulation_induction",
+      "drugIds": [
+        "drug_clomiphene",
+        "drug_letrozole",
+        "drug_follitropin_alfa",
+        "drug_menotropins",
+        "drug_progesterone",
+        "drug_human_chorionic_gonadotropin",
+        "drug_metformin"
+      ]
+    },
+    {
+      "id": "cond_postmenopausal_osteoporosis",
+      "drugIds": [
+        "drug_alendronate",
+        "drug_risedronate",
+        "drug_zoledronic_acid",
+        "drug_denosumab",
+        "drug_raloxifene",
+        "drug_teriparatide",
+        "drug_romosozumab"
+      ]
+    },
+    {
+      "id": "cond_mastitis",
+      "drugIds": [
+        "drug_dicloxacillin",
+        "drug_cephalexin",
+        "drug_clindamycin",
+        "drug_ibuprofen"
+      ]
+    }
+  ]
+}

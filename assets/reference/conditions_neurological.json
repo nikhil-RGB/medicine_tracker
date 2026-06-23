@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "id": "cond_epilepsy_seizure_disorder",
+      "drugIds": [
+        "drug_levetiracetam",
+        "drug_lamotrigine",
+        "drug_valproate",
+        "drug_carbamazepine",
+        "drug_lacosamide",
+        "drug_topiramate",
+        "drug_oxcarbazepine",
+        "drug_phenytoin",
+        "drug_brivaracetam"
+      ]
+    },
+    {
+      "id": "cond_migraine",
+      "drugIds": [
+        "drug_sumatriptan",
+        "drug_rizatriptan",
+        "drug_rimegepant",
+        "drug_ubrogepant",
+        "drug_lasmiditan",
+        "drug_erenumab",
+        "drug_galcanezumab",
+        "drug_atogepant",
+        "drug_propranolol",
+        "drug_topiramate"
+      ]
+    },
+    {
+      "id": "cond_parkinson_disease",
+      "drugIds": [
+        "drug_levodopa_carbidopa",
+        "drug_pramipexole",
+        "drug_ropinirole",
+        "drug_rasagiline",
+        "drug_selegiline",
+        "drug_rotigotine",
+        "drug_entacapone",
+        "drug_amantadine",
+        "drug_safinamide"
+      ]
+    },
+    {
+      "id": "cond_neuropathic_pain",
+      "drugIds": [
+        "drug_gabapentin",
+        "drug_pregabalin",
+        "drug_duloxetine",
+        "drug_amitriptyline",
+        "drug_nortriptyline",
+        "drug_venlafaxine",
+        "drug_carbamazepine"
+      ]
+    },
+    {
+      "id": "cond_alzheimer_dementia",
+      "drugIds": [
+        "drug_donepezil",
+        "drug_rivastigmine",
+        "drug_galantamine",
+        "drug_memantine",
+        "drug_lecanemab",
+        "drug_donanemab"
+      ]
+    },
+    {
+      "id": "cond_multiple_sclerosis",
+      "drugIds": [
+        "drug_ocrelizumab",
+        "drug_ofatumumab",
+        "drug_dimethyl_fumarate",
+        "drug_fingolimod",
+        "drug_natalizumab",
+        "drug_teriflunomide",
+        "drug_glatiramer_acetate",
+        "drug_siponimod"
+      ]
+    },
+    {
+      "id": "cond_restless_legs_syndrome",
+      "drugIds": [
+        "drug_gabapentin_enacarbil",
+        "drug_pregabalin",
+        "drug_pramipexole",
+        "drug_ropinirole",
+        "drug_rotigotine",
+        "drug_gabapentin"
+      ]
+    },
+    {
+      "id": "cond_trigeminal_neuralgia",
+      "drugIds": [
+        "drug_carbamazepine",
+        "drug_oxcarbazepine",
+        "drug_baclofen",
+        "drug_lamotrigine",
+        "drug_gabapentin",
+        "drug_pregabalin"
+      ]
+    },
+    {
+      "id": "cond_myasthenia_gravis",
+      "drugIds": [
+        "drug_pyridostigmine",
+        "drug_prednisone",
+        "drug_azathioprine",
+        "drug_mycophenolate_mofetil",
+        "drug_eculizumab",
+        "drug_efgartigimod"
+      ]
+    },
+    {
+      "id": "cond_essential_tremor",
+      "drugIds": [
+        "drug_propranolol",
+        "drug_primidone",
+        "drug_topiramate",
+        "drug_gabapentin",
+        "drug_atenolol"
+      ]
+    },
+    {
+      "id": "cond_cluster_headache",
+      "drugIds": [
+        "drug_sumatriptan",
+        "drug_zolmitriptan",
+        "drug_verapamil",
+        "drug_galcanezumab",
+        "drug_prednisone",
+        "drug_topiramate"
+      ]
+    },
+    {
+      "id": "cond_diabetic_peripheral_neuropathy",
+      "drugIds": [
+        "drug_pregabalin",
+        "drug_duloxetine",
+        "drug_gabapentin",
+        "drug_amitriptyline",
+        "drug_venlafaxine",
+        "drug_capsaicin"
+      ]
+    },
+    {
+      "id": "cond_postherpetic_neuralgia",
+      "drugIds": [
+        "drug_gabapentin",
+        "drug_pregabalin",
+        "drug_lidocaine",
+        "drug_capsaicin",
+        "drug_amitriptyline",
+        "drug_nortriptyline"
+      ]
+    },
+    {
+      "id": "cond_spasticity",
+      "drugIds": [
+        "drug_baclofen",
+        "drug_tizanidine",
+        "drug_dantrolene",
+        "drug_diazepam",
+        "drug_onabotulinumtoxina"
+      ]
+    },
+    {
+      "id": "cond_narcolepsy",
+      "drugIds": [
+        "drug_modafinil",
+        "drug_armodafinil",
+        "drug_sodium_oxybate",
+        "drug_solriamfetol",
+        "drug_pitolisant",
+        "drug_methylphenidate"
+      ]
+    },
+    {
+      "id": "cond_bell_s_palsy",
+      "drugIds": [
+        "drug_prednisone",
+        "drug_valacyclovir",
+        "drug_acyclovir",
+        "drug_artificial_tears"
+      ]
+    },
+    {
+      "id": "cond_dizziness_vertigo",
+      "drugIds": [
+        "drug_meclizine",
+        "drug_betahistine",
+        "drug_dimenhydrinate",
+        "drug_prochlorperazine"
+      ]
+    }
+  ]
+}
