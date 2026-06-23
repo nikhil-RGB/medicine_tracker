@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Agentic-AI developed project.** Any project on my GitHub profile that is AI-generated or has major contributions from agentic AI will carry this label, in the interest of full disclosure for recruiters (and Pranav).
+
 # Medicine Reminders
 
 A fully offline Flutter app for tracking medications by health condition: pick the conditions you have, add the medicines prescribed for each, set how and when to take them, get reminded when a dose is due, confirm doses in‑app, and review your adherence on a calendar.
