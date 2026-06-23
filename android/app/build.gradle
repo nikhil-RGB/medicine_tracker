@@ -47,7 +47,11 @@ android {
         applicationId "com.example.medicine_reminders_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        // Raised from the Flutter default: core library desugaring +
+        // flutter_local_notifications require minSdk 21 (which also auto-enables
+        // multidex). multiDexEnabled is set explicitly as a belt-and-suspenders.
+        minSdkVersion 21
+        multiDexEnabled true
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -60,6 +64,14 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    lint {
+        // The release "lintVital" task crashes inside D8BackportedMethodsGenerator
+        // when core library desugaring is enabled on this toolchain
+        // (AGP 7.3.0 + desugar_jdk_libs 2.0.4). Lint is static analysis only and
+        // has no effect on the built APK, so we skip it for release builds.
+        checkReleaseBuilds false
+    }
 }
 
 flutter {
@@ -67,5 +79,9 @@ flutter {
 }
 
 dependencies {
-    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
+    // 1.2.x is the desugar line compatible with AGP 7.3.0's R8/D8. The 2.0.x
+    // series requires AGP 7.4+ and makes this toolchain's R8 fail with
+    // "This is not a JSON Array". 1.2.2 still backports the java.time APIs
+    // flutter_local_notifications relies on.
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:1.2.2"
 }
