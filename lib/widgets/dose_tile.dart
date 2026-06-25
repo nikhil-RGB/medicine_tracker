@@ -23,6 +23,13 @@ class DoseTile extends StatelessWidget {
       DoseState.overdue => (Icons.error, Theme.of(context).colorScheme.error, 'Overdue'),
       DoseState.pending => (Icons.schedule, Theme.of(context).colorScheme.outline, null),
     };
+
+    // For taken doses, surface the actual time the user took it.
+    final takenAt = (o.state == DoseState.taken && o.event != null)
+        ? DateTime.tryParse(o.event!.recordedAt)?.toLocal()
+        : null;
+    final trailingLabel = takenAt != null ? 'Took ${_timeFmt.format(takenAt)}' : statusLabel;
+
     return ListTile(
       leading: Container(
         width: 12,
@@ -38,8 +45,8 @@ class DoseTile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Icon(icon, color: iconColor, size: 22),
-          if (statusLabel != null)
-            Text(statusLabel, style: TextStyle(fontSize: 11, color: iconColor)),
+          if (trailingLabel != null)
+            Text(trailingLabel, style: TextStyle(fontSize: 11, color: iconColor)),
         ],
       ),
       onTap: onTap,
