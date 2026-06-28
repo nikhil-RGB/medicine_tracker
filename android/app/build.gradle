@@ -84,4 +84,11 @@ dependencies {
     // "This is not a JSON Array". 1.2.2 still backports the java.time APIs
     // flutter_local_notifications relies on.
     coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:1.2.2"
+
+    // Pin androidx.window to 1.0.0. The Flutter embedding pulls a newer version
+    // whose ExtensionWindowLayoutInfoBackend calls addWindowLayoutInfoListener
+    // (Activity, Consumer) — a method missing from the older window.extensions
+    // stub on some emulator images, causing a NoSuchMethodError crash at launch.
+    implementation "androidx.window:window:1.0.0"
+    implementation "androidx.window:window-java:1.0.0"
 }

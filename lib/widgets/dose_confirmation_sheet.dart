@@ -88,7 +88,27 @@ class _DoseConfirmationSheet extends ConsumerWidget {
               ),
             ] else ...[
               Center(
-                child: Text(o.state == DoseState.taken ? 'Marked as taken' : 'Marked as skipped'),
+                child: Column(
+                  children: [
+                    Text(
+                      o.state == DoseState.taken ? 'Marked as taken' : 'Marked as skipped',
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                    if (o.state == DoseState.taken && o.event != null)
+                      Builder(builder: (_) {
+                        final t = DateTime.tryParse(o.event!.recordedAt)?.toLocal();
+                        return t == null
+                            ? const SizedBox.shrink()
+                            : Padding(
+                                padding: const EdgeInsets.only(top: 4),
+                                child: Text(
+                                  'Taken at ${_timeFmt.format(t)} · ${prettyDate(t)}',
+                                  style: Theme.of(context).textTheme.bodySmall,
+                                ),
+                              );
+                      }),
+                  ],
+                ),
               ),
               const SizedBox(height: 12),
               OutlinedButton.icon(

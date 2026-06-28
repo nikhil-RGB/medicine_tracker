@@ -109,11 +109,16 @@ class MedicineDetailScreen extends ConsumerWidget {
       IntakeStatus.skipped => (Icons.do_not_disturb_on, Colors.grey, 'Skipped'),
     };
     final when = DateTime.tryParse(e.recordedAt)?.toLocal();
+    final scheduled = e.scheduledFor != null ? DateTime.tryParse(e.scheduledFor!) : null;
+    final parts = <String>[
+      if (when != null) _histFmt.format(when),
+      if (scheduled != null) 'scheduled ${DateFormat('h:mm a').format(scheduled)}',
+    ];
     return ListTile(
       dense: true,
       leading: Icon(icon, color: color),
       title: Text(label),
-      subtitle: when != null ? Text(_histFmt.format(when)) : null,
+      subtitle: parts.isNotEmpty ? Text(parts.join(' · ')) : null,
     );
   }
 

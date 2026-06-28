@@ -6,6 +6,7 @@ import '../../core/date_x.dart' show dateKey;
 import '../../models/dose_occurrence.dart';
 import '../../services/dose_expander.dart';
 import '../../state/providers.dart';
+import '../../widgets/calendar_mascot.dart';
 import 'day_detail_screen.dart';
 
 class CalendarScreen extends ConsumerStatefulWidget {
@@ -41,7 +42,9 @@ class _CalendarScreenState extends ConsumerState<CalendarScreen> {
 
     return Scaffold(
       appBar: AppBar(title: const Text('Calendar')),
-      body: Column(
+      body: Stack(
+        children: [
+          Column(
         children: [
           TableCalendar<DoseOccurrence>(
             firstDay: DateTime.utc(2020, 1, 1),
@@ -87,6 +90,13 @@ class _CalendarScreenState extends ConsumerState<CalendarScreen> {
           ),
           const Divider(height: 1),
           const Expanded(child: _CalendarLegend()),
+        ],
+          ),
+          const Positioned(
+            right: 4,
+            bottom: 8,
+            child: CalendarMascot(),
+          ),
         ],
       ),
     );
